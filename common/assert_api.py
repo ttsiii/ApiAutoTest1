@@ -2,7 +2,7 @@ import allure
 import pytest
 from common.logger import *
 from common.logger import Logger
-import jsonpath
+# import jsonpath
 # @decorate_log
 # def assert_api(actual_data,expect_data):
 #     # Logger.info("*************** {}开始执行用例 ***************".format(expect_data['info']))

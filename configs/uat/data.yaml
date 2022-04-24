@@ -1,0 +1,23 @@
+
+#测试环境
+#数据库
+db:
+  host: 47.111.188.32
+  port: 3306
+  user_name: testishow
+  password: Testishow123!
+  db_name: test_ishow
+  drive: mysql
+
+#域名
+admin_host: http://121.37.169.128:8201
+
+#张三账户
+zhangsan:
+  user_name: admin
+  password: 123456
+
+#李四账户
+lisi:
+  user_name: admin1
+  password: 123456

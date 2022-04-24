@@ -1,0 +1,33 @@
+#登录999
+title: 登录
+url: mall-member/sso/login
+method: post
+case_data:
+
+-   case_name: case1_正常登录
+    body: {"username":"admin","password":"123456"}
+    expect: {'message': '操作成功','code': 200}
+
+-   case_name: case2_用户名错误的登录
+    body: {"username":"adminddd","password":"12345678"}
+    expect: {'message': 'Bad credentials', 'code': 500}
+
+-   case_name: case3_用户名密码错误的登录
+    body: {"username":"adminhhhhhhhhhh","password":"9999997"}
+    expect: {'message': 'Bad credentials', 'code': 500}
+
+
+
+
+
+#-   你好
+#    [{'info': '正确的登录'}
+#    {"username":"admin","password":"123456"},
+#    {'message': '操作成功','code': 200}]
+#-  [{'info': '用户名错误的登录'}
+#    {"username":"sss","password":"123456"},
+#    {'message': 'Bad credentials', 'code': 500}]
+#-  title:
+#   [{'info': '用户名密码错误的登录'}
+#    {"username":"hhh","password":"999999"},
+#    {'message': 'Bad credentials', 'code': 500}]

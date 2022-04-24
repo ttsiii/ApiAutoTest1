@@ -1,0 +1,31 @@
+INFO     log:logger.py:62 ------开始执行test_admin_login用例------
+INFO     log:logger.py:62 ------开始执行assert_api用例------
+INFO     log:assert_api.py:21 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0NjYyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMWIzODMxNTctNTYyOC00MjU4LTk3YjctMDU3YzljZTQ4YzhhIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.EQ3czudAMRA49LFShDXXDFAlwhTS3weLBvLJxJ4L7haE_Bs4EyP3xe-GOt7kM4actr3F1GEP_SsNo6Nr4VjP64UlLw-no0yDieVi0KwMg0M_dhNygfY71w3qo7-pzemkXFotdVhLA8N7-hOgm75suvRMx2SDv-KA1hIBGKE290Y', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIxYjM4MzE1Ny01NjI4LTQyNTgtOTdiNy0wNTdjOWNlNDhjOGEiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMDYyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiN2MzOTE0MzItNDY0Ny00YjY4LWEwNGItMzhlMWEyZjIwMTc3IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.k7hBk8y2aAbqn21oMam4luvATF27aMTbeUuHWiPCZr0D7YiCLvzDJRi8_9-hMfu3CTtHqBSDNxWe5cGhE8YYOo374WPMJaKTu5zs3suRs_47XEUUhScQSZ_W3yJQejTHgz9kSttK2_aRvBPe6xkik9Q1wfs-Cuh-SuS1ggxSj4I', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+ERROR    log:logger.py:66 ------assert_api用例执行失败，失败原因：------
+ERROR    log:logger.py:67 assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+ERROR    log:logger.py:66 ------test_admin_login用例执行失败，失败原因：------
+ERROR    log:logger.py:67 test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError

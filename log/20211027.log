@@ -1,0 +1,379 @@
+[2021-10-27 16:18:00,275][main.py 16][INFO]: 
+                     _    _         _      _____         _
+      __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+     / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+    | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+     \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+          |_|
+          Starting     ...  道长伴你终身   ...  测试之道学院永相随   ...
+        
+[2021-10-27 16:18:03,103][logger.py 61][INFO]: ------开始执行test_get_auth_code用例------
+[2021-10-27 16:18:03,132][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:18:03,132][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:18:03,133][logger.py 69][INFO]: ------test_get_auth_code执行成功------
+[2021-10-27 16:18:03,137][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:18:03,171][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:18:03,171][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:18:03,171][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:18:03,175][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:18:03,212][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:18:03,212][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:18:03,212][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:18:03,216][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:18:03,257][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:18:03,258][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:18:03,258][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:18:03,331][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:18:03,331][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:18:03,336][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:18:03,369][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:18:03,369][logger.py 65][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2021-10-27 16:18:03,370][logger.py 66][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 35, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 26, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2021-10-27 16:18:03,370][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2021-10-27 16:18:03,370][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_receiving\test_add_address.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 35, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 26, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2021-10-27 16:18:39,753][main.py 16][INFO]: 
+                     _    _         _      _____         _
+      __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+     / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+    | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+     \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+          |_|
+          Starting     ...  道长伴你终身   ...  测试之道学院永相随   ...
+        
+[2021-10-27 16:18:42,351][logger.py 61][INFO]: ------开始执行test_get_auth_code用例------
+[2021-10-27 16:18:42,389][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:18:42,390][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:18:42,390][logger.py 69][INFO]: ------test_get_auth_code执行成功------
+[2021-10-27 16:18:42,394][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:18:42,432][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:18:42,432][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:18:42,432][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:18:42,436][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:18:42,466][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:18:42,467][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:18:42,467][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:18:42,470][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:18:42,507][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:18:42,507][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:18:42,508][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:18:42,586][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:18:42,586][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:18:42,590][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:18:42,630][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:18:42,630][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:18:42,631][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:18:50,484][main.py 16][INFO]: 
+                     _    _         _      _____         _
+      __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+     / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+    | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+     \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+          |_|
+          Starting     ...  道长伴你终身   ...  测试之道学院永相随   ...
+        
+[2021-10-27 16:18:53,096][logger.py 61][INFO]: ------开始执行test_get_auth_code用例------
+[2021-10-27 16:18:53,123][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:18:53,124][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:18:53,124][logger.py 69][INFO]: ------test_get_auth_code执行成功------
+[2021-10-27 16:18:53,128][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:18:53,170][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:18:53,170][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:18:53,170][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:18:53,174][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:18:53,216][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:18:53,216][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:18:53,216][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:18:53,220][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:18:53,258][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:18:53,258][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:18:53,258][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:18:53,334][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:18:53,334][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:18:53,339][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:18:53,375][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:18:53,375][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:18:53,376][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:28:22,666][main.py 16][INFO]: 
+                     _    _         _      _____         _
+      __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+     / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+    | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+     \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+          |_|
+          Starting     ...  道长伴你终身   ...  测试之道学院永相随   ...
+        
+[2021-10-27 16:28:25,415][logger.py 61][INFO]: ------开始执行test_get_auth_code用例------
+[2021-10-27 16:28:25,452][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:28:25,452][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:28:25,452][logger.py 69][INFO]: ------test_get_auth_code执行成功------
+[2021-10-27 16:28:25,456][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:28:25,496][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:28:25,496][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:28:25,496][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:28:25,500][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:28:25,537][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:28:25,538][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:28:25,538][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:28:25,541][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:28:25,578][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:28:25,578][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:28:25,578][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:28:25,641][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:28:25,642][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:28:25,646][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:28:25,678][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:28:25,678][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:28:25,678][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:28:27,659][main.py 16][INFO]: 
+                     _    _         _      _____         _
+      __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+     / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+    | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+     \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+          |_|
+          Starting     ...  道长伴你终身   ...  测试之道学院永相随   ...
+        
+[2021-10-27 16:28:30,442][logger.py 61][INFO]: ------开始执行test_get_auth_code用例------
+[2021-10-27 16:28:30,476][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:28:30,476][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:28:30,476][logger.py 69][INFO]: ------test_get_auth_code执行成功------
+[2021-10-27 16:28:30,480][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:28:30,540][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:28:30,541][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:28:30,541][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:28:30,544][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:28:30,585][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:28:30,586][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:28:30,586][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:28:30,589][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:28:30,641][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:28:30,641][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:28:30,642][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:28:30,764][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:28:30,764][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:28:30,769][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:28:30,806][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:28:30,807][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:28:30,807][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:29:58,278][main.py 16][INFO]: 
+                     _    _         _      _____         _
+      __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+     / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+    | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+     \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+          |_|
+          Starting     ...  道长伴你终身   ...  测试之道学院永相随   ...
+        
+[2021-10-27 16:30:00,891][logger.py 61][INFO]: ------开始执行test_get_auth_code用例------
+[2021-10-27 16:30:00,921][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:30:00,921][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:30:00,921][logger.py 69][INFO]: ------test_get_auth_code执行成功------
+[2021-10-27 16:30:00,925][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:30:00,978][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:30:00,978][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:30:00,979][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:30:00,982][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:30:01,011][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:30:01,011][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:30:01,011][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:30:01,014][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:30:01,052][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:30:01,052][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:30:01,052][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:30:01,130][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:30:01,130][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:30:01,135][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:30:01,171][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:30:01,171][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:30:01,171][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:39:23,363][main.py 16][INFO]: 
+                     _    _         _      _____         _
+      __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+     / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+    | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+     \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+          |_|
+          Starting     ...  道长伴你终身   ...  测试之道学院永相随   ...
+        
+[2021-10-27 16:39:26,168][logger.py 61][INFO]: ------开始执行test_get_auth_code用例------
+[2021-10-27 16:39:26,217][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:39:26,217][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:39:26,218][logger.py 69][INFO]: ------test_get_auth_code执行成功------
+[2021-10-27 16:39:26,221][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:39:26,284][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:39:26,284][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:39:26,284][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:39:26,288][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:39:26,346][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:39:26,346][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:39:26,346][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:39:26,349][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:39:26,408][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:39:26,408][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:39:26,408][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:39:26,542][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:39:26,542][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:39:26,547][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:39:26,603][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:39:26,604][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:39:26,604][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:42:09,678][main.py 16][INFO]: 
+                     _    _         _      _____         _
+      __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+     / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+    | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+     \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+          |_|
+          Starting     ...  道长伴你终身   ...  测试之道学院永相随   ...
+        
+[2021-10-27 16:42:12,452][logger.py 61][INFO]: ------开始执行test_get_auth_code用例------
+[2021-10-27 16:42:12,484][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:42:12,484][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:42:12,484][logger.py 69][INFO]: ------test_get_auth_code执行成功------
+[2021-10-27 16:42:12,488][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:42:12,535][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:42:12,535][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:42:12,535][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:42:12,538][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:42:12,594][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:42:12,594][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:42:12,595][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:42:12,609][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:42:12,676][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:42:12,676][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:42:12,676][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:42:12,749][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:42:12,749][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:42:12,754][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:42:12,795][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:42:12,795][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:42:12,795][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:42:16,233][main.py 16][INFO]: 
+                     _    _         _      _____         _
+      __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+     / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+    | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+     \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+          |_|
+          Starting     ...  道长伴你终身   ...  测试之道学院永相随   ...
+        
+[2021-10-27 16:42:19,143][logger.py 61][INFO]: ------开始执行test_get_auth_code用例------
+[2021-10-27 16:42:19,179][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:42:19,180][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:42:19,180][logger.py 69][INFO]: ------test_get_auth_code执行成功------
+[2021-10-27 16:42:19,184][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:42:19,234][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:42:19,234][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:42:19,234][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:42:19,238][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:42:19,279][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:42:19,280][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:42:19,280][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:42:19,283][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:42:19,322][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:42:19,322][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:42:19,323][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:42:19,387][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:42:19,387][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:42:19,392][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:42:19,431][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:42:19,431][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:42:19,431][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:43:20,095][main.py 16][INFO]: 
+                     _    _         _      _____         _
+      __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+     / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+    | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+     \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+          |_|
+          Starting     ...  道长伴你终身   ...  测试之道学院永相随   ...
+        
+[2021-10-27 16:43:22,693][logger.py 61][INFO]: ------开始执行test_get_auth_code用例------
+[2021-10-27 16:43:22,725][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:43:22,725][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:43:22,725][logger.py 69][INFO]: ------test_get_auth_code执行成功------
+[2021-10-27 16:43:22,729][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:43:22,771][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:43:22,771][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:43:22,771][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:43:22,774][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:43:22,814][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:43:22,815][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:43:22,815][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:43:22,818][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:43:22,854][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:43:22,854][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:43:22,854][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:43:22,924][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:43:22,924][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:43:22,929][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:43:22,966][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:43:22,966][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:43:22,966][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:54:35,625][main.py 16][INFO]: 
+                     _    _         _      _____         _
+      __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+     / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+    | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+     \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+          |_|
+          Starting     ...  道长伴你终身   ...  测试之道学院永相随   ...
+        
+[2021-10-27 16:55:36,831][logger.py 61][INFO]: ------开始执行test_get_auth_code用例------
+[2021-10-27 16:55:36,863][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:55:36,863][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:55:36,864][logger.py 69][INFO]: ------test_get_auth_code执行成功------
+[2021-10-27 16:55:36,872][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:55:36,923][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:55:36,923][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:55:36,925][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:55:36,932][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:55:36,967][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:55:36,967][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:55:36,969][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:55:36,974][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 16:55:37,033][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:55:37,033][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 16:55:37,035][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 16:55:37,115][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 16:55:37,116][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 17:06:08,192][logger.py 61][INFO]: ------开始执行test_get_auth_code用例------
+[2021-10-27 17:06:08,225][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 17:06:08,225][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 17:06:08,225][logger.py 69][INFO]: ------test_get_auth_code执行成功------
+[2021-10-27 17:06:08,246][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 17:06:08,289][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 17:06:08,290][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 17:06:08,290][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 17:06:08,296][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 17:06:08,334][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 17:06:08,335][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 17:06:08,336][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 17:06:08,350][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-27 17:06:08,388][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 17:06:08,389][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-27 17:06:08,389][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-27 17:06:08,469][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-27 17:06:08,470][logger.py 69][INFO]: ------assert_api执行成功------

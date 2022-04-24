@@ -1,0 +1,116 @@
+[2021-11-30 15:51:44,466][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2021-11-30 15:51:44,467][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：login() got an unexpected keyword argument 'password'------
+[2021-11-30 15:51:44,468][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 35, in test_admin_login
+    ,username=case_body['username'])
+TypeError: login() got an unexpected keyword argument 'password'
+
+[2021-11-30 15:51:44,525][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2021-11-30 15:51:44,526][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：login() got an unexpected keyword argument 'password'------
+[2021-11-30 15:51:44,526][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 35, in test_admin_login
+    ,username=case_body['username'])
+TypeError: login() got an unexpected keyword argument 'password'
+
+[2021-11-30 15:51:44,534][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2021-11-30 15:51:44,534][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：login() got an unexpected keyword argument 'password'------
+[2021-11-30 15:51:44,534][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 35, in test_admin_login
+    ,username=case_body['username'])
+TypeError: login() got an unexpected keyword argument 'password'
+
+[2021-11-30 15:52:21,253][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2021-11-30 15:52:21,254][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：login() got an unexpected keyword argument 'password'------
+[2021-11-30 15:52:21,254][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 35, in test_admin_login
+    ,username=case_body['username'])
+TypeError: login() got an unexpected keyword argument 'password'
+
+[2021-11-30 15:52:21,308][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2021-11-30 15:52:21,309][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：login() got an unexpected keyword argument 'password'------
+[2021-11-30 15:52:21,309][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 35, in test_admin_login
+    ,username=case_body['username'])
+TypeError: login() got an unexpected keyword argument 'password'
+
+[2021-11-30 15:52:21,330][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2021-11-30 15:52:21,331][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：login() got an unexpected keyword argument 'password'------
+[2021-11-30 15:52:21,331][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 35, in test_admin_login
+    ,username=case_body['username'])
+TypeError: login() got an unexpected keyword argument 'password'
+
+[2021-11-30 15:53:53,013][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2021-11-30 15:53:53,014][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：login() got an unexpected keyword argument 'password'------
+[2021-11-30 15:53:53,014][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 35, in test_admin_login
+    ,username=case_body['username'])
+TypeError: login() got an unexpected keyword argument 'password'
+
+[2021-11-30 15:53:53,069][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2021-11-30 15:53:53,070][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：login() got an unexpected keyword argument 'password'------
+[2021-11-30 15:53:53,070][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 35, in test_admin_login
+    ,username=case_body['username'])
+TypeError: login() got an unexpected keyword argument 'password'
+
+[2021-11-30 15:53:53,090][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2021-11-30 15:53:53,090][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：login() got an unexpected keyword argument 'password'------
+[2021-11-30 15:53:53,090][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 35, in test_admin_login
+    ,username=case_body['username'])
+TypeError: login() got an unexpected keyword argument 'password'
+
+[2021-11-30 15:54:06,846][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2021-11-30 15:54:06,847][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：login() got an unexpected keyword argument 'password'------
+[2021-11-30 15:54:06,847][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 35, in test_admin_login
+    ,username=case_body['username'])
+TypeError: login() got an unexpected keyword argument 'password'
+
+[2021-11-30 15:55:22,535][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2021-11-30 15:55:22,536][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：login() got an unexpected keyword argument 'password'------
+[2021-11-30 15:55:22,536][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 35, in test_admin_login
+    ,username=case_body['username'])
+TypeError: login() got an unexpected keyword argument 'password'
+
+[2021-11-30 15:56:25,731][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2021-11-30 15:56:25,731][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：login() got an unexpected keyword argument 'password'------
+[2021-11-30 15:56:25,732][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 35, in test_admin_login
+    ,username=case_body['username'])
+TypeError: login() got an unexpected keyword argument 'password'
+
+[2021-11-30 15:56:51,886][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2021-11-30 15:56:51,939][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2021-11-30 15:56:51,939][logger.py 70][INFO]: ------assert_api执行成功------
+[2021-11-30 15:56:51,939][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2021-11-30 15:58:36,990][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2021-11-30 15:58:37,039][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2021-11-30 15:58:37,039][logger.py 70][INFO]: ------assert_api执行成功------
+[2021-11-30 15:58:37,039][logger.py 70][INFO]: ------test_admin_login执行成功------

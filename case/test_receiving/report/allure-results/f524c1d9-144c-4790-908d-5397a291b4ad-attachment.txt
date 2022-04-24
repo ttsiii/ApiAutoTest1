@@ -1,0 +1,27 @@
+INFO     log:logger.py:62 ------开始执行test_admin_login用例------
+INFO     log:logger.py:62 ------开始执行assert_api用例------
+ERROR    log:logger.py:66 ------assert_api用例执行失败，失败原因：------
+ERROR    log:logger.py:67 assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 35, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 26, in assert_api
+    assert j == b[i]
+AssertionError
+
+ERROR    log:logger.py:66 ------test_admin_login用例执行失败，失败原因：------
+ERROR    log:logger.py:67 test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_receiving\test_add_address.py", line 38, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 35, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 26, in assert_api
+    assert j == b[i]
+AssertionError

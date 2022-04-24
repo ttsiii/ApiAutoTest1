@@ -1,0 +1,10 @@
+INFO     log:logger.py:62 ------开始执行test_admin_login用例------
+ERROR    log:logger.py:66 ------test_admin_login用例执行失败，失败原因：name 'login1' is not defined------
+ERROR    log:logger.py:67 test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 34, in test_admin_login
+    ,username=case_body['username'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\api\admin\member_controller_api.py", line 67, in login
+    return login1(username=""
+NameError: name 'login1' is not defined

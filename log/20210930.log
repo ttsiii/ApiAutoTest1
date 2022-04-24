@@ -1,0 +1,90 @@
+[2021-09-30 21:50:40,147][logger.py 55][INFO]: ------开始执行test_admin_login------
+[2021-09-30 21:50:40,332][logger.py 61][INFO]: ------test_admin_login执行成功------
+[2021-09-30 21:51:41,884][logger.py 55][INFO]: ------开始执行test_admin_login------
+[2021-09-30 21:51:41,991][logger.py 59][ERROR]: ------test_admin_login执行失败，失败原因：------
+[2021-09-30 21:51:55,019][logger.py 55][INFO]: ------开始执行test_admin_login------
+[2021-09-30 21:51:55,218][logger.py 59][ERROR]: ------test_admin_login执行失败，失败原因：------
+[2021-09-30 21:52:30,339][logger.py 55][INFO]: ------开始执行test_admin_login------
+[2021-09-30 21:52:30,394][logger.py 61][INFO]: ------test_admin_login执行成功------
+[2021-09-30 21:57:17,003][logger.py 55][INFO]: ------开始执行test_admin_login------
+[2021-09-30 21:57:17,057][logger.py 59][ERROR]: ------test_admin_login执行失败，失败原因：------
+[2021-09-30 21:57:59,941][logger.py 55][INFO]: ------开始执行test_admin_login------
+[2021-09-30 21:57:59,992][logger.py 59][ERROR]: ------test_admin_login执行失败，失败原因：------
+[2021-09-30 21:58:01,178][logger.py 55][INFO]: ------开始执行test_admin_login------
+[2021-09-30 21:58:01,288][logger.py 59][ERROR]: ------test_admin_login执行失败，失败原因：------
+[2021-09-30 21:58:02,396][logger.py 55][INFO]: ------开始执行test_admin_login------
+[2021-09-30 21:58:02,613][logger.py 59][ERROR]: ------test_admin_login执行失败，失败原因：------
+[2021-09-30 21:58:03,732][logger.py 55][INFO]: ------开始执行test_admin_login------
+[2021-09-30 21:58:03,845][logger.py 59][ERROR]: ------test_admin_login执行失败，失败原因：------
+[2021-09-30 21:58:55,268][logger.py 55][INFO]: ------开始执行test_admin_login------
+[2021-09-30 21:58:55,366][logger.py 62][INFO]: ------test_admin_login执行成功------
+[2021-09-30 21:58:57,186][logger.py 55][INFO]: ------开始执行test_admin_login------
+[2021-09-30 21:58:57,313][logger.py 62][INFO]: ------test_admin_login执行成功------
+[2021-09-30 22:00:58,046][logger.py 55][INFO]: ------开始执行test_admin_login------
+[2021-09-30 22:00:58,143][logger.py 59][ERROR]: ------test_admin_login执行失败，失败原因：------
+[2021-09-30 22:00:59,342][logger.py 55][INFO]: ------开始执行test_admin_login------
+[2021-09-30 22:00:59,479][logger.py 59][ERROR]: ------test_admin_login执行失败，失败原因：------
+[2021-09-30 22:01:00,605][logger.py 55][INFO]: ------开始执行test_admin_login------
+[2021-09-30 22:01:00,706][logger.py 59][ERROR]: ------test_admin_login执行失败，失败原因：------
+[2021-09-30 22:01:01,814][logger.py 55][INFO]: ------开始执行test_admin_login------
+[2021-09-30 22:01:01,923][logger.py 59][ERROR]: ------test_admin_login执行失败，失败原因：------
+[2021-09-30 22:01:53,548][logger.py 57][INFO]: ------开始执行test_admin_login------
+[2021-09-30 22:01:53,830][logger.py 61][ERROR]: ------test_admin_login执行失败，失败原因：------
+[2021-09-30 22:01:55,031][logger.py 57][INFO]: ------开始执行test_admin_login------
+[2021-09-30 22:01:55,165][logger.py 61][ERROR]: ------test_admin_login执行失败，失败原因：------
+[2021-09-30 22:01:56,294][logger.py 57][INFO]: ------开始执行test_admin_login------
+[2021-09-30 22:01:56,489][logger.py 61][ERROR]: ------test_admin_login执行失败，失败原因：------
+[2021-09-30 22:01:57,618][logger.py 57][INFO]: ------开始执行test_admin_login------
+[2021-09-30 22:01:57,669][logger.py 61][ERROR]: ------test_admin_login执行失败，失败原因：------
+[2021-09-30 22:02:51,887][logger.py 57][INFO]: ------开始执行test_admin_login------
+[2021-09-30 22:02:51,996][logger.py 61][ERROR]: ------test_admin_login执行失败，失败原因：------
+[2021-09-30 22:02:51,997][logger.py 62][ERROR]: test_admin_login is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\jiekou\common\logger.py", line 59, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\jiekou\case\test_duo_api\test_member_controller\test_login.py", line 38, in test_admin_login
+    assert_api(actual_data,expect)
+  File "D:\daima\xin-daima\jiekou\common\assert_api.py", line 12, in assert_api
+    raise e
+  File "D:\daima\xin-daima\jiekou\common\assert_api.py", line 7, in assert_api
+    assert actual_data['code'] == expect_data['except_code']
+AssertionError
+
+[2021-09-30 22:02:53,188][logger.py 57][INFO]: ------开始执行test_admin_login------
+[2021-09-30 22:02:53,322][logger.py 61][ERROR]: ------test_admin_login执行失败，失败原因：------
+[2021-09-30 22:02:53,323][logger.py 62][ERROR]: test_admin_login is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\jiekou\common\logger.py", line 59, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\jiekou\case\test_duo_api\test_member_controller\test_login.py", line 38, in test_admin_login
+    assert_api(actual_data,expect)
+  File "D:\daima\xin-daima\jiekou\common\assert_api.py", line 12, in assert_api
+    raise e
+  File "D:\daima\xin-daima\jiekou\common\assert_api.py", line 7, in assert_api
+    assert actual_data['code'] == expect_data['except_code']
+AssertionError
+
+[2021-09-30 22:02:54,448][logger.py 57][INFO]: ------开始执行test_admin_login------
+[2021-09-30 22:02:54,559][logger.py 61][ERROR]: ------test_admin_login执行失败，失败原因：------
+[2021-09-30 22:02:54,560][logger.py 62][ERROR]: test_admin_login is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\jiekou\common\logger.py", line 59, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\jiekou\case\test_duo_api\test_member_controller\test_login.py", line 38, in test_admin_login
+    assert_api(actual_data,expect)
+  File "D:\daima\xin-daima\jiekou\common\assert_api.py", line 12, in assert_api
+    raise e
+  File "D:\daima\xin-daima\jiekou\common\assert_api.py", line 7, in assert_api
+    assert actual_data['code'] == expect_data['except_code']
+AssertionError
+
+[2021-09-30 22:02:55,672][logger.py 57][INFO]: ------开始执行test_admin_login------
+[2021-09-30 22:02:55,878][logger.py 61][ERROR]: ------test_admin_login执行失败，失败原因：------
+[2021-09-30 22:02:55,879][logger.py 62][ERROR]: test_admin_login is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\jiekou\common\logger.py", line 59, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\jiekou\case\test_duo_api\test_member_controller\test_login.py", line 38, in test_admin_login
+    assert_api(actual_data,expect)
+  File "D:\daima\xin-daima\jiekou\common\assert_api.py", line 12, in assert_api
+    raise e
+  File "D:\daima\xin-daima\jiekou\common\assert_api.py", line 7, in assert_api
+    assert actual_data['code'] == expect_data['except_code']
+AssertionError
+

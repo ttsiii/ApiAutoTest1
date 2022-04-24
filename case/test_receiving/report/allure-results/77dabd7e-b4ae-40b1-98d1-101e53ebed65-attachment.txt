@@ -1,0 +1,24 @@
+INFO     log:logger.py:61 ------开始执行test_admin_login用例------
+ERROR    log:logger.py:65 ------test_admin_login用例执行失败，失败原因：name 'data0' is not defined------
+ERROR    log:logger.py:66 test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_receiving\test_add_address.py", line 28, in test_admin_login
+    actual_data = receiving_l.add_shipping_address(city=data0['city']
+NameError: name 'data0' is not defined
+INFO     log:logger.py:61 ------开始执行test_admin_login用例------
+ERROR    log:logger.py:65 ------test_admin_login用例执行失败，失败原因：name 'data0' is not defined------
+ERROR    log:logger.py:66 test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_receiving\test_add_address.py", line 28, in test_admin_login
+    actual_data = receiving_l.add_shipping_address(city=data0['city']
+NameError: name 'data0' is not defined
+INFO     log:logger.py:61 ------开始执行test_admin_login用例------
+ERROR    log:logger.py:65 ------test_admin_login用例执行失败，失败原因：name 'data0' is not defined------
+ERROR    log:logger.py:66 test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_receiving\test_add_address.py", line 28, in test_admin_login
+    actual_data = receiving_l.add_shipping_address(city=data0['city']
+NameError: name 'data0' is not defined

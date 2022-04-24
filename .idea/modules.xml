@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/测试之道学院/代码/airtest_daima/.idea/airtest-automation.iml" filepath="D:/测试之道学院/代码/airtest_daima/.idea/airtest-automation.iml" />
+      <module fileurl="file://D:/测试之道学院/代码/pytest-interface-automation/.idea/jiekou.iml" filepath="D:/测试之道学院/代码/pytest-interface-automation/.idea/jiekou.iml" />
+      <module fileurl="file://D:/唐门优测-线上班/xuesheng_daima/.idea/jiekoukuangjia-kejian.iml" filepath="D:/唐门优测-线上班/xuesheng_daima/.idea/jiekoukuangjia-kejian.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../kejian2/.idea/kejian.iml" filepath="$PROJECT_DIR$/../kejian2/.idea/kejian.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/two-pytest-api-automation.iml" filepath="$PROJECT_DIR$/.idea/two-pytest-api-automation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../two-pytest-webui-automation2/.idea/two-pytest-webui-automation.iml" filepath="$PROJECT_DIR$/../two-pytest-webui-automation2/.idea/two-pytest-webui-automation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../web_-ui_demo_kejian2/.idea/web_-ui_demo_kejian.iml" filepath="$PROJECT_DIR$/../web_-ui_demo_kejian2/.idea/web_-ui_demo_kejian.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,4 @@
+[32mINFO    [0m log:logger.py:61 ------开始执行test_get_auth_code用例------
+[32mINFO    [0m log:logger.py:61 ------开始执行assert_api用例------
+[32mINFO    [0m log:logger.py:69 ------assert_api执行成功------
+[32mINFO    [0m log:logger.py:69 ------test_get_auth_code执行成功------

@@ -1,0 +1,21 @@
+[2021-10-25 13:26:44,017][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-25 13:26:44,061][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-25 13:26:44,062][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-25 13:26:44,062][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-25 13:26:44,066][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-25 13:26:44,098][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-25 13:26:44,098][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-25 13:26:44,098][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-25 13:26:44,102][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-25 13:26:44,135][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-25 13:26:44,136][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-25 13:26:44,136][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-25 17:34:37,205][logger.py 61][INFO]: ------开始执行dao_zhang用例------
+[2021-10-25 17:34:37,205][logger.py 65][ERROR]: ------dao_zhang用例执行失败，失败原因：------
+[2021-10-25 17:34:37,205][logger.py 66][ERROR]: dao_zhang 用例 is error,here are details:Traceback (most recent call last):
+  File "D:/daima/xin-daima/two-pytest-api-automation/common/logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:/daima/xin-daima/two-pytest-api-automation/common/logger.py", line 75, in dao_zhang
+    assert 1==2
+AssertionError
+

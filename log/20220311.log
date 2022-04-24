@@ -1,0 +1,90 @@
+[2022-03-11 14:38:22,102][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-03-11 14:38:22,137][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-11 14:38:22,138][assert_api.py 20][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '获取验证码成功', 'data': '795471'}，
+期望结果{'message': '获取验证码成功', 'code': 200}
+[2022-03-11 14:38:22,138][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-11 14:38:22,138][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-03-11 14:38:22,155][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-11 14:38:22,507][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-11 14:38:22,508][assert_api.py 20][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ3MDY3MTAyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYzQ1YmI5YzMtZGM4MS00NTY5LTljZjUtMzQ2YTE3NTFlZmQ2IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.l4Ru3aqRagLAzbb4UVwPkXvcsn1GKoQEj9LuvIgBbl7iNXMutlRtq95eTYE_MSWp0ZwED8dxT7NP1D9zs2nlDXDf0KLzTUAICC76_AQtWgCG9-vVOX83MNHGfZTRbcb4rQq9XhR4f-v2NE2WtCVbjYp7IcDiTMdiGSdw_3sejI4', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJjNDViYjljMy1kYzgxLTQ1NjktOWNmNS0zNDZhMTc1MWVmZDYiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ3NTg1NTAyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiODFiMzhmMWItOTA2ZS00ZjFkLTlhMzMtMDhhZDUyMjViZjQzIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.TcS-G0T4devy-MAEG6N1DrPHdRr6q40GQJBYeMTZ5HZRVZg0NKUAxOGaxRLFlMvsyqgy5J2IgTy7Jkc_UDekC_s4MbvL4-MNZpmZhazdDdVIKuQ0g-_z3aq59iwu3iDZBgvsYbRHXaCqqZiSHVzFt8ZAESZCfmmGh236Le2UTTI', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-11 14:38:22,509][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-11 14:38:22,509][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-11 14:38:22,958][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-11 14:38:22,959][assert_api.py 20][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '注册成功', 'data': None}，
+期望结果{'message': '注册成功', 'code': 200}
+[2022-03-11 14:38:22,959][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-11 14:38:22,978][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-11 14:38:23,336][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-11 14:38:23,340][assert_api.py 20][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': 1}，
+期望结果{'except': '操作成功', 'code': 200}
+[2022-03-11 14:38:23,340][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-11 14:38:23,341][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-11 14:38:36,674][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-03-11 14:38:36,990][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-11 14:38:36,990][assert_api.py 20][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '获取验证码成功', 'data': '560095'}，
+期望结果{'message': '获取验证码成功', 'code': 200}
+[2022-03-11 14:38:36,991][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-11 14:38:36,991][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-03-11 14:38:36,997][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-11 14:38:37,782][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-11 14:38:37,782][assert_api.py 20][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ3MDY3MTE3LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZjdmMGU4ZWYtMDlmOS00Y2IyLTlhNGUtZDhiYjc3NWFhYzE0IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.VkDttDwp_wK5X2qMJpLrzoDfbDyJv-rYW4v-ftNOzfuytREQH4GZHu244mPwEAYiFP4X2j7o9zirLIGVbe9PS76Mqpclxrv_YcgP7yyyXPrfXstHFfYKT-MWRjFfEgMpSfcNRHUzCdVMwOKeHAIjvlyx6JI9XNvtpzVM-hMVqWs', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJmN2YwZThlZi0wOWY5LTRjYjItOWE0ZS1kOGJiNzc1YWFjMTQiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ3NTg1NTE3LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZDlkMjNjMmMtNzgzYy00YTNkLWExN2EtZmIwMTc2NzEyOGFjIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.EC4G49i54KQLjm_lfIjLTELa4wuO4Ka8grwCOn_GynccVVfZjp0cftNZo3eK8TyuVGF40S1kHgQn2d0B8dXaPR34ZlK1DorJ9_y4HcwwakDCnFvSlNKpYFF2bdWHs5JTjLdiBsEYkoBEtO-uLRWAFnC5da9bTzIC5msXGHlYR-M', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-11 14:38:37,782][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-11 14:38:37,783][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-11 14:38:38,834][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-11 14:38:38,834][assert_api.py 20][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '注册成功', 'data': None}，
+期望结果{'message': '注册成功', 'code': 200}
+[2022-03-11 14:38:38,834][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-11 14:38:38,839][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-11 14:38:39,390][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-11 14:38:39,391][assert_api.py 20][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': 1}，
+期望结果{'except': '操作成功', 'code': 200}
+[2022-03-11 14:38:39,391][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-11 14:38:39,391][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-11 14:39:07,079][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-03-11 14:39:07,117][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-11 14:39:07,118][assert_api.py 20][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '获取验证码成功', 'data': '429475'}，
+期望结果{'message': '获取验证码成功', 'code': 200}
+[2022-03-11 14:39:07,118][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-11 14:39:07,118][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-03-11 14:39:07,125][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-11 14:39:07,486][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-11 14:39:07,486][assert_api.py 20][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ3MDY3MTQ3LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZmVjNmJhNDMtYjkyMi00ZWFjLWJkOWUtOTA3NWQzZDdkMDNjIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.c-EeJuWpWWI2Wsis45gC3MlsGLd2JK2M4nLH9bv09Jfj5S5uI35LLzKJmDPzzj27qYPbMIU5tLUYJ6HGvgc5mbAI5RFKSVoFZL_Kw_hCsI-XM4Obf1ThJ5Y5P2KleBgh_2Rt22JfP2QHm42Dw_ZYmli2G7ZEBJfq47ZQKm4DeXQ', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJmZWM2YmE0My1iOTIyLTRlYWMtYmQ5ZS05MDc1ZDNkN2QwM2MiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ3NTg1NTQ3LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNmQxZjZmYjYtNzgxNy00ZGVkLTgyMTItZjc1YTI4YTc3ZDRmIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.gf07PD78_H33axCMlPNpqMFiZoi7DmysRFpl03nsqT4S0k0Yik1i1T8l-bgWIhYACF7kGPkvB_LKKPMrB8f4vtXl0fIN7yyun9a7g4XR39IExNJ5yDJp-8JnydUS8nu6DYBbD5GmR1e_LPvZ0nDqRB-ba5tqUh602BUcMhCt4js', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-11 14:39:07,487][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-11 14:39:07,488][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-11 14:39:07,917][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-11 14:39:07,919][assert_api.py 20][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '注册成功', 'data': None}，
+期望结果{'message': '注册成功', 'code': 200}
+[2022-03-11 14:39:07,919][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-11 14:39:07,928][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-11 14:39:08,286][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-11 14:39:08,288][assert_api.py 20][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': 1}，
+期望结果{'except': '操作成功', 'code': 200}
+[2022-03-11 14:39:08,288][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-11 14:39:08,288][logger.py 70][INFO]: ------test_admin_login执行成功------

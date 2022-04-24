@@ -1,0 +1,8 @@
+INFO     log:logger.py:62 ------开始执行test_get_auth_code用例------
+INFO     log:logger.py:62 ------开始执行assert_api用例------
+INFO     log:assert_api.py:21 
+assert:
+ 实际结果：{'code': 200, 'message': '获取验证码成功', 'data': '218603'}，
+期望结果{'message': '获取验证码成功', 'code': 200}
+INFO     log:logger.py:70 ------assert_api执行成功------
+INFO     log:logger.py:70 ------test_get_auth_code执行成功------

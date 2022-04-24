@@ -1,0 +1,12 @@
+INFO     log:logger.py:62 ------开始执行test_admin_login用例------
+ERROR    log:logger.py:66 ------test_admin_login用例执行失败，失败原因：------
+ERROR    log:logger.py:67 test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_receiving\test_add_address.py", line 36, in test_admin_login
+    ,region=case_body['region'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\api\admin\receiving_api.py", line 58, in add_shipping_address
+    return self.send(url,body,method=method,x_token=self.token)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\api\client.py", line 42, in send
+    assert result.status_code == 200
+AssertionError

@@ -1,0 +1,8 @@
+INFO     log:logger.py:62 ------开始执行test_admin_login用例------
+ERROR    log:logger.py:66 ------test_admin_login用例执行失败，失败原因：login() got an unexpected keyword argument 'password'------
+ERROR    log:logger.py:67 test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 35, in test_admin_login
+    ,username=case_body['username'])
+TypeError: login() got an unexpected keyword argument 'password'

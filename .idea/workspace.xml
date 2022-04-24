@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="276b4edc-66e8-48c4-80d2-02df51426086" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/common/read_yaml.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1yzvGInMcdYUP4IjzMEKMDXqrzv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kejian2" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\测试之道学院\代码\airtest_daima" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\测试之道学院\代码\airtest_daima\common" />
+      <recent name="D:\测试之道学院\代码\airtest_daima" />
+      <recent name="D:\daima\xin-daima\two-pytest-api-automation2\common" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="two-pytest-api-automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="two-pytest-api-automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_add_address.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="two-pytest-api-automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/test_receiving" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/test_receiving/test_add_address.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_auth_code.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="two-pytest-api-automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/test_member_controller" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/test_member_controller/test_auth_code.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="two-pytest-api-automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/test_member_controller" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/test_member_controller/test_login.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.pytest in test_login.py" />
+        <item itemvalue="Python tests.pytest in test_auth_code.py" />
+        <item itemvalue="Python tests.pytest in test_add_address.py" />
+        <item itemvalue="Python.client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="276b4edc-66e8-48c4-80d2-02df51426086" name="Default Changelist" comment="" />
+      <created>1639702288759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639702288759</updated>
+      <workItem from="1639702290146" duration="4555000" />
+      <workItem from="1639804732490" duration="1747000" />
+      <workItem from="1639878623531" duration="8509000" />
+      <workItem from="1640052672461" duration="3197000" />
+      <workItem from="1640132394034" duration="3207000" />
+      <workItem from="1640267465590" duration="1780000" />
+      <workItem from="1640421255995" duration="11203000" />
+      <workItem from="1640679702427" duration="13285000" />
+      <workItem from="1641100672895" duration="2737000" />
+      <workItem from="1641275100525" duration="26152000" />
+      <workItem from="1641558159077" duration="13747000" />
+      <workItem from="1641782326673" duration="3336000" />
+      <workItem from="1642244049418" duration="2295000" />
+      <workItem from="1642484106338" duration="1941000" />
+      <workItem from="1642575392329" duration="3653000" />
+      <workItem from="1642935233572" duration="1258000" />
+      <workItem from="1643868271509" duration="1198000" />
+      <workItem from="1644664653949" duration="614000" />
+      <workItem from="1644990187461" duration="3778000" />
+      <workItem from="1645498007277" duration="8530000" />
+      <workItem from="1645755437291" duration="2126000" />
+      <workItem from="1645790206478" duration="805000" />
+      <workItem from="1645962458821" duration="635000" />
+      <workItem from="1646016749839" duration="3717000" />
+      <workItem from="1646311903398" duration="5287000" />
+      <workItem from="1646566669592" duration="11708000" />
+      <workItem from="1646998757087" duration="3320000" />
+      <workItem from="1647170567526" duration="6481000" />
+      <workItem from="1647495570251" duration="2505000" />
+      <workItem from="1647603096854" duration="6344000" />
+      <workItem from="1647753991308" duration="752000" />
+      <workItem from="1647775186351" duration="7085000" />
+      <workItem from="1647825955394" duration="46390000" />
+      <workItem from="1650772043176" duration="604000" />
+      <workItem from="1650772796277" duration="1534000" />
+    </task>
+    <task id="LOCAL-00001" summary="12.23">
+      <created>1640223755847</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640223755847</updated>
+    </task>
+    <task id="LOCAL-00002" summary="12.23">
+      <created>1640269426546</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640269426546</updated>
+    </task>
+    <task id="LOCAL-00003" summary="12.23">
+      <created>1641101095143</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641101095143</updated>
+    </task>
+    <task id="LOCAL-00004" summary="唐门优测-框架6.0更新-框架已经下架，注意注意：框架已经下架，加我微信可免费领取allure测试报告框架讲解视频-并讨论框架答疑">
+      <created>1641101471474</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641101471474</updated>
+    </task>
+    <task id="LOCAL-00005" summary="框架今年大年三十开发一次，加我微信：hz223336，可免费领取最新单元测试框架pytest和allure测试报告的详细资料。">
+      <created>1641275446182</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1641275446182</updated>
+    </task>
+    <task id="LOCAL-00006" summary="框架今年大年三十开发一次，加我微信：hz223336，可免费领取最新单元测试框架pytest和allure测试报告的详细资料。">
+      <created>1641370779716</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1641370779717</updated>
+    </task>
+    <task id="LOCAL-00007" summary="框架今年大年三十开发一次，加我微信：hz223336，可免费领取最新单元测试框架pytest和allure测试报告的详细资料。">
+      <created>1641373335604</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1641373335604</updated>
+    </task>
+    <task id="LOCAL-00008" summary="框架今年大年三十开发一次，加我微信：hz223336，可免费领取最新单元测试框架pytest和allure测试报告的详细资料。">
+      <created>1641689433211</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1641689433211</updated>
+    </task>
+    <task id="LOCAL-00009" summary="框架今年大年三十开发一次，加我微信：hz223336，可免费领取最新单元测试框架pytest和allure测试报告的详细资料。">
+      <created>1641691754844</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1641691754844</updated>
+    </task>
+    <task id="LOCAL-00010" summary="框架今年大年三十开发一次，加我微信：hz223336，可免费领取最新单元测试框架pytest和allure测试报告的详细资料。">
+      <created>1645153326049</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645153326049</updated>
+    </task>
+    <task id="LOCAL-00011" summary="框架今年大年三十开发一次，加我微信：hz223336，可免费领取最新单元测试框架pytest和allure测试报告的详细资料。">
+      <created>1647849945776</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1647849945776</updated>
+    </task>
+    <task id="LOCAL-00012" summary="加我微信：hz223336，可免费领取最新单元测试框架pytest和allure测试报告的详细资料。">
+      <created>1648174264610</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1648174264610</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/../kejian2" />
+      <path value="$PROJECT_DIR$/../web_-ui_demo_kejian2" />
+      <path value="D:/测试之道学院/代码/airtest_daima" />
+      <path value="D:/测试之道学院/代码/pytest-interface-automation" />
+    </ignored-roots>
+    <MESSAGE value="12.23" />
+    <MESSAGE value="唐门优测-框架6.0更新-框架已经下架，注意注意：框架已经下架，加我微信可免费领取allure测试报告框架讲解视频-并讨论框架答疑" />
+    <MESSAGE value="框架今年大年三十开发一次，加我微信：hz223336，可免费领取最新单元测试框架pytest和allure测试报告的详细资料。" />
+    <MESSAGE value="加我微信：hz223336，可免费领取最新单元测试框架pytest和allure测试报告的详细资料。" />
+    <option name="LAST_COMMIT_MESSAGE" value="加我微信：hz223336，可免费领取最新单元测试框架pytest和allure测试报告的详细资料。" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="517" y="27" key="#pytest_in_test_login.py_(1)" timestamp="1646725629354">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="517" y="27" key="#pytest_in_test_login.py_(1)/0.0.1707.1027@0.0.1707.1027" timestamp="1646725629354" />
+    <state x="0" y="40" key="CommitChangelistDialog2" timestamp="1648174261435">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="0" y="40" key="CommitChangelistDialog2/0.0.1707.1027@0.0.1707.1027" timestamp="1648174261435" />
+    <state x="853" y="302" key="FileChooserDialogImpl" timestamp="1650774176516">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1976" y="-331" key="FileChooserDialogImpl/-2560.-529.1707.1040/0.0.1920.1040@-2560.-529.1707.1040" timestamp="1646998911445" />
+    <state x="584" y="196" key="FileChooserDialogImpl/0.0.1707.1027@0.0.1707.1027" timestamp="1646725611667" />
+    <state x="853" y="302" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1650774176516" />
+    <state width="1367" height="203" key="GridCell.Tab.0.bottom" timestamp="1650772650824">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="621" key="GridCell.Tab.0.bottom/-2560.-529.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1647170756590" />
+    <state width="1653" height="652" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1648178383322" />
+    <state width="1367" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1650772650824" />
+    <state width="1367" height="203" key="GridCell.Tab.0.center" timestamp="1650772650819">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="621" key="GridCell.Tab.0.center/-2560.-529.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1647170756590" />
+    <state width="1653" height="652" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1648178383322" />
+    <state width="1367" height="203" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1650772650819" />
+    <state width="1367" height="203" key="GridCell.Tab.0.left" timestamp="1650772650819">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="621" key="GridCell.Tab.0.left/-2560.-529.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1647170756590" />
+    <state width="1653" height="652" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1648178383322" />
+    <state width="1367" height="203" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1650772650819" />
+    <state width="1367" height="203" key="GridCell.Tab.0.right" timestamp="1650772650819">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="621" key="GridCell.Tab.0.right/-2560.-529.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1647170756590" />
+    <state width="1653" height="652" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1648178383322" />
+    <state width="1367" height="203" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1650772650819" />
+    <state width="1653" height="328" key="GridCell.Tab.1.bottom" timestamp="1648177890555">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1653" height="328" key="GridCell.Tab.1.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1648177890555" />
+    <state width="1653" height="328" key="GridCell.Tab.1.center" timestamp="1648177890555">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1653" height="328" key="GridCell.Tab.1.center/0.0.1707.1027@0.0.1707.1027" timestamp="1648177890555" />
+    <state width="1653" height="328" key="GridCell.Tab.1.left" timestamp="1648177890555">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1653" height="328" key="GridCell.Tab.1.left/0.0.1707.1027@0.0.1707.1027" timestamp="1648177890555" />
+    <state width="1653" height="328" key="GridCell.Tab.1.right" timestamp="1648177890555">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1653" height="328" key="GridCell.Tab.1.right/0.0.1707.1027@0.0.1707.1027" timestamp="1648177890555" />
+    <state x="345" y="264" width="998" height="708" key="SettingsEditor" timestamp="1650774332422">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="327" y="75" key="SettingsEditor/0.0.1707.1027@0.0.1707.1027" timestamp="1648175973826" />
+    <state x="345" y="264" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1650774332422" />
+    <state x="346" y="182" key="Vcs.Push.Dialog.v2" timestamp="1648174266055">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="346" y="182" key="Vcs.Push.Dialog.v2/0.0.1707.1027@0.0.1707.1027" timestamp="1648174266055" />
+    <state x="470" y="297" key="com.intellij.ide.util.TipDialog" timestamp="1647827260500">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="-2090" y="-228" key="com.intellij.ide.util.TipDialog/-2560.-529.1707.1040/0.0.1920.1040@-2560.-529.1707.1040" timestamp="1646998757519" />
+    <state x="529" y="301" key="com.intellij.ide.util.TipDialog/-2560.-529.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1646311939903" />
+    <state x="470" y="297" key="com.intellij.ide.util.TipDialog/0.0.1707.1027@0.0.1707.1027" timestamp="1647827260500" />
+    <state x="562" y="261" key="git4idea.merge.GitMergeDialog" timestamp="1642143812208">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="562" y="261" key="git4idea.merge.GitMergeDialog/0.0.1707.1027@0.0.1707.1027" timestamp="1642143812208" />
+    <state x="432" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1645673388665">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="432" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1707.1027@0.0.1707.1027" timestamp="1645673388665" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/two_pytest_api_automation_master$main.coverage" NAME="main Coverage Results" MODIFIED="1650772488352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/two_pytest_api_automation2$test22.coverage" NAME="test22 Coverage Results" MODIFIED="1645701314962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/two_pytest_api_automation2$pytest_in_test22_py.coverage" NAME="pytest in test22.py Coverage Results" MODIFIED="1647502632780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/two_pytest_api_automation2$test22__1_.coverage" NAME="test22 (1) Coverage Results" MODIFIED="1641205936373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/测试之道学院/代码/airtest_daima" />
+    <SUITE FILE_PATH="coverage/two_pytest_api_automation2$client.coverage" NAME="client Coverage Results" MODIFIED="1648085501877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api" />
+    <SUITE FILE_PATH="coverage/NewApi$main.coverage" NAME="main Coverage Results" MODIFIED="1650772830485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/two_pytest_api_automation2$read_yaml.coverage" NAME="read_yaml Coverage Results" MODIFIED="1647754080436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/two_pytest_api_automation2$pytest_in_test_register_py.coverage" NAME="pytest in test_register.py Coverage Results" MODIFIED="1647925247644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/test_member_controller" />
+    <SUITE FILE_PATH="coverage/two_pytest_api_automation2$main.coverage" NAME="main Coverage Results" MODIFIED="1648108535170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/two_pytest_api_automation2$test_login.coverage" NAME="test_login Coverage Results" MODIFIED="1641689831441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/测试之道学院/代码/airtest_daima/testcase" />
+    <SUITE FILE_PATH="coverage/two_pytest_api_automation2$pytest_in_test_login_py__1_.coverage" NAME="pytest in test_login.py (1) Coverage Results" MODIFIED="1646726283144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/唐门优测-线上班/xuesheng_daima/case/test_member_controller" />
+    <SUITE FILE_PATH="coverage/two_pytest_api_automation2$pytest_for_test_login_TestLogin_test_admin_login.coverage" NAME="pytest for test_login.TestLogin.test_admin_login Coverage Results" MODIFIED="1646726117637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/唐门优测-线上班/xuesheng_daima/case/test_member_controller" />
+    <SUITE FILE_PATH="coverage/two_pytest_api_automation2$logger.coverage" NAME="logger Coverage Results" MODIFIED="1647851196398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/two_pytest_api_automation2$pytest_in_test_auth_code_py.coverage" NAME="pytest in test_auth_code.py Coverage Results" MODIFIED="1648171458119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/test_member_controller" />
+    <SUITE FILE_PATH="coverage/two_pytest_api_automation2$pytest_in_test_add_address_py.coverage" NAME="pytest in test_add_address.py Coverage Results" MODIFIED="1648171142478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/test_receiving" />
+    <SUITE FILE_PATH="coverage/two_pytest_api_automation2$pytest_in_test_login_py.coverage" NAME="pytest in test_login.py Coverage Results" MODIFIED="1648178370597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/test_member_controller" />
+    <SUITE FILE_PATH="coverage/two_pytest_api_automation2$pytest_in_test_data_center_py.coverage" NAME="pytest in test_data_center.py Coverage Results" MODIFIED="1639702455364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../two-pytest-webui-automation2/tests" />
+    <SUITE FILE_PATH="coverage/two_pytest_api_automation2$pytest_for_test_login_Test_DengLu_test_admin_login.coverage" NAME="pytest for test_login.Test_DengLu.test_admin_login Coverage Results" MODIFIED="1646726011085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/test_member_controller" />
+  </component>
+</project>

@@ -1,0 +1,46 @@
+INFO     log:logger.py:61 ------开始执行test_admin_login用例------
+INFO     log:logger.py:61 ------开始执行assert_api用例------
+ERROR    log:logger.py:65 ------assert_api用例执行失败，失败原因：unhashable type: 'dict'------
+ERROR    log:logger.py:66 assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+ERROR    log:logger.py:65 ------test_admin_login用例执行失败，失败原因：unhashable type: 'dict'------
+ERROR    log:logger.py:66 test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 35, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+INFO     log:logger.py:61 ------开始执行test_admin_login用例------
+INFO     log:logger.py:61 ------开始执行assert_api用例------
+ERROR    log:logger.py:65 ------assert_api用例执行失败，失败原因：unhashable type: 'dict'------
+ERROR    log:logger.py:66 assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+ERROR    log:logger.py:65 ------test_admin_login用例执行失败，失败原因：unhashable type: 'dict'------
+ERROR    log:logger.py:66 test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 35, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'

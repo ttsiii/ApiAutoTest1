@@ -1,0 +1,76 @@
+[2021-11-18 11:08:11,116][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-11-18 11:08:11,159][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-11-18 11:08:11,159][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-11-18 11:08:11,160][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-11-18 11:08:28,884][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-11-18 11:08:28,930][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-11-18 11:08:28,930][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-11-18 11:08:28,931][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-11-18 11:15:16,608][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-11-18 11:15:16,671][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-11-18 11:15:16,672][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-11-18 11:15:16,672][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-11-18 11:29:25,334][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-11-18 11:29:25,385][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-11-18 11:29:25,385][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-11-18 11:29:25,386][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-11-18 11:29:39,662][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-11-18 11:29:39,718][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-11-18 11:29:39,718][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-11-18 11:29:39,718][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-11-18 13:16:29,477][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-11-18 13:16:29,524][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-11-18 13:16:29,524][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-11-18 13:16:29,524][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-11-18 13:22:27,219][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-11-18 13:22:27,268][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-11-18 13:22:27,268][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-11-18 13:22:27,268][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-11-18 13:32:42,505][logger.py 62][INFO]: ------开始执行dao_zhang用例------
+[2021-11-18 13:32:42,505][logger.py 66][ERROR]: ------dao_zhang用例执行失败，失败原因：------
+[2021-11-18 13:32:42,506][logger.py 67][ERROR]: dao_zhang 用例 is error,here are details:Traceback (most recent call last):
+  File "D:/daima/xin-daima/two-pytest-api-automation/common/logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:/daima/xin-daima/two-pytest-api-automation/common/logger.py", line 76, in dao_zhang
+    assert 1==2
+AssertionError
+
+[2021-11-18 13:33:00,169][logger.py 62][INFO]: ------开始执行dao_zhang用例------
+[2021-11-18 13:33:00,169][logger.py 66][ERROR]: ------dao_zhang用例执行失败，失败原因：------
+[2021-11-18 13:33:00,170][logger.py 67][ERROR]: dao_zhang 用例 is error,here are details:Traceback (most recent call last):
+  File "D:/daima/xin-daima/two-pytest-api-automation/common/logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:/daima/xin-daima/two-pytest-api-automation/common/logger.py", line 76, in dao_zhang
+    assert 1==2
+AssertionError
+
+[2021-11-18 13:33:34,611][logger.py 62][INFO]: ------开始执行dao_zhang用例------
+[2021-11-18 13:33:34,611][logger.py 66][ERROR]: ------dao_zhang用例执行失败，失败原因：------
+[2021-11-18 13:33:34,612][logger.py 67][ERROR]: dao_zhang 用例 is error,here are details:Traceback (most recent call last):
+  File "D:/daima/xin-daima/two-pytest-api-automation/common/logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:/daima/xin-daima/two-pytest-api-automation/common/logger.py", line 76, in dao_zhang
+    assert 1==2
+AssertionError
+
+[2021-11-18 14:27:41,254][logger.py 62][INFO]: ------开始执行dao_zhang用例------
+[2021-11-18 14:27:41,254][logger.py 66][ERROR]: ------dao_zhang用例执行失败，失败原因：------
+[2021-11-18 14:27:41,255][logger.py 67][ERROR]: dao_zhang 用例 is error,here are details:Traceback (most recent call last):
+  File "D:/daima/xin-daima/two-pytest-api-automation/common/logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:/daima/xin-daima/two-pytest-api-automation/common/logger.py", line 76, in dao_zhang
+    assert 1==2
+AssertionError
+
+[2021-11-18 14:27:50,118][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2021-11-18 14:27:50,219][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2021-11-18 14:27:50,220][logger.py 70][INFO]: ------assert_api执行成功------
+[2021-11-18 14:27:50,220][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2021-11-18 14:27:50,224][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2021-11-18 14:27:50,285][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2021-11-18 14:27:50,286][logger.py 70][INFO]: ------assert_api执行成功------
+[2021-11-18 14:27:50,286][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2021-11-18 14:27:50,301][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2021-11-18 14:27:50,423][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2021-11-18 14:27:50,423][logger.py 70][INFO]: ------assert_api执行成功------
+[2021-11-18 14:27:50,424][logger.py 70][INFO]: ------test_admin_login执行成功------

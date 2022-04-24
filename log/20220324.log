@@ -1,0 +1,2049 @@
+[2022-03-24 09:09:52,119][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 09:09:52,538][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 09:09:52,539][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTcwNTkyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYmNkMThjNmEtOTZhZC00MjUyLWFiZjctYmI0NjNlMjA1MzFkIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.gPAPTPV8ql4RgZcgK15kXuHeKCgc6HWXRkRJcyWPCXLR8uGj5_6zyQ7M9wNqxd4mt3tt1sopw-pE2rnQSYtqwSnIc5x9CJ2WcIyFcFYMWwtT1aIJP1AeEcwXYGKj5T8iKY5-WDtBgFhCtgViaRM4_u5jvW4qn-RZHJETbzs5OHI', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJiY2QxOGM2YS05NmFkLTQyNTItYWJmNy1iYjQ2M2UyMDUzMWQiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4Njg4OTkyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNjAzMGFlMjQtYjdhMy00YjhjLTlhMzgtNTEyZGM2MTRjYTU2IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.bc9jH4YCpfAXezbzZU-AkgNLP6HdkP4cH3i6AwYD-_w6WVUddaNaaAL2k05-AWeZI54eOPpN8zt-E0J7p4mfgQURn0LpvoVk8qaAAqJPXJu_2_Q8ZXB5Z6ZQLU6qHJYcKfeUM161UxvfmPOABQ_BI8o5UEG5LQVmTFDEJAZYH7I', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 09:09:52,549][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 09:09:52,549][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 09:14:33,887][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 09:14:34,258][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 09:14:34,258][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTcwODc0LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZDYxMzkyNjUtZDkyOC00ODg2LWEwNmQtN2QxOTc4YWJhYTVjIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.Eu4T-BLfDS1k9vgpTcWO0wSZH-5ls_VhYF57V7sqY5pZb9evgCZee-vls2U2PpqlLH_RuUWhVza9Qzar7lMfcFIa-KaYYcSgJGHFFn5M-nwLpxTTq1auGuQxN56nnbAEU-EiyLdEfMTScEw1hP86cHi0F_FoFHPaR5vOG1ZUwB8', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJkNjEzOTI2NS1kOTI4LTQ4ODYtYTA2ZC03ZDE5NzhhYmFhNWMiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4Njg5Mjc0LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiOTkyMDc2ZjYtYzRhMy00NWVmLTlmNTYtZGMzNDgyYzEyMDA4IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.RlbNJXFzB65meJDnF_7-rl9i6n-BuSSwqEtCO6Qh5BUREr9VwnTp2dCMqgTVSvsOKFELfDtfBKQANZqh1_sbUmyF_g-HvZDnE7XIR2AQSTPwUgEKa8lrVsoPoph14KOOYzhSqvMFxjvty_Q2UBpwDSxsKpQgWY8pFIxWxPuYN24', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 09:14:34,258][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 09:14:34,258][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 09:29:49,654][main.py 42][INFO]: 
+                                                          _ooOoo_
+                                                         o8888888o
+                                                         88" . "88
+                                                         (| -_- |)
+                                                          O\ = /O
+                                                      ____/`---'\____
+                                                    .   ' \\| |// `.
+                                                     / \\||| : |||// \
+                                                   / _||||| -:- |||||- \
+                                                     | | \\\ - /// | |
+                                                   | \_| ''\---/'' | |
+                                                    \ .-\__ `-` ___/-. /
+                                                 ___`. .' /--.--\ `. . __
+                                              ."" '< `.___\_<|>_/___.' >'"".
+                                             | | : `- \`.;`\ _ /`;.`/ - ` : | |
+                                               \ \ `-. \_ __\ /__ _/ .-` / /
+                                       ======`-.____`-.___\_____/___.-`____.-'======
+                                                          `=---='
+
+                                       .............................................
+                                              佛祖保佑             永无BUG
+                                       .............................................
+                                           佛曰:
+                                           写字楼里写字间          写字间里程序员；
+                                           程序人员写程序          又拿程序换酒钱。
+                                           酒醒只在网上坐          酒醉还来网下眠； 
+                                           酒醉酒醒日复日          网上网下年复年。
+                                           但愿老死电脑间          不愿鞠躬老板前；
+                                           奔驰宝马贵者趣          公交自行程序员。
+                                           别人笑我忒疯癫          我笑自己命太贱；
+                                           不见满街漂亮妹          哪个归得程序员？
+
+[2022-03-24 09:29:56,265][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-03-24 09:29:56,533][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 09:29:56,533][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '获取验证码成功', 'data': '474766'}，
+期望结果{'message': '获取验证码成功', 'code': 200}
+[2022-03-24 09:29:56,533][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 09:29:56,533][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-03-24 09:29:56,538][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 09:29:57,253][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 09:29:57,253][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTcxNzk2LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZjkxMDQ2YTItZDExNi00OWFmLTg4NTctYjM3ZTYzODAyNTFkIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.kDtCHGpIdGE_5cb2m9VWQUa-DnRIv6mK47Zt-95b40g48hm-bsZSSr5qdIGJKeCS787WxXJtIk9fyOcMgLmfXR34thaI0kUiAIrFtTOJPUuqWJux8MMtr-iIP7FXBBDEM2bfG5hxcClzGS2uRJazhcAUV5hbWdyFD9nkxGhtXCg', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJmOTEwNDZhMi1kMTE2LTQ5YWYtODg1Ny1iMzdlNjM4MDI1MWQiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NjkwMTk2LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYTQ2MDEwYjctNWViYS00MmFkLWI3YjMtMmVlOTg2MzZkZjdmIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.I25Ino87lx4puCunMiShbw7mo0_T9XCvXh7Kk-iTd8q5MenS65vmoH_i9uOC0PLmZj6q0hudU-aC5i1R9O5P-X7x-hq-C3QTF78TrX5gZ7Pk-bi9op3qc0denW_Avk_sJ6S2THSay0SBicSHCf_nBvIFrYFUo4eTz1fqNqFQjq4', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 09:29:57,254][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 09:29:57,254][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 09:29:58,622][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 09:29:58,623][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '注册成功', 'data': None}，
+期望结果{'message': '注册成功', 'code': 200}
+[2022-03-24 09:29:58,623][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 09:29:58,628][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 09:29:59,136][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 09:29:59,137][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': 1}，
+期望结果{'except': '操作成功', 'code': 200}
+[2022-03-24 09:29:59,137][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 09:29:59,137][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 14:19:48,669][main.py 42][INFO]: 
+                                                          _ooOoo_
+                                                         o8888888o
+                                                         88" . "88
+                                                         (| -_- |)
+                                                          O\ = /O
+                                                      ____/`---'\____
+                                                    .   ' \\| |// `.
+                                                     / \\||| : |||// \
+                                                   / _||||| -:- |||||- \
+                                                     | | \\\ - /// | |
+                                                   | \_| ''\---/'' | |
+                                                    \ .-\__ `-` ___/-. /
+                                                 ___`. .' /--.--\ `. . __
+                                              ."" '< `.___\_<|>_/___.' >'"".
+                                             | | : `- \`.;`\ _ /`;.`/ - ` : | |
+                                               \ \ `-. \_ __\ /__ _/ .-` / /
+                                       ======`-.____`-.___\_____/___.-`____.-'======
+                                                          `=---='
+
+                                       .............................................
+                                              佛祖保佑             永无BUG
+                                       .............................................
+                                           佛曰:
+                                           写字楼里写字间          写字间里程序员；
+                                           程序人员写程序          又拿程序换酒钱。
+                                           酒醒只在网上坐          酒醉还来网下眠； 
+                                           酒醉酒醒日复日          网上网下年复年。
+                                           但愿老死电脑间          不愿鞠躬老板前；
+                                           奔驰宝马贵者趣          公交自行程序员。
+                                           别人笑我忒疯癫          我笑自己命太贱；
+                                           不见满街漂亮妹          哪个归得程序员？
+
+[2022-03-24 14:19:54,603][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-03-24 14:19:54,638][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 14:19:54,639][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '获取验证码成功', 'data': '135425'}，
+期望结果{'message': '获取验证码成功', 'code': 200}
+[2022-03-24 14:19:54,639][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 14:19:54,639][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-03-24 14:19:54,655][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 14:19:55,018][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 14:19:55,018][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTg5MTk1LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZGM5ZWYzZmUtZmJlOC00ZGJkLTg3OTUtZWUzNTNhMThiMDlmIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.VJPcMGIhdIAeRkB2XHzol-eMvN8H6Bqw8E9uMggp0zyGUubBNp4iooLXcesACiZHfXgVQRVjXIxvrvtyh4kKQ2-kHfOAMIxC3b0uD7Nf7Fm078ZKSwH9Y3glpw-OaMC15Sqq2AYO_Q5NeSnC7MiaAV5fZZKrdJXl0Mtr28pF_oM', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJkYzllZjNmZS1mYmU4LTRkYmQtODc5NS1lZTM1M2ExOGIwOWYiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzA3NTk1LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiN2E2NDkxOGYtNjRhYi00ZTdhLWI2NjQtZTNiNGUwNTI2MDBhIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.XQbwMtL3oIUjTUVdlYcM1g2Kz1k5U_PlxxRBKjXw13UXIvZBKVMm3qAqxQFgl5341yiwLo0kHOhjJTPxoa82L3a3oVpC9O8UouVf4wPFH6ltEQQpLc12mwAwAx3kD0W5-W1DBeVeOrdOsuC890adH6F3N4k_3LRPScXNTPLne20', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 14:19:55,019][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 14:19:55,019][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 14:19:55,457][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 14:19:55,457][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '注册成功', 'data': None}，
+期望结果{'message': '注册成功', 'code': 200}
+[2022-03-24 14:19:55,457][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 14:19:55,462][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 14:19:55,521][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 14:19:55,521][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': 1}，
+期望结果{'except': '操作成功', 'code': 200}
+[2022-03-24 14:19:55,521][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 14:19:55,521][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 15:47:51,749][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:47:52,228][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:47:52,228][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0NDcyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYmI4ZGI4ZjgtNmU5MS00ZGY3LTg4ZmItNzZlNGY2YmNjODE1IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.R_g3x-WT-KTeKXVWxFKlfhixPabvmS3yMGxBxXG6UombLvq5T5Dnb-CA6GjdKoqRcS1NtIn2uHpsxxnjEwjMSMwk1JSanBciW7DVNLuQLBXW5BytHPhT0UrUDz3qBLK7oj36NY7HWA4FBHzogIoFSXXCUoyj-PJLo_iQq6X5Adg', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJiYjhkYjhmOC02ZTkxLTRkZjctODhmYi03NmU0ZjZiY2M4MTUiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEyODcyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYTExN2E2MzktNDdhNy00YTJjLWEyM2QtYThiNzkyNWM5ZGYzIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.owTWxsmy9lioSRsI5UKK9jwQUHX7m0N_G1rvqn3qvl6AF2tRG2SY1jY2YYBJVFmrIQRxnaUb3cYOSwVCFz9qYyK2O5cXPh9StcSUn1y0dK0rdWX-VwqCg1_9El5mfCvuyVmqw4jot2M0zG0SO1_IRy8zZHSwq8TXq17ew5bzs7s', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 15:47:52,228][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 15:47:52,229][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 15:47:52,233][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:47:52,595][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:47:52,595][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0NDcyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZTdjYTY4NGEtNjYwMy00NTExLWJlYjktNmY4NzA2ZTM1OTU3IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.ZlpT0SJtiVFKA0SulIo4ur6nGiZWLIOYUAp9P9nUuTz_KH8KhLJXiRFeAcFsdRdjCI1I6mHBEYEIbnNxdS17f6PK1jV_9kWFNI00dE0d-2XdTDpBRn2jKB31j9Xv-LBX1dwoik17SnIvBsfTbq4TdFdBu34at0R9eT0yuSKjv4s', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJlN2NhNjg0YS02NjAzLTQ1MTEtYmViOS02Zjg3MDZlMzU5NTciLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEyODcyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMmRlYzg1YjItNzcwMy00NTQ3LWEzNjMtODRjODRjNTQ4M2M3IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.gAc8SKdqA6G6sMhs4lC8p-vK_jRcJJLAJQTSACncdDWdF8FVGnVezgZT-Ck8txbfSbPc0ouuF1QkWuZPrZq2GJMvnoqzPJsGhKNHp7_LveEAE4GRiTkMDDUlt0it3LEv2JCM7JyPbh-mta0D_UOUoV4JJw7wK1NjmZmqjXWTLWU', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:47:52,595][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:47:52,607][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:47:52,607][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:47:52,607][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:47:52,667][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:47:53,050][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:47:53,051][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0NDczLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZDljOWE2ODYtZjU3YS00NGRkLWIzNmEtNWRiNzA2NGYwNTA0IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.D6nt5tUJb79NEXUZT6WDCS2WwZ--2mmkR2w-zw2JhD3tPWMfiNVSPRJWJk9vpUGsgPiul4RLILn1oji2MUANC_3bT_tSUpZip-e7zz_wFUfCfcNRMY32XkwUBy-mg3e2cLS3TC8YCf6IM1BZyn2lRrSvaH7dW-tvvzwBmSvQ91Y', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJkOWM5YTY4Ni1mNTdhLTQ0ZGQtYjM2YS01ZGI3MDY0ZjA1MDQiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEyODczLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNjU5ODY2NTgtNzhhYS00ZjI4LWIyZDgtM2ZkZTU0N2QxMzg2IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.MNOv1oBD2krvAdFyiIiKKUvabsDEBEpS1ZsirhJNCmWq45bhrafOyxK80wWP2A0nWpBuqh3azRQLpqpM5YNoDJiixAglSPmGf_VouwI2HdI7x9FKb3pUpBuT6A34Ryxn26ufsXbtsRXx9Ku46prRJh5qL7kUlDl7VeaeRTrKrLg', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:47:53,051][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:47:53,051][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:47:53,051][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:47:53,052][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:48:59,719][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:49:00,146][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:49:00,146][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0NTQwLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNDlkOWYwMGMtYmM0NS00YTI2LWFjNDMtZDQ1ZTA5YmRkODkyIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.gcvRuMlDWXHzWmfh4ZRDKxHkWOhaeAjlz367d1XMMW2BKTYfxC7Lj3X0h5QQAvExbND9Ag4wujPrxMJp8EYumhT1KntXk1WZMdjM06cZ0U0N8fsHFdBLZ0Jjk7_Vmh7wTJeaL1zSj5sS6Vnc3Vx7wJnMxC08zZUfERk96ONWrN8', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI0OWQ5ZjAwYy1iYzQ1LTRhMjYtYWM0My1kNDVlMDliZGQ4OTIiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEyOTQwLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMTVlNDc0MGYtZTk1MS00ZjA5LThiYzctZDExNGFiYTY5NjBjIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.HuotrIvZJi6Xf9Xl5PUujxh3D6qxWjh0tr3e2b6fsEEYjaglbXKV3f1A5hyyJyXfqLusL-nS2UoroOGNXEW6vvIdPrIXa_4f_C37EHTymRblM0aSkpdsKmZLGHN5095_RkB-JqcG1DukQzOoPstdi_k9VmDxC0P7vv7ksWj15MQ', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 15:49:00,146][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 15:49:00,146][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 15:49:00,151][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:49:00,575][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:49:00,575][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0NTQwLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMDMzZjcyOGEtYmJiZi00NTIxLTljZjAtN2YxZGJhMDUwZWFkIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.Qbb6qjD14HRjTBarzebsDik-5W6vRqR3UcXR8N8Smgkqx8bmqjPb2fHJyYzhoFQSpjB5Q0RP6gxRTabYB9wE-Mw8GUXNh2w8L1bQbbGitNAmtVnFVIzr3Ts0VANTtNcd-Pbz1QYEkdKyoe2F30fak00_oMT9fN77SmMO51iYSNs', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIwMzNmNzI4YS1iYmJmLTQ1MjEtOWNmMC03ZjFkYmEwNTBlYWQiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEyOTQwLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiOTAwY2JkZGEtZGQzMS00MGFiLTkwYWMtMGE2YzU2ZGVkYzk0IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.Aq9B9KD_qnwe6tKMiLcTSwRM4ZNXbIsyaujhq_c2Nj-wwYb0Qibdw7scp8N3mvj_4J4ZWQCeQbUEsIi0eeWLFqyH7-ulyksJM5Liq-wouR52hlbylhSEmKxYrxLoPO_q-4_22_sGKG_k5HqmwFaBGEjz2p_CUR08dWs3EhRSo9E', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:49:00,575][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:49:00,576][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:49:00,576][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:49:00,577][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:49:00,639][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:49:01,119][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:49:01,119][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0NTQxLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiN2ZjYmNiYmQtMGVmMS00YmZiLTk0YmItYjA5ODVkYjZkZjU3IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.kjnvolxGS8rGalZKfHZOqMKoH3q-wIiP8e5mo5o7RYIm-UBrBRfPIDfEz7t1tXuyrgfGazrEwzHhUzw0cMbsddM6ezuQTGjw5YsGgyuFKKY9_XatvLHdsPdQTMaNjNpo0mn8Fs2ayEG2CuTlbPHKiSbN3kPK18W-iztb11NQmd4', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI3ZmNiY2JiZC0wZWYxLTRiZmItOTRiYi1iMDk4NWRiNmRmNTciLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEyOTQxLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZmEyMTY0ZjctNDUwMS00MDM0LTg4MGEtN2U0MGRiN2FkYzE1IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.oqyVDGM_yab25NRIBEJ5La64AgSDh8PX72XHDUvyrHJVwR02z1Xt1dPDUmEG7fsStroivMnZx7CZOquLxfeCrNbiZe6MasolE3gkI-SCw-d_FFxNdrwkyD0nS94Lw2v6PPOEe-VD2YvtpK62IO56lFplXU8VOmyEZUPYFdq82oo', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:49:01,119][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:49:01,120][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:49:01,120][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:49:01,120][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:51:00,224][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:51:00,724][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:51:00,724][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0NjYwLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiM2YxMzQ3ZDctMjliYy00NmI2LTlhNWUtMWMxODE2ZDdiMDgwIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.cbfvrIQFT2MP7Trer6B3xGVFvf0PY2sVprNjEvEy-_j41y32O1cfGFoUVjytm8jixoA0PipWQZqD37GI4YeaGyf9KjCOqD0ug8UVr3jEPsdp7FbLhYDVblL1k9pr45-33w4DOGSEk8z6kVhqtHz0T5oEgFYUAEeNhuxwTfzSEfM', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIzZjEzNDdkNy0yOWJjLTQ2YjYtOWE1ZS0xYzE4MTZkN2IwODAiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMDYwLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNzBmZTg0ZTMtNzViMC00NzgxLWIzM2MtZTQ4YzFiYzYzZmQwIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.cMwawYagH37rgEEPlO1UlT4Rvxr7hRuCVttriFvDJ1_-KlpnbnmRZSQSUhxw88C5hKg_fuhO1GDcHe9Sd-tL7QeK5xJweOH8fmuveS2zH2bCL-0zAG8irdxTD0jHPA2lNDY1vfX-nwKDUF-jc2DlxpgwcI7TMqCNuw-YoQ0o_Tw', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 15:51:00,724][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 15:51:00,724][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 15:51:00,740][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:51:01,340][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:51:01,340][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0NjYxLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYTdhNmFkNTktYjgyYi00OTRiLThmYmItYmRkMWIyNzlmZTY3IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.dKzRwLoiRO5NwVReoni7vSc_OzQyUEeqTkDrT2uGlInvgahHfH-os0AS1oNigiGxaRlZ4NVN4CyXgIiG2Wzl4adNlipf8ygUTiv2Wep_vaOiA_KHJmik-J6rTtf6_pWkwJHBEAggxNDarT7g8QvocRIwiNdv_Gty7odVl4NpFI4', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJhN2E2YWQ1OS1iODJiLTQ5NGItOGZiYi1iZGQxYjI3OWZlNjciLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMDYxLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMjA2MTExYWYtOWJiZS00OGFhLTlhOWQtYTkxZWNlZWQyZmM4IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.PjYvLaJEysRhbG1PuaP_YskIYMBqoh86e_Dp3NuzbJvFL0iNziMn0x8jOLiyXHhzdI364JW2d_5BK0ksXS5NTu4WtlO0yDqM4RvsGsYxCoEPGmaGIymG4DSuYBh1ZQVmuAQb2A8mlp05H7jp5-LYLfJjWhE2kSBgKsVQ6zXgYJ4', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:51:01,340][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:51:01,341][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:51:01,341][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:51:01,342][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:51:01,406][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:51:01,549][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:51:01,549][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0NjYyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMWIzODMxNTctNTYyOC00MjU4LTk3YjctMDU3YzljZTQ4YzhhIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.EQ3czudAMRA49LFShDXXDFAlwhTS3weLBvLJxJ4L7haE_Bs4EyP3xe-GOt7kM4actr3F1GEP_SsNo6Nr4VjP64UlLw-no0yDieVi0KwMg0M_dhNygfY71w3qo7-pzemkXFotdVhLA8N7-hOgm75suvRMx2SDv-KA1hIBGKE290Y', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIxYjM4MzE1Ny01NjI4LTQyNTgtOTdiNy0wNTdjOWNlNDhjOGEiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMDYyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiN2MzOTE0MzItNDY0Ny00YjY4LWEwNGItMzhlMWEyZjIwMTc3IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.k7hBk8y2aAbqn21oMam4luvATF27aMTbeUuHWiPCZr0D7YiCLvzDJRi8_9-hMfu3CTtHqBSDNxWe5cGhE8YYOo374WPMJaKTu5zs3suRs_47XEUUhScQSZ_W3yJQejTHgz9kSttK2_aRvBPe6xkik9Q1wfs-Cuh-SuS1ggxSj4I', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:51:01,550][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:51:01,550][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:51:01,550][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:51:01,551][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:51:25,722][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:51:26,361][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:51:26,361][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0Njg2LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMzIwZDEyNmQtN2NiOS00NmEyLTllYTYtOTBmNDYzMGEwY2JkIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.TiUqB01xNOA5PLj14zEak0LlmfS9gyBQcYm81iUarDIGrMQZFw-0XCW36NWlxtmPKTNrQ8ZXeipjBo4m02oKadIVT_MJUAX6RhjAbar5AQZKhyGUCfhHIWmeInNNKgvwvg0mV56mRsdAIUkP7fEpEmAiC21VNL0kDv2NpZZgkFk', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIzMjBkMTI2ZC03Y2I5LTQ2YTItOWVhNi05MGY0NjMwYTBjYmQiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMDg2LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMTU5NjkyMTMtZDQ4OS00OTk5LTkzMzQtNTNkNWRjZTAyZjAxIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.bm7xi_wffS4qTy3U-6rHctbnUH0Eou-INRZ7sfH5kHipsUhnZB-CVYUGJmGP2_q4kMuxZtaifeCtIfw5dmh_tXyVABe-1P1SjCGNpkXh4df0JUrRLWfVtaEckEO9Yaxhf2yEZyuhSwARljak4_Ex-mIyXi-D5Al8Xi4lKrz_jgc', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 15:51:26,361][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 15:51:26,361][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 15:51:26,366][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:51:26,972][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:51:26,973][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0Njg3LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMDcxZWNmYjUtNzJlMS00ODRjLTlhYmEtZTQ1ODkxMjI4ZTllIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.Rbbq7nWyVqJPiSYCiUpq-B5vXkOvyf8XuDzVgKjbNXWiJw0NOyn1oEyVgrmPj6XAAI0DxzTxmZstyNWJsC6xYUkEeye6Fj1xxmwsd0rp87gHeHBDV8mWIo5-ZB-XaedLteimbBSQr3YIxLcjQEVTyUOgFiYQxLQTUZA_PlIXAoI', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIwNzFlY2ZiNS03MmUxLTQ4NGMtOWFiYS1lNDU4OTEyMjhlOWUiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMDg3LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYjZjNjIwMTMtMTdmMS00OTIwLTgwOGItNDg0NWFlOGMzYTVhIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.CdFKyKO0ZKMR3XroAXWXaShvLvLKcCz3rgyEB9b46XBPqMVQawmWnWkiVDDQYcgZuPyge69pA21FsTvRwlMhfnH0gvOHn4v-qpOwVKlhd3cpJ7yWULEmrKDUJPBU0qw6nHFWE5ijD31JMbV5zZO2u8N1ZgGRDZlXl32s4YTgw6o', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:51:26,973][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:51:26,974][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:51:26,974][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:51:26,974][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:51:27,048][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:51:27,822][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:51:27,822][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0Njg3LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMmYxYzQ0YTctMDdhYy00Mjg1LTk2NWEtNTcwMGI5NmZmNjNmIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.QaCvw3xorUl6Yj3_vnlrTOnEhrM36wwVj2WEDsdVvc8RfYlXId9AJ0AsKuZaBJVneTc4ThnTUa7cltiFP0X2hiFJW-ekzB7Rk0hBbD0Tk2izmVAZJK2chRl6ioqUqqyFeEFhYFiTMf387iZFd5lU3USZU1lw8zH8Wo_IwxZvEKc', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIyZjFjNDRhNy0wN2FjLTQyODUtOTY1YS01NzAwYjk2ZmY2M2YiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMDg3LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYmI5Y2NkMzctY2VhZi00NjZjLTkwNTUtNDM0NTEyNjAzNGUyIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.cVv9u6SzkdfySEM57ahYC7UO3i1ml1exZUfMkI5k9ibiDcbRfm4QnF02wanlEtYYYuzyOtUMhtPi6slel8choQgIsIphr5appHD8gkaBkRT_q6I2lWZ9rDOa2FjwVZ4pvjvQZfZuo6J-QP7ky8WMCKC1axXFjbWP4RyKN4dHxvA', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:51:27,822][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:51:27,823][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:51:27,823][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:51:27,823][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:51:57,409][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:51:57,811][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:51:57,811][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0NzE4LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNDE5ZGMzMjItODc5MC00YzIyLTk1M2EtZDY4ZDU2ZmI1OTBiIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.F6UUTXAVpCXGceyTb_E_jb7rKs9W72rws41AVE6NxxPyRQXizFs8QEr92xcKng31UB6AAUAFCVdczhiRQyZeNmk9mexBK05RQPf3S8shNCTE_c_ZKMtpcPzHkXveg_VZM5Z1enkYJoQ1RJJTKCORCp8xPdLoJT5Hkg_ipM_ojLU', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI0MTlkYzMyMi04NzkwLTRjMjItOTUzYS1kNjhkNTZmYjU5MGIiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMTE4LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiM2NlMjhmMzEtNDBiOS00MzM5LTk3NTEtNThkYWYyMDExYTcyIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.nVZCLvrIcIGOhCTG8t63YcqkcElhcyShFM1aziRNZBxJpMU1O_NsFxHPpQF3C2_usqgJXEMSx3OC9z0xac91uL_7rqknGMJfn-pvpHl-7KjizEmu0U8fhJbztPmLJ1UOmrQ-5nybPPf5luEoihcsjB_4Qd3hN5XQrvCCIl6p0Yg', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 15:51:57,811][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 15:51:57,811][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 15:51:57,816][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:51:58,249][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:51:58,250][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0NzE4LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZWNhZjUwZjAtNDExYy00MDkyLTgxODEtYWNhZTBhMGVjMmI1IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.n-1KYsBXEsnhG4FO3qelc2tZg8UyJMxOP1jVjDs-CtdD_Z_AaHJFJ80D7g91vM9rWq9g4RgQJEIV7_EitPE6H-EJxp1H3AGZqljj0rpqs2ipgyLMJwfqkU_t94c_jDhQ0Do187RLIMX4jbKxI0WEQy-wbVkUnqGLV2o-gjRvgNk', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJlY2FmNTBmMC00MTFjLTQwOTItODE4MS1hY2FlMGEwZWMyYjUiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMTE4LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYmNmOGU1MWItYmI3Mi00MjlmLTk5MDctYzk3MGViYjI2YzUxIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.FUnAqH7FmXnfayY-8fmp6LqiM58WKMNzN_Au9T2V8aQ-El_zoDVdPSzSgAPIaJFxxDqlEP0UsMZjWaIinRSnezseHXVht-1qrlpyv_UFRC-HTiGRFuHKIVUMLIzqKB1ImxwRO23rOEqNMUseTcpQxu3La0fYC1K4EY7xo2tq0h4', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:51:58,250][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:51:58,250][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:51:58,251][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:51:58,251][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:51:58,326][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:51:58,685][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:51:58,685][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0NzE4LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNjU4ZjA2YjAtN2JiNi00MzNhLThjZjYtNWFlMzNmNzgyOWNiIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.dUhCEBlabOGqAKXfNz3e4UcZb4tq0nDHaqRtvr2zfE3a2f4wOI-OkvNlMWX_nwwrtyU4H5bHW17_JRatxlPCqA_E01-RpGytzHqI9mFrvq31yJv6HS3Hnu4hgAgCZXUxti4y7B-TGuN7XmaU5hTMOCHrirD5t7ocRz-ZEFxN46w', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI2NThmMDZiMC03YmI2LTQzM2EtOGNmNi01YWUzM2Y3ODI5Y2IiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMTE4LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiOWI3YjIzN2UtMjdjMy00NGUxLThhN2MtZDhiNGIyMzdjY2RlIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.eJY03WVSaVCH9UL63OPz9jdf79cEUXfT7qr52pe5ckVYDAIfrjvQQUPyfz5CTPAoIUp63dFmSluCXcjdf93aRw9HeHVQkK6-vqBL8opUJeqZEi2dCnekYJN6kl5EUH8F-441faJ_e4W6g7ESKrwpbJkKNUxqdBSUIAhOJxfezIQ', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:51:58,685][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:51:58,686][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:51:58,686][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:51:58,686][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:53:13,762][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:53:14,572][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:53:14,572][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 500, 'message': 'Bad credentials', 'data': None}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:53:14,572][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 15:53:14,572][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 15:53:14,576][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:53:15,318][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:53:15,318][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 500, 'message': 'Bad credentials', 'data': None}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:53:15,318][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 15:53:15,318][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 15:53:44,829][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:53:45,557][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:53:45,558][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0ODI1LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNDZjZjViZmYtNGM3ZC00YzI5LTkxZDctNzgzYTg5MTY0MzZkIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.LN5PWier9JOVMbUZClHaniZzIrPlUDZNAglbA2iOIm2L8zCaZJuiBYyfmOMqP0KVs6WMlkRQ5biw62nrXGXerOX5KBSex2ksDdxL4FoqnjTumQSTOhPVIAfbkMuYUyJAdKc6oQbzbaDJqnsAUDkdZG7a9AVZLqkaFCHhsibfqkg', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI0NmNmNWJmZi00YzdkLTRjMjktOTFkNy03ODNhODkxNjQzNmQiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMjI1LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiOWE4OGRlOWEtZGViYi00YjdjLTk2NDEtNjMyMzAyOWNmYTg2IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.BStiFvPIagenIaYlKdjzlYVgThrpAk_lfbtqhuQiuxF6CO02RvMkQ8tlxYRhZNNkTjCLAAsAnl9de6F9bipjA4nxH4ShZ310uiuAz1j143_oh-7dm9w-aZlOEbmYIlZSxS9sNKIqe5bSpFi8XpjBvKu45D2xJu7Iof58aAE5kqQ', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 15:53:45,558][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 15:53:45,558][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 15:53:45,562][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:53:46,311][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:53:46,311][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0ODI2LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMmM2YTI2MWMtZTQ3Ny00ODBlLTk2YjMtODU5ZmYyZmYyNTI2IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.e8b_A1jSgcvQZo6ohS7decTBZe0km7dvcDD0ZwS2Lb8MM93iiNRPIiAFwGGo0Ekkv0YmOyVQ0bWpielIBvCNJS5HpHFR4rJ8Ln3mSpGX2MFJbcpoIZTByg27nzAJfkK9J57h_aPZkkMcx0raAPVhTnMl9zUzmI5wsb_3qofCTao', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIyYzZhMjYxYy1lNDc3LTQ4MGUtOTZiMy04NTlmZjJmZjI1MjYiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMjI2LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZGM2MzExN2ItYTU4ZS00ZWE3LTk3OTUtNDZlNmYyMmVmMzFkIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.USrEne9SY2oZkI_a5ez3qUmu4ZzAAYzMjQoAo1NB0yTLY4D-5CjUJOWSu5RhfoMdZWCR9cku4yhvjTcqVONtfLk3_ak7kWGBNhkxzNdGaFRLO4658_oUGLe7Ncqm0FRp4Ti6xHkwNj--7-S6R29H72vHGzF-fTuNPwLanIjNrUQ', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:53:46,311][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:53:46,312][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:53:46,312][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:53:46,313][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:53:46,374][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:53:47,110][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:53:47,110][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0ODI3LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNzNlMzgyMjctZmFiMy00ZGQ3LTg1ZGQtYzg5NmQ4M2FiOTAxIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.Os0uLL9GeFcfoBft5VTSUrEtIsrT4wMXXGVSfCzS7DhCDYVuzmaiRsUhvbKuOM_nhq6gW9kLuuyiIzmvVDdAV28IzY0Z1KVbC1_OTMabwdtn1sGJ9cMwM8KDVGm1cvFow-QQqzRmiEr3klKUAnByNFn0OABKtZmPNqp_aqAtoPs', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI3M2UzODIyNy1mYWIzLTRkZDctODVkZC1jODk2ZDgzYWI5MDEiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMjI3LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZDFjNmI1YTEtNmRhMy00NzEzLTljNWYtZmIzZGU0ZjUwYzg1IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.pbvMRFCw-vQ8nZgz3hcCxKS-xKsNcIAEna9v2H1WBQdgltnpcJzKFIXcfNPLj56FdLtLY2i0FMEx4lFWelxHNSZrW1fw7GDtEH_zPtvzytf1LLzikP81TQzHEC9fCXncSu11MvhbIuWRNDH651e4lmixRx6CyFs3ODBfdaTqVzI', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:53:47,110][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:53:47,111][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:53:47,111][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:53:47,111][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:54:02,013][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:54:02,505][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:54:02,505][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 500, 'message': 'Bad credentials', 'data': None}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:54:02,506][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 15:54:02,506][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 15:54:02,510][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:54:03,062][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:54:03,062][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 500, 'message': 'Bad credentials', 'data': None}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:54:03,062][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 15:54:03,063][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 15:54:03,068][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:54:03,723][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:54:03,723][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 500, 'message': 'Bad credentials', 'data': None}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 15:54:03,724][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:54:03,724][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:54:03,725][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:54:03,725][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:54:40,448][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:54:40,816][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:54:40,817][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0ODgxLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiN2E1MzJmMDktZmIyZi00ODI3LTljOTYtYWFlMmY5NTRjZDVhIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.gqJjuUH2YmqmgEvQZLyWAFRrwyxrBgyx_GxrLNFzL6xxgTZYwOdlMII_UaM5vnbL8FLmiyxDw6VMP4cD_435-Dh7usFZPRyN2c52UfO1e4I6pYtY8fhNqoP46-c9xeS3UYk05YutM1AWrsb8De7q7XI7WhAWkiFvrpcU5NHDIGU', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI3YTUzMmYwOS1mYjJmLTQ4MjctOWM5Ni1hYWUyZjk1NGNkNWEiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMjgxLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZmUwMTA0YWYtOTY5NS00ZmRlLTlhNWUtYzRlMjQ5MWU3YjJkIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.onQBxaMjysdnQy6Gm8ZN10kXLeZrRf4ckTK-UDDLBi4Wl3f0e8kmn8VTetDct35WN3_m6tWStzdX6tdaH3XM7BbV2Sq3rT4JhRYNWrgNJLtsOaBhYd9z9gVptAaAXvE6KhWgpjQJK5ocGqewJmM4tEtCpVp4Io12haygSDkWSiw', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 15:54:40,817][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 15:54:40,817][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 15:54:40,833][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:54:41,217][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:54:41,217][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0ODgxLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMTBhOWJlOWMtYmM4ZC00MDg4LThiOWEtMmNlMjgyOWZiOTQ0IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.fvQRXCxBTUUMzQjDuZ6m_DhleKs25RD9_TewidBArq5XkfjaHjVhZ2iaoYnZKmgf6VFm1WoQr2b0PjXApTWZTeUFQyHppOjZWChzvXUFfoiTbv2zyEGdlXLQIQ8IwbjWoQ-StXsrJPqn0eqkIF876kOLk5WtUU6GVEA0sYA7G-M', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIxMGE5YmU5Yy1iYzhkLTQwODgtOGI5YS0yY2UyODI5ZmI5NDQiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMjgxLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMmY0NjVhM2ItN2E1MS00MjY1LWE1YmQtMjdlMmFiZGNjZGY2IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.L6uabOqcRKow2-6XM19pR6anIADPYNwHLt-7-vYv8cEtn7z4_Eb3-gUZ28-6aFr-kZOG4uUUgiGlB_qj3hmka_HAfHQMPCgKnn7rVN-qc9g21c76FTeptaPp9pg3gRCsgfUP7U0k6yzPaiUNOl9ZSreNxYqHT_nNd8a8meNGASM', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:54:41,218][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:54:41,218][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:54:41,219][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:54:41,219][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:54:41,281][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:54:41,695][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:54:41,695][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0ODgxLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiY2ZlZWNiZGItNDQ5ZS00NjE1LWIzNmEtYTI5NTlmYTFlZmNlIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.MrmDAg-YA-63vkLc91ba5JEnw3Yo4kELo6Y3oj9iEivzfHE_SvQg6Dm8wPqwnZYzPp3PPbM5qIFRQYpsgqnpV8usHI1Zlbz922JTk3HVfrjcaCrWScM113FCp7m4FHI17d-IHz8uHMW73NeQ7a_fsu4XH9ZFkYY58YjHyr1k8PE', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJjZmVlY2JkYi00NDllLTQ2MTUtYjM2YS1hMjk1OWZhMWVmY2UiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMjgxLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYTkyODMzMTgtYTI2Zi00OWVhLTk5MmItNTE5M2U5ZDM3NTU3IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.BcSGFYkZscMnKEEjwBkW3iSE-XTtcoUVIqWI8qyi93FWLW8FWbuIan85RgQK2WNx3oS5c-sV6Hs4Oky9NYIcyoH1n4rZg_rgxwd4NxE4nREE8m5IxVcAeRrmJpN60m0XcgBpfWAolEixLI1C-36tKQzzi-jZ7f3sBD9ZvFkEsFA', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:54:41,695][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:54:41,696][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:54:41,696][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:54:41,697][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:55:01,179][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:55:01,684][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:55:01,684][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0OTAxLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZmFkODFjZjAtZThiYS00YjFhLWEwYWUtZGIxOTJlZGE2NTM3IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.HnTi0oOqq7oCp2L6-Hh_0n2VJMbTg0MN9oyuEoCXTnt-C-3aYxpKb5sLkWSZwVKjH4jnAq56b1Pb6l4xhfTEPcxs5TDR_bLE2UWeQkbCWIgEfwKXYdjW4QDc2DzhldmNRWd-gy3jplOnboaHcgEFVZC7-9kenOA40cQ7TwV0gQk', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJmYWQ4MWNmMC1lOGJhLTRiMWEtYTBhZS1kYjE5MmVkYTY1MzciLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMzAxLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZWVhZTE1NGItOGZjOS00YjJiLWFkNTgtNGU5ZjE3Mjg4N2FiIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.FUtKqLbZ4Rcuey-BEw6wU8VPfUZ4chWN9CAcZdAsUn_-hbz6VSN3W6r26XokQc_reeA4f7VK5UU-OrPfqvBh79RG8MYzgd2riSFapRolIBLiUiCs7JLTcRV81UO6B4TbwDQUiaeRWgt6ppSmlLdd5SyHtAeSolQ8gwUOhces74Y', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 15:55:01,685][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 15:55:01,685][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 15:55:01,689][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:55:02,095][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:55:02,095][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0OTAyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYjEyZTEwZDUtNDI1YS00YzdmLTk1MWMtYjY1YmRhN2EwZTUyIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.M8cIz-ll3ZSiHnrYI83weOz5kOV9GtmSwQE_f6f4D5-q0fj_iacru8S-4Y687DBLiIMUBn_CHma2boRAtEuBImx_DQ0gumI7ZFPPmXr28SVvZhHkpd7WMoCROmuKLuaXD_uId7n5MIY7x285dqn5ixfCZuLJyNCsNKlv-eCqedo', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJiMTJlMTBkNS00MjVhLTRjN2YtOTUxYy1iNjViZGE3YTBlNTIiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMzAyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYmIyNTlhZmYtY2Y4Ny00NDYzLWE1NGItNzRiOTU3MWNlMWJiIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.BZxkyVhBC2E_g1LSqKlD-82ylwGCGdodEIxZEdxLf__AhJ3WJ4VHW_8ES4DlTiUFO2HGhksU9e_NA1plSixjznwRQjRbjInj9_kyCpSTxilVh5t-GyKTQsU0LP34Y9ZuUgVzkBbDXqgU9P93ivIHFfIPectrOFod3b2oK6-R-ng', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:55:02,095][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:55:02,096][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:55:02,096][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:55:02,096][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:55:02,168][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:55:02,715][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:55:02,715][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0OTAyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZjIzMDc0NDEtYjI4NS00NjQyLWE5NGEtNjlkYTc1MWZjOGFmIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.ahpgBdwJnAVTaLk6uV8-9BmTsiU6NqBueNF3LqWsO1v67pyk-Ss270hQnObdrvR190I7VBSdlTsY32Y6yxMEWgX4db_EgCNjLi7zQpyem6Nbzj4ymztnpGwi9QZ0tPcASzI6qzQejXS9e4Lvb_WlE4GxLZCAhfCWI6h8kRgUCkc', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJmMjMwNzQ0MS1iMjg1LTQ2NDItYTk0YS02OWRhNzUxZmM4YWYiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMzAyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZGM5YjE3NmEtZWQyMS00ZjhjLWE4M2ItNThjYzBmZWFmMTZjIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.ZryK1bP5vAZkaOoSLQtGVoVTwSHVqmz8Hw6foOhtN9bNLbdjO0fmSH-mP3c7zF7QhbWPZgJf-zqQy0epRScwY3wQ58iMu1A62fjlyw3eJS2hJo1cqWlGZshvmLbklplxN9w2laGMauP7XI0F8yvFwm2KanSewRXr6CA53l8eTxA', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:55:02,715][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:55:02,716][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:55:02,716][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:55:02,717][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:55:06,106][main.py 42][INFO]: 
+                                                          _ooOoo_
+                                                         o8888888o
+                                                         88" . "88
+                                                         (| -_- |)
+                                                          O\ = /O
+                                                      ____/`---'\____
+                                                    .   ' \\| |// `.
+                                                     / \\||| : |||// \
+                                                   / _||||| -:- |||||- \
+                                                     | | \\\ - /// | |
+                                                   | \_| ''\---/'' | |
+                                                    \ .-\__ `-` ___/-. /
+                                                 ___`. .' /--.--\ `. . __
+                                              ."" '< `.___\_<|>_/___.' >'"".
+                                             | | : `- \`.;`\ _ /`;.`/ - ` : | |
+                                               \ \ `-. \_ __\ /__ _/ .-` / /
+                                       ======`-.____`-.___\_____/___.-`____.-'======
+                                                          `=---='
+
+                                       .............................................
+                                              佛祖保佑             永无BUG
+                                       .............................................
+                                           佛曰:
+                                           写字楼里写字间          写字间里程序员；
+                                           程序人员写程序          又拿程序换酒钱。
+                                           酒醒只在网上坐          酒醉还来网下眠； 
+                                           酒醉酒醒日复日          网上网下年复年。
+                                           但愿老死电脑间          不愿鞠躬老板前；
+                                           奔驰宝马贵者趣          公交自行程序员。
+                                           别人笑我忒疯癫          我笑自己命太贱；
+                                           不见满街漂亮妹          哪个归得程序员？
+
+[2022-03-24 15:55:12,456][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-03-24 15:55:12,503][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:55:12,504][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '获取验证码成功', 'data': '316415'}，
+期望结果{'message': '获取验证码成功', 'code': 200}
+[2022-03-24 15:55:12,504][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 15:55:12,504][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-03-24 15:55:12,509][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:55:12,891][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:55:12,891][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0OTEzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZGUyY2ViN2QtZTQwYS00ZDFmLTlhNWQtNGY3NzY2NjcxNGQ4IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.H7GWkKPtZjqb990-uq6mmg5xpaIMGF3JaM_d_X8D5PfehjoHWg0nZ-qSrj2I2p8zveYwl8Jk3NhW0RN-0zWHjPGRvXgCLZbd0SurIK1me8TJNatNeGpHMie9I00SGjhifl2VY_qsbJssVVkoFfyNz3-sVK4UjqWNRZEW2ByXqrI', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJkZTJjZWI3ZC1lNDBhLTRkMWYtOWE1ZC00Zjc3NjY2NzE0ZDgiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMzEzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYzg0NDFjYzMtYmNmNi00Yjk1LWEzYTctZGE1YzNjOTY1NmNmIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.P0YrbMATLNXgGzSD3DCYL5dPoVgBAXEYyUYs8E-cnbvzKjrT60Af_-Hc6c98ZWJlorD2riSsyvo_FSm6SBEx-QW1mbjC6RHsZIluqo_cCsNM0h43VWTuOQXzSySl7sO9rVJYyaOdpRtCj_WY-_IwUWvlBAAQ9iqeOJqyd0J8FUA', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 15:55:12,891][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 15:55:12,891][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 15:55:12,895][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:55:13,289][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:55:13,290][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0OTEzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNzYwNTc4ZGQtZDYxOS00OTdiLWI3ZDEtNzhlNzQwYjAzZjQyIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.ByGxllp23yBOULk9MPHi6j9Bd5tbOK5ikUEmq8ByiW53w7YwQzOphs9zVpNPC0k8d3jfLelNUNrqgIIPvCWlzrElOOtncKunbGbc0PzuSf7ypBgF8yZHArZTmOgtgHQky9VCdR1BQMDokCxehIQM1DmGfzmbZttMvycPU34YIPI', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI3NjA1NzhkZC1kNjE5LTQ5N2ItYjdkMS03OGU3NDBiMDNmNDIiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMzEzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZGFjMzU2MGUtYjFlNi00OWMwLWE3YWYtMGNkMWE1M2JlZTU4IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.EqlH9Fcde_uryKfsP76-VwxIZbZA7TFtewGqNhhzXbGOIPPFa0JgxSRyDfzrAHPD3e695wNJMUv6-UgCJzLBZcOz2nZkwiqRwKawffaTn8H5BP3PcgcyuStMrLYDRcC9UR0Gbn8xbo2jNXFr5FcelF4dOOwvHfiwdACzxd9_iS8', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:55:13,290][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:55:13,291][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:55:13,291][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:55:13,291][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:55:13,352][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:55:13,728][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:55:13,728][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0OTEzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZGU1ZWRiYWYtODI4My00MWU2LWIzNWMtNGMwMmU4MGM3ZDlhIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.QVT81uQD8Ox23M6DTXWKmdC61Gs1pYE4EWJ3jj2EPBwiTjlYtCSaod3lVHUo_aGDlCDcYv0891_LnP7X0ltgI3K5J_e1EWiP2j7m9hraBPK332pch5ksJo__csyfnN5sGowj-RpU_O8cs1eA2s1tNB8jvH_SDeE39wZ7m7LreEw', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJkZTVlZGJhZi04MjgzLTQxZTYtYjM1Yy00YzAyZTgwYzdkOWEiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMzEzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiOTUzOWU4MjAtZTc2MC00OWMzLWJkYmEtOTU1YzJiYjZmOTBkIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.c9dfg1EW1Zf_N1p6rUjWySipdsjeC_FDLcvqbI4mVoGYRRsNFD8HSLwgJJes66K8PAy9pEekI8j7DURnnsa6HDtoDt4h-iTt9rn02xeOtIsO5aVIfUXXvX7SmKEGx1VGlf3ez_vIq-Z8GnhSc5CgYY2CNahCr2sjsxS67CsPf9Q', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:55:13,728][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:55:13,729][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:55:13,729][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:55:13,730][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:55:14,227][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:55:14,227][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '注册成功', 'data': None}，
+期望结果{'message': '注册成功', 'code': 200}
+[2022-03-24 15:55:14,227][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 15:55:14,243][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:55:14,608][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:55:14,608][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': 1}，
+期望结果{'except': '操作成功', 'code': 200}
+[2022-03-24 15:55:14,608][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 15:55:14,608][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 15:55:35,426][main.py 42][INFO]: 
+                                                          _ooOoo_
+                                                         o8888888o
+                                                         88" . "88
+                                                         (| -_- |)
+                                                          O\ = /O
+                                                      ____/`---'\____
+                                                    .   ' \\| |// `.
+                                                     / \\||| : |||// \
+                                                   / _||||| -:- |||||- \
+                                                     | | \\\ - /// | |
+                                                   | \_| ''\---/'' | |
+                                                    \ .-\__ `-` ___/-. /
+                                                 ___`. .' /--.--\ `. . __
+                                              ."" '< `.___\_<|>_/___.' >'"".
+                                             | | : `- \`.;`\ _ /`;.`/ - ` : | |
+                                               \ \ `-. \_ __\ /__ _/ .-` / /
+                                       ======`-.____`-.___\_____/___.-`____.-'======
+                                                          `=---='
+
+                                       .............................................
+                                              佛祖保佑             永无BUG
+                                       .............................................
+                                           佛曰:
+                                           写字楼里写字间          写字间里程序员；
+                                           程序人员写程序          又拿程序换酒钱。
+                                           酒醒只在网上坐          酒醉还来网下眠； 
+                                           酒醉酒醒日复日          网上网下年复年。
+                                           但愿老死电脑间          不愿鞠躬老板前；
+                                           奔驰宝马贵者趣          公交自行程序员。
+                                           别人笑我忒疯癫          我笑自己命太贱；
+                                           不见满街漂亮妹          哪个归得程序员？
+
+[2022-03-24 15:55:41,864][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-03-24 15:55:41,907][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:55:41,907][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '获取验证码成功', 'data': '040320'}，
+期望结果{'message': '获取验证码成功', 'code': 200}
+[2022-03-24 15:55:41,907][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 15:55:41,907][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-03-24 15:55:41,912][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:55:42,277][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:55:42,277][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0OTQyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMWExMDgyYzUtMzc1Yy00YTUyLWFmNTYtZGUyZTgyZjI4YzkyIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.NjU9xlSfIu0GJis6qI59uCFCj_UMarj8NL_-S2GOuxZWru65mFc86583J0CsTkOtRXxXdVlxjEbL2IhZVUPukKOdwmUZpUBuaEucasoWftFstOAiaMVZjqvGUTRiy_QCknq7eMgLsKw-cqdW33DmMot4lsw-F3kzO6nF0UxWijM', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIxYTEwODJjNS0zNzVjLTRhNTItYWY1Ni1kZTJlODJmMjhjOTIiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMzQyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMDQ3MzM5YWItODUwNC00NmUzLThlMjYtZmZhMWJmODFmNmQwIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.iD-1--qpKRIdBtKbKxX_dFVWynLZReSoKGgp43Ox8OiWHf-gD2koIP9ePRljKTFkG20XYpAhT9tik0YrEBzJU9yUd6rUv-9EnHNAQDnq_W-Z4OiKvPEBBWk8dY9R8jus-Hxd1DaWZU72a5xyT3RORSA4l7MGtuHiqC2RfZaNjz0', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 15:55:42,277][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 15:55:42,277][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 15:55:42,281][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:55:42,707][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:55:42,707][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0OTQyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiODM5NDUwZWItZGZmNS00MzMxLTliOGMtY2FiYTZjOTBjNWI3IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.crMmCREQ__ZiteKw9WDHOEePMFY9AAEZy9E1YHDa9ZQuP4kNTHW05Y8Imjv0ak3Hbb2lf3pwBDkYuVkdJmhmp3yXQWA9xLEr4hU_xbBhkjbxN7qw45rnUcSpU_tFjk6EQcLbPSMX2DvPU0KkeP2oWD_VPPVSmbkli7GDFdUs0p0', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI4Mzk0NTBlYi1kZmY1LTQzMzEtOWI4Yy1jYWJhNmM5MGM1YjciLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMzQyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYjUzY2M2ZmYtZTcxNi00MWNiLWE4MjItMDMxMDBhY2JlNzE1IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.dlFckDV0yy6SIZzRkuHM_lkgBRO_amvpe6vTCnBFccanrti7AcuuS-WeMFNr8_QUpU73H6bdZMzuZhzqd6vSgHNe09j931ShJFpSrLwqbgaib8REa70oNv2jyLtJ-D6vr5ByjRIhgEBAfpRTGJW0D86GU09f1EwQuxcqkmONork', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:55:42,708][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:55:42,708][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:55:42,709][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:55:42,709][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:55:42,770][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:55:43,197][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:55:43,197][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0OTQzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMTBhMGQ3OTYtMmUzNS00MmRkLWE0MjMtYWEyNmNjMDE3MGZhIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.Gc6VII_gJU6_AcgWBpGc2X-bjsAbz7nzV-_kLBo0l-J0O85lR_1TGeEpmyLAkf6XHOz8XvcGCcCymSX794fhwy3tP8noI_4NfMtXduquhqTFIM2k5_0oia-D8YtSmPrxSdiElwCHYXrsashbELgMMqfZ40koOzRVJ38_0WvFLKU', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIxMGEwZDc5Ni0yZTM1LTQyZGQtYTQyMy1hYTI2Y2MwMTcwZmEiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMzQzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYzJlZGFiYjktYTk5NC00NGUzLWE4N2UtMmI2MzAxMjZhZTdhIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.RjDucSwxsIax4m-r9_0qfagaPU_IWg70nnO_eNYpWCx1zApzbu2jrfsBu4vrqjWKI5IozyuwVy2jzs813H10XPgwohZKXjmZlFqdOM2pgxU60hBytaFOTwv-Ha6dHijYYPhNL0LdlynpX-QtTfyD3pouqBcBmNfRJanf-6Im_oQ', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:55:43,197][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:55:43,198][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:55:43,198][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:55:43,199][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:55:43,915][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:55:43,915][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '注册成功', 'data': None}，
+期望结果{'message': '注册成功', 'code': 200}
+[2022-03-24 15:55:43,915][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 15:55:43,920][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:55:44,572][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:55:44,572][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': 1}，
+期望结果{'except': '操作成功', 'code': 200}
+[2022-03-24 15:55:44,572][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 15:55:44,572][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 15:56:28,077][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:56:28,476][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:56:28,477][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0OTg4LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMGMyNjUzZmItNjc2NC00OGNiLTkwN2QtYWUzNzczMzk3ODliIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.CBUDcoHT-ebdiMUFMJUswNtgXPXAFHIsoTpsJgz9vnFgAPEu5ba-abS_8ULz0j3J0g9mMZFU-oHF8KgfkQMlG1uGHrc9OrQI2-xjiImyq0VBpy8rIO1XckuuRnDpasBArb6mWkBLY6AyiTOzeFudJ2BEy899gQSx73m23BSxV9k', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIwYzI2NTNmYi02NzY0LTQ4Y2ItOTA3ZC1hZTM3NzMzOTc4OWIiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMzg4LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiY2FiNWM1NDktYzA4Yy00ODFiLWI0ZTMtNmJhYTBmYWNjMGFlIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.Una517kr9-NdRtdXdTXkIfAFQta2QJSNSztBXv1hOdZTt3k7CINjtDsU6ohVKYpULPDIST4bT-3cAzZTi7a08AdshfDKcjy6oPv5cz2M8FTryhJqBkyQQcuYfRcePRJbFcapg5RKIFeHiFKuSmYAdZH6cR4vGRc6UAlC6h0ti6A', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 15:56:28,477][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 15:56:28,477][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 15:56:28,481][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:56:28,851][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:56:28,851][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0OTg5LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNWZjNTgwNTgtNGY0NS00NDI2LWJkMTctYjhkZDE0MmFmYzI3IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.cotIojFor1I0X1dinjlKyZchDj6HPaTM3YKx0rTw8lKBJ-hNyYqsQt_EYdQRg_bJKTQbaDSltO-Cj9-iqz8rxIlgFvLNJQQQNDzHgBk5zvnsNdUfgzP5yfyqAGlGOkuAb5-YfXmy7ah1fe-K8z8hHG5x_Eb6IA-49dOe2teRVuc', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI1ZmM1ODA1OC00ZjQ1LTQ0MjYtYmQxNy1iOGRkMTQyYWZjMjciLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMzg5LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiN2VmZjNkYjUtNGU1Zi00NjVlLWFlNzMtNzU4MjM5NGQyZGQ2IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.Ipmng03c1zzkVqqV7O1gJLgbAo-6uBvqQwMashWNBhqmAqzIYeUDMSzmZPIvAyf1pBp4d9NTJIEjpK9jfnBnL6XeSYHjlOl_Kj73Z5ZShsqpgo8TNX5StXJ3aOLXkixZdu5a9tw7DUAQC22ReUe3DcvSeOszsDjRODnDqGuoztA', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:56:28,851][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:56:28,852][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:56:28,852][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:56:28,852][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:56:28,915][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 15:56:29,338][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 15:56:29,338][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0OTg5LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZmYyNmNlYmEtMWVhOS00YjQ3LWJjYWMtZmQ2NGZiNzFmYzM1IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.Iruow6bW64ZI2aoeleCkSaBUZ10VYTz9SRILG7_2-uLwyRvY5MlqpzccIKIHespIXdV-sL6JRTUex8aMXXzD3gGct7o6S9Yy1W1os1IgPzlblwBKoykbiTv9UQ80z7nFBy-dh5Nh7a697SiqBMZ-TSZ5LvloOKHzzWlQy-TSKPI', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJmZjI2Y2ViYS0xZWE5LTRiNDctYmNhYy1mZDY0ZmI3MWZjMzUiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMzg5LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMzViNzFkYTctNTQwNC00MDlkLWE4ZDQtZGQ3NWY1ODA4OGIxIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.aVa50_j0O9lBwp3b0sUFdLO5texfvyJHlJEjXJlPM6CoTifg9QOdR1tLTzVZ3u-OdwDglLbZ3PzIwXmvFpHJpGH2Y4QyA69UJSQqJvLv0lHcgLO6AJsZmE1vW1wVDx6Zx-I4oFziK-amrZxkEFwe5YVJCGgB7SxEgZu2x46vegg', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 15:56:29,338][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 15:56:29,339][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 15:56:29,339][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 15:56:29,340][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:11:11,714][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:11:12,328][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:11:12,328][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk1ODcyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMjM4NzM4YTktNTUzZi00MzExLTk4ZWItNWQwMzhmYzVjZDBiIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.nAZBuuooNUi0-o_bUpEGMcob7Rg0971HQX1g5tZkKlqhSZ7_PPtx9XAYmP6ZaKTOwSuDyJBwtXlMPIfpNVYGZXW1bpY8YK_Iqs9IJ0EU8dxyeqHxLylm7lueJY3cuDb7EcJK6o4UFsW9iveDKi7nS39VsS3mM-1eEigFSmOD3Dg', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIyMzg3MzhhOS01NTNmLTQzMTEtOThlYi01ZDAzOGZjNWNkMGIiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE0MjcyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMjQ3MmZiMDItYjBkNy00MmE3LThkZjItNzEyYzNhYzIxNzMwIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.Yd1Xg2hwhjWC1F4Il2y3w8DtDX1o6etalaN_1fUcJyUo4ec0B5XRY7k1bNT682gQGe-ZO_jiXaRcKhiaKCd2v6J8tgLR-voyangeKXEUH0ILl_Q_EqOOB36oeOtgbsJsFAgOobyyBl3nYBWiTqX2P2i83jgwRvwhDL2O4wQkck4', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 16:11:12,328][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 16:11:12,328][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 16:11:12,333][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:11:12,975][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:11:12,976][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk1ODczLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZTZjNjRiNmYtYjYyMC00ZDU5LThjMDYtNGZhODZlNjU1Y2Y0IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.PJuuJypniRW7quNoqXbHAskTpl_l8487uukBnHyP6Uu7xwpTTRd4fpeNTxBk11qYVed1q5hAzIG5eHoNdyW5ksFJWa1AINizpevgglZiB0XNFUoX1SsbwjTXY3ecIfx0vl13_IHCmnb3BT6Tfv9RIJECkJ5KuvndtudGCBroPFs', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJlNmM2NGI2Zi1iNjIwLTRkNTktOGMwNi00ZmE4NmU2NTVjZjQiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE0MjczLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiOTg4NzNjZGYtMzIyYi00OGRlLTkxYTktOTEwZjdiMDEyZDgyIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.CKkx-AyuF7M8fEBhnUGWL8dKb21A9Lt5y7NyOUkTIw8vU94chs7okQ1xteC70PdWU1pTKySLmdE-Nf6HFdzmruU56YZkhuUqiRsDGs75u9HtDgy6LqQOTYIS7a21X4BNXSPAnKI6uAneyAe5Bg_6ouDYzDe6lqi_4nb_IvpFOXU', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 16:11:12,976][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 16:11:12,976][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:11:12,977][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 16:11:12,977][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 38, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:11:13,051][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:11:13,710][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:11:13,710][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk1ODczLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNjZmNGRiNzgtMDg0MS00MWFmLWI5MjgtMjc3MzYwZWE4YzEwIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.O2M6Ht9OkNGUNPYxAkD7vO2HSHBRpz2TwmtC0H10X6C-XBFNUp1oakoKgnMhteJVkQCidXTcNlxEgi-RApeuqBhL7eZd__N0rO9Rkif9dA1qIzv50VxF8YPrHUw0A_yfDAlzyfrEMQ7CyI2IzWp02MVWFWvmmj6pBRvhtSoe-g4', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI2NmY0ZGI3OC0wODQxLTQxYWYtYjkyOC0yNzczNjBlYThjMTAiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE0MjczLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYmRjYTA5OTYtZTk5OS00ZGQ1LWI0MmEtYTkwOWExNjVhZDNhIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.ZNmK_I_7UNmhb2SWUoI-O6ZO-7q6l3TM_R_X6VLW0jdHeznS90-umS00sco4KIdQSt56OnwKKoIwazJY8i0mpJfI_ykLXlkZryGzMXrZQRb7PAQCuWAG9FHkRFyX5Gslyu9VZbzMwPGFpvUAFOxnlyW8XQ6_9wCkdwublDLSXXA', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 16:11:13,711][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 16:11:13,711][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:11:13,711][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 16:11:13,712][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 38, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:23:51,853][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-03-24 16:23:52,125][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:23:52,125][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '获取验证码成功', 'data': '676950'}，
+期望结果{'message': '获取验证码成功', 'code': 200}
+[2022-03-24 16:23:52,126][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 16:23:52,126][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-03-24 16:23:52,130][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-03-24 16:23:52,130][logger.py 66][ERROR]: ------test_get_auth_code用例执行失败，失败原因：'telephone'------
+[2022-03-24 16:23:52,131][logger.py 67][ERROR]: test_get_auth_code 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_auth_code.py", line 26, in test_get_auth_code
+    actual_data = member_controller_z.get_auth_code(telephone = case_body['telephone'])
+KeyError: 'telephone'
+
+[2022-03-24 16:32:11,617][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:32:12,368][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:32:12,368][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk3MTMyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiN2ZiZDQzMTAtNDkxYS00MzJhLThlNjctNzdkMzBlNTAyOWY1IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.hHPKG3llzjj9PkFW-R7fhJz0PRNc91E31SWWG-TjohVhd2zuFTymSvrK3ITDPzK8y6pgWUgy1ukANbbkqpqi8uTQ_m1P8ioyrW_JSxJQ7EUtHFXzUYhLyFkP6G72BgVGJfBmJDhtwC1cqtjFS250cG4U-k4VCzhWrh0eF8xoYf8', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI3ZmJkNDMxMC00OTFhLTQzMmEtOGU2Ny03N2QzMGU1MDI5ZjUiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE1NTMyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZGY1YWNhODYtNGU4MS00MjFmLTlhZjktMmQ2ZGRiMTgzZTY2IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.RxbXjgcRqiJlsqN-Mji2lioxJN2l76CgBorzVuVC28lPfMws8kpQVVl32NBIdbELXkQ7Xr6ST-wEmJusjACcMel1_Rsd2khSSs7A9uBZv2Ns49pjVe5dvYUs8sYauKlNuKdI989-Omt0xrouboLvLJ_d1GGzG9RSJlHQF-CMJOo', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 16:32:12,368][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 16:32:12,368][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 16:32:12,372][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:32:13,161][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:32:13,161][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk3MTMzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiODJiODQ0MTctMzg4Zi00Mjg4LWEzMzktNTljMTM1NzRkYTc4IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.TQguAK63rTiY8JWQhwpyqmJrKEq8tlaldQIY_9lX3YO4WpH0N7J8sTvpylylEwlbvfs_VW0MoPpsCuf01GFcsRbWmnE8ceeqGLb-Jgdbx-usz7QPxgxT9BWIEMxVDgcf8Xe2z8WBelePL9CnciFyEYqxg5euLn30DDBm782DQIE', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI4MmI4NDQxNy0zODhmLTQyODgtYTMzOS01OWMxMzU3NGRhNzgiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE1NTMzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNDE4N2E4MmQtNjAyMS00MTJiLTk1MzAtYWIzOTc5M2UwZGVkIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.FOze_DjGS66uQvYASzm8mfcWEd2VkxaySG2KUlsLx8WrlMELozefBl6yFGy3y4Qko_MocTNnZN9nsyMVvJcqa5Y0pZ2oYeIec-ls0Hgutg-Z1IjsLPPSJ_8sDpvwBLyTAmhImCMWlSrPMvUoPYXbsSvZdp6jsPVllnuzPZj_2jg', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 16:32:13,161][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 16:32:13,162][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:32:13,162][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 16:32:13,163][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 38, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:32:13,223][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:32:13,693][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:32:13,693][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk3MTM0LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiM2YwYTUzZWYtNTYxMS00MDA0LTkyOGItOTllODJhYzhkYjBmIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.E2Auv-FL6ZsnPWTQIJHyxSXomhRUb5Dtxu_b-qcDcUAcMy3Q0pYkzE6yd8br9Z5wEEfq30FXQE2-N_CBBd2hbjIeuTaUyAqNZd2eyrepdhzLlUMDlMfm2RsbR-ohznMmL6gba8ACgmzRqtwqpW9nu5lFC6kVsGqdGWtQxkjlPQk', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIzZjBhNTNlZi01NjExLTQwMDQtOTI4Yi05OWU4MmFjOGRiMGYiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE1NTM0LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiODZmNWRlZjgtNWJiZC00OGExLWFiZDQtNDk1MDI4ZTg1YTJjIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.Fk59dwv31LyifLSuoTNDiBp5j4bbchHQO88KQTCbU4zonIVrFQe1g6bk5MYBhqEuVQ4_CUqXI_Y_YZJmXsMD_4et52fI0SITLF8qLm5ukYS9ZXfIzM6IP2nMnsbBH6eINujAfot4VdX7Enie4Qeghs2Y3nCb4ljYM33COA-VC00', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 16:32:13,693][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 16:32:13,694][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:32:13,694][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 16:32:13,694][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 38, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:32:34,059][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-03-24 16:32:34,292][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:32:34,292][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '获取验证码成功', 'data': '961851'}，
+期望结果{'message': '获取验证码成功', 'code': 200}
+[2022-03-24 16:32:34,292][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 16:32:34,292][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-03-24 16:32:34,297][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-03-24 16:32:34,297][logger.py 66][ERROR]: ------test_get_auth_code用例执行失败，失败原因：'telephone'------
+[2022-03-24 16:32:34,298][logger.py 67][ERROR]: test_get_auth_code 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_auth_code.py", line 26, in test_get_auth_code
+    actual_data = member_controller_z.get_auth_code(telephone = case_body['telephone'])
+KeyError: 'telephone'
+
+[2022-03-24 16:33:56,010][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-03-24 16:33:56,011][logger.py 66][ERROR]: ------test_get_auth_code用例执行失败，失败原因：'telephone'------
+[2022-03-24 16:33:56,011][logger.py 67][ERROR]: test_get_auth_code 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_auth_code.py", line 26, in test_get_auth_code
+    actual_data = member_controller_z.get_auth_code(telephone = case_body['telephone'])
+KeyError: 'telephone'
+
+[2022-03-24 16:37:52,433][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-03-24 16:37:52,627][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:37:52,627][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '获取验证码成功', 'data': '218603'}，
+期望结果{'message': '获取验证码成功', 'code': 200}
+[2022-03-24 16:37:52,627][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 16:37:52,627][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-03-24 16:37:52,632][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-03-24 16:37:52,936][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:37:52,936][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '获取验证码成功', 'data': '367380'}，
+期望结果{'message': '获取验证码成功', 'code': 200}
+[2022-03-24 16:37:52,936][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 16:37:52,936][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-03-24 16:40:39,997][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:40:43,537][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:40:43,538][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk3NjQzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNmZkZjRjYmMtN2JjMy00MTk4LTlhMjctZGUzZDc3MDQzNTRlIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.bJzaOx0g46WTjoS66F5b_F4FFHt1MaQ9-59dJoN-8ETohXahELFoLCWrVtXv-XxeiIDciKFncT0Bo1FF17QDJDxalKc0R8BM7trtRqkFvjESPWQ-KujDAl_8mVq_TVl4l_EFCIpHvInVWQNJZI71oSghPY9MlpEo2GaMOSRu0N4', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI2ZmRmNGNiYy03YmMzLTQxOTgtOWEyNy1kZTNkNzcwNDM1NGUiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE2MDQzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNDQ3YTBiYTgtZjhmZS00NzkyLTgzYTAtMWFjNzkxNzA1ODBkIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.PHwtt7aaOKeVf6v_04pq4ttfO7W0O4NwpttiKSCa-Sel1cLgTKekeqDuLmSoPy4WSTToi1dCe5Reiatik9MRH6AKqi299cjfi6xBynCYWVac1vtwhem0zh5yqT05JSv3iPIoB3l_BkNC2_s5eIVXtvDlKaWtUYD0aeekY_3OP-8', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 16:40:43,538][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 16:40:43,538][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 16:40:43,553][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:40:47,136][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:40:47,137][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk3NjQ3LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYmEyZjFmNzktYWE2Ny00NTRkLTkwMGEtZDhkN2U2ZTA1NTc0IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.U2UVZyJvObWA8aP0TqCAucpPP-Fh9zQQ4PCLjdCuLmI3Q-EqEWtRWU6rgjvG3URPTAordGWJWPgX4R4ecb4tHgh5gUofNISPrprtzCDZ_sN-5GNyO5S6cAFWS39Be_g0Wc3MumDk990hP13NWYHQgzw7O3kJ8VKR_w95nE9xews', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJiYTJmMWY3OS1hYTY3LTQ1NGQtOTAwYS1kOGQ3ZTZlMDU1NzQiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE2MDQ3LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMjM0ZjNjMjUtZWZjNC00YzhlLWE3YWYtMzRiYjhmMzNhODdmIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.ZmqcJ2jv4tU08hfQC0n_OgNQzvsxzZYrjN6BPH_vcn-oqUsBUCqXlmGYNfRHzWt7-62bwnlg2GzLx7fd7zoRDvkkMNmUONyHk3rE8oEbMCdMqw7xm1L14JPCieH3eaMaR8tmOfI_Xud0fQB0qI8eX_6egsrFAwLR_g5Rcopg-rU', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 16:40:47,137][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 16:40:47,138][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:40:47,138][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 16:40:47,138][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:40:47,204][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:40:50,776][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:40:50,777][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk3NjUwLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZWRkYTJlZjktNTYxYS00NGY3LTgxYTQtMTJmNGUzN2ZhYzNlIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.QfxEQeUFgf7_U_efAQJSkqV_VpUUxQSXaFuCUOCffFUgrdxXhv88iWGhZsdWZIqd3jYviRwKJIzJSaf0o_43rl2TAcsGSnzucV5y5kVyORvoI6_Hwm030mQyPMTw3hbryee2uGE0tf0kKlb5SWZTIvb7G4qkZvBgf-Z18bm3jWo', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJlZGRhMmVmOS01NjFhLTQ0ZjctODFhNC0xMmY0ZTM3ZmFjM2UiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE2MDUwLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMjI0MDU0MDgtMmNhNS00ZTJiLTk0NjItZGUwMjk5M2MzMWQzIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.kxDBHAMBSDnZ-gRC3pGv90SiXC7poODRRTtz_gjVIqMslsM-aAq7Rd022JwRCtpRIB2Wsd3EfWOxK5XwIIguQzi4RrYEmqGvIbXSIAPSos3Jz7HgFN-tONOV61PwKHwSDk69DhWkBarMfqVvVTqelLXYVc25CoBbjzgiz4vQ8no', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 16:40:50,777][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 16:40:50,777][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:40:50,778][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 16:40:50,778][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:41:57,402][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:42:02,734][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:42:02,734][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk3NzIzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiM2ZkODZjZjYtOWY0Ni00NmZmLTkwMTItNmY1MWRjM2Y0ZjNjIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.M7It9N5y4JozgukPrrIxivKdGWOqiqrX17RHJcJux3NMM5lUNd0Q6VaQKxGOIg3N9uOT7IXBtK66VcZ-8YT285ywpE4M0tNqET2dkmZMg5Mg2wK77_6nY5klUxuQk-q7vUGgeykfR3fk8QYKAH7Y1gybUz1JBPMlcaUBoPgop1s', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIzZmQ4NmNmNi05ZjQ2LTQ2ZmYtOTAxMi02ZjUxZGMzZjRmM2MiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE2MTIzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYmJkMzliMjMtNGRmOS00MjcyLWE5MDAtNzMyZTA4YjNlMDZiIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.dGz1m6CUQUOK1ToBRt8hOUptVqFLzM-SWqtN0xLPhMsC_vlGVcZCCl3AQIzcWOXoVyn-EuW53mIeQMoFZ67x84nO1nVe7TOtBhJWks8GD3wL4VQbf4ePHJ9Ek6lQTJRXO-A0TZCqom7EcLpY_Hb0HMWlemwLAZ_fB21x4pyrPqA', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 16:42:02,734][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 16:42:02,734][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 16:42:02,739][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:42:08,273][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:42:08,274][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk3NzI4LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMGYxY2M3NjQtM2FiZi00ZjJjLTg1ODQtZGIwYzA0NGEwMTgyIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.mZVLymAv7VfPMUSMfnREyEznve1mvbUSoycDfb13KkWcn18OEeDPmYXbsbgCeQuvMVlFJ7FAZl6gfBLmOQBpVdlqzWYI-DHuEbX5n66F9JMD7geJFa20Q8gg5BommgzDrBR8G6Hvrxv-JvCDoiIe-oF_CARUNyBFFuFTzTqiKzQ', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIwZjFjYzc2NC0zYWJmLTRmMmMtODU4NC1kYjBjMDQ0YTAxODIiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE2MTI4LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZGZiMzk3ZDctZGQ0MS00NDc3LWI5NTktMzA4Yzk0OTcxMWY5IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.gxZGUTUMy-wF9nV_AYbEmbu4Ay7YM8rg0PkgpE73-K08CFwRy2nKWXPxLNRb73TA2QiQesw09vrRWqgjK-tIuL8DSwg44Gj7NKKQ10oH6xyQPcsHGXZ8VKyzv0dlVMr5YOEOzH6C6dLiWFixFweDbP_dxT5E6yXUbEhS9GssKag', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 16:42:08,274][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 16:42:08,275][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:42:08,275][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 16:42:08,275][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:42:08,348][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:42:13,960][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:42:13,960][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk3NzM0LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMjQzYmRiMDAtOTlhMi00Y2ZjLTlkMTQtN2RjODhmNWMyZDI4IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.SkVlybCSO9sxqqRaFbmEdrb-zWT7NnNMlktXcQGty6dBUA2_7WEI4tdzlF8_KRyEzicS-M-iZG6i-oXiosFgrPerR4CtI1yjCjyTn6lZ62jo9O-Luq1qIWwExF6dJGOM8DcsYmkDnIwqMT8DhXeQynaNh8UR9fHNA0Ur2ZwEjyI', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIyNDNiZGIwMC05OWEyLTRjZmMtOWQxNC03ZGM4OGY1YzJkMjgiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE2MTM0LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiY2I0ZmU1ZmItY2EwMS00Mjk2LWE5YTEtZWE3MGI5YWY2M2FlIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.Xq9u1SXCN8gXEzxbBYr0lUkkHxnRCMDp_jgD_2KPnEhfM9oLkFbc_MWk8TncXuTXKJaFl-Ss_-cvfKEYEl0m8UZNSFxDw08UaLZ9or4ruRpDB8sELO0SO1q0V3wIbZqdhOI6CRMVeNXXSz2OvefwzGe5xM4DtEk3OFY5SVv9sXw', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 16:42:13,960][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 16:42:13,961][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:42:13,961][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 16:42:13,961][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:42:48,984][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:42:59,615][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:42:59,616][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk3Nzc5LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZGZmYWVhZTYtOTIyNi00ZTliLTk5YjktZmU4MTRkNDM3ZTQzIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.idQNyjF6Mw7X_ZLkid_GmFoZh8kNPFxH5plsmYVkpR2eUaMO8ow5flzmXjS0dk9Rb771IzPeBN-QVRKlkgQC3juqed5H83bihceK9h3HNZPczdrgf4FN-xjHzJ3rY-NRRtdPfiG9SOfscpw0QO-s-hoZhDGnFhfRcT_C07uY548', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJkZmZhZWFlNi05MjI2LTRlOWItOTliOS1mZTgxNGQ0MzdlNDMiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE2MTc5LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMWQ1Mjc0YTQtZTNlMS00ZmZjLWI4M2QtMmVlYTZlZTViYzgwIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.H07a8rmhmJFD1S7h6d3DbEn7STSbhA3KEfEf-ftyfNxngwxgnmJ7S1CY5ZGgOxtuWiafl_Anh_o24IG2irgx8pGWephTdpDr9tK9vTbruzWPxBYXQf5L_RkkN3TBRMdsVvsKYO7vfNvc6TBbkeh9XeKMrqObrf5R-qE5TFxE2FE', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 16:42:59,616][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 16:42:59,616][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 16:42:59,633][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:43:10,266][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:43:10,266][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk3NzkwLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiODE1NGE3MjctMWI2Zi00NjkxLWIyYjctZDcyMTFjMjczNmQzIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.YFFimEu9vwCkKO4OY1IOZDDSwok2tGSXUgGIOgYIRZmi_vxVST1pVI08_-XwBrlxRpmECQtYXJDjNSs2N-CXtuBauGi-o_H2JmKbUZ_vmyj9roJ1HyUpS-MQVmWgcqfxcG_ZE0Eu1QwQGNN6ZbCRqRaHXbTk0Pywd25N0U_6Lqo', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI4MTU0YTcyNy0xYjZmLTQ2OTEtYjJiNy1kNzIxMWMyNzM2ZDMiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE2MTkwLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNzYxNWQ0ZDYtMTYwYy00MzUyLTgyOGYtZWVmNmFlODU4NWEwIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.nobsfjl3cBHGLNvAM6m0PDAqBebkSudF4GnizwI191jQo4zGULbF9GYz0Kjo4LM4k0Dw0tUwrMKgPnnTrOU5k52hmZeU6x-DLCtrUVG8iSDghafiZ3K_TiAo9BcMzrR55lfatrIMAlL2BYlD4wtOVnc_pRZk33u1-xTuIAKaw6s', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 16:43:10,266][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 16:43:10,267][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:43:10,267][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 16:43:10,268][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:43:10,342][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:44:15,792][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:44:16,225][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:44:16,225][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk3ODU2LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMjMxNzYyYWUtOGYxMy00Yzg5LWFkY2UtN2VhYWJmYjNhYzBiIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.M52XMnZy_DfJeKL7Kw43Ceq5cAFpl3-QlFZDTTlo3cTGPMpSzmWgGWzPR0KhEtFLwMPJpEoYRjemEEURnKWWUseKsi4WkaQMxwaEHQBGMLhDmDHjTNyZBHWkJ5MEaClVcDMHJC2sIBmhzUXy0XuadD8OngN04mCeG4xERgA_ZaY', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIyMzE3NjJhZS04ZjEzLTRjODktYWRjZS03ZWFhYmZiM2FjMGIiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE2MjU2LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiODQxNDdiMjQtOTI2OC00MmU2LTg1YTgtNjVhMDZmMjIyYTI3IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.duXudsnxQKvc_1yd-MM2VPkTrb6zc_I_rMGhzjW17IQ3WN4LamwpL7Dfx5x7Ie-TqYwU3-VDbvH0HYwPte7h3CQN90zr3esSUm9p-Wpj_027F47kLuCOuKJzmBG074VY1mJTbRBM2-U5q6Pr-QDFHacV14BmsOBG7StoN1ZZQTw', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 16:44:16,225][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 16:44:16,225][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 16:44:16,242][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:44:17,028][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:44:17,028][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk3ODU3LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMjIwMmM4NDktM2JhMS00MGEwLTk5ZGMtYTY1ZmQyZTVjYWQ3IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.bfddMIoqntYXGtvOHLLc-tIwGCbq53KwzgSTN0LVs1dN8r51h_iR0fZLLMuZauM3u6rYcI4Ws-wVt7BhUiTOhc0jDKh58adiYR7RQ_tRBk_LajgiJw5Q7jDhFfiv_riN99M9vaSzoSENLn7BW9qBp79sjUcTn_Ed5TOKyWDP9nQ', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIyMjAyYzg0OS0zYmExLTQwYTAtOTlkYy1hNjVmZDJlNWNhZDciLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE2MjU3LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMDJlY2MwYTUtNTYwZC00MGM4LTk5Y2YtMGNlYjhlMDJhYmU0IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.Hwp3Zzbw3ga4xlZv-9XLAz23TxFmallS1kUHH2NL4ERII0kPJAFFMftlWvbN6Z5W2ZoOKfgkrimp9J_mrIG-i9vSHH9Nm_Iusdr7W7TBVnLoW5IL2azeFu0dXLiZAKRYMpLAWShZgDVt82avT1fwJwfyl_NyFlMt5EIRPBVswV0', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 16:44:17,028][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 16:44:17,029][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:44:17,029][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 16:44:17,030][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:44:17,093][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:44:17,572][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:44:17,572][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk3ODU3LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNjM4NTU4OWQtZGM0MS00MWYxLWIwNzktNDgwMTNiNjE5NjEzIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.UGbgt2-JqjiRILIUNIUAd0kTEXkCxZoyOsuDz4V5dg_mOmrRrSdsAVYOX6RVhfEMskwUxPlsYuLFgbWt52X0LgCUJRkq1tI9LiGHBeogF6jMvILsHGAzBnGA7h7mgqkzoQ1lxyyxCNI_7WU89senmdvdej6BlNKYleraCQ5BYo4', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI2Mzg1NTg5ZC1kYzQxLTQxZjEtYjA3OS00ODAxM2I2MTk2MTMiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE2MjU3LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNjdiNWUxODYtNDcwZC00NWU1LThmYmEtYWIyODg1ZDhjYzg4IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.LfUlhZ2aFrLTVZdNBDWQYw6h985a3QQpg1W5ru2D219uddvY3o_4rM0ncIsuIUtB6yeWaXyE77V9x2zQUWSs6NY0AA392dRjFq0W66XNmNr3a0kuyYD3wNCS2TosWQ3GXGjN-oOi2v6kDCxHSotG9PHcQ6Ekgf7zFrNSF7e5ogg', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 16:44:17,572][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 16:44:17,572][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:44:17,573][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 16:44:17,573][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:46:12,388][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:46:13,169][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:46:13,170][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk3OTczLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMDJjZDRkZGMtZjc0Yi00YmMyLTg2ZGMtNTBkNGNkOGFjZTQ5IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.mTOWlRBWM26J9EX_kkdY5dV3sUzATen7yKQjXpFaZQrV48MqJqWm-zd8zajlhaGrKTZFzJ-NR74xlcic6uxKFwbDZJYdsqjMN3VmX84XJ_DkvQnms7z3pq2q7z0DtbUOMmbOh7EHQcUbCRQEN088M2Tib09JzeOGCjgeQfXU6-8', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIwMmNkNGRkYy1mNzRiLTRiYzItODZkYy01MGQ0Y2Q4YWNlNDkiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE2MzczLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNDVmZjI2MjItMGM3Yi00ZWU3LTliMjYtOWQ2MDY3Y2RlZmU1IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.AQ5_9QJV0efJvPm7bNBGsal8d-iE6YHEbROGbl2IWzgwESVVCmdoRbPjvk4Md88q08eSSHam7QKub7m-n_QoxpWTPLAN6t1XKYILqJrkzwRpVtnWfvnQDz2gzzKnYR7Rcs3hzy5MO1McUzw6K8QeVJeVdiPpE862fm9BYEEP6Wc', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 16:46:13,170][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 16:46:13,170][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 16:46:13,174][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:46:13,916][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:46:13,916][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk3OTc0LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiOTNmMTM1YjEtOGRhOC00OGY5LWEzNTMtNDI2MjcxNmY2NGIxIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.D70Id4f5vy6daIuNX0fM1IHV1GdOqKwyBtFgDgB8OI-DGS0-vPTO767TMd8PgIa6NI9vRS5jxMJC2dlCZwnP6U-JtZxymFCkmTVotuHD9mzPgbwjvM_PhEICP_TTgUSAM8W0KcM3Np-5fI4OoPvv46aJm6NtcJ1kwi1Yis0ThdY', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI5M2YxMzViMS04ZGE4LTQ4ZjktYTM1My00MjYyNzE2ZjY0YjEiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE2Mzc0LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMmMyMzE2NjktZTE4NC00MTY0LThlZWMtZGM4Njk1ZDQ2OWE0IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.Lt84TLXZ501rfPuSBEGsgybaAjpGoGayTIUTjxz5MVWvnyA8pFfLtbx52PZPFrx3ypkkoBNHJ2jI207eigiFNd0jbdlsYVTJSyMCsZLdGSD1VMnO3tq69oDw33Fna9SLQN4RB31y9gB_Uc3Tei5hsyI07z4jbU3jirpy7LZl4iE', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 16:46:13,917][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 16:46:13,917][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:46:13,918][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 16:46:13,918][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:46:13,980][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:46:14,701][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:46:14,701][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk3OTc0LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZTQxYjg2ZWMtYTA0MC00Njg1LTg5ZTYtYzA3MjVlNDZlZjBhIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.TaMb7-gZk6hOoQu-r_u4hlaum68vBHN9CSvufj2gYrBbMNkMXozJOmd4m7yYvFvZuOP1k8Pl6x-xIwI0LnQkkAOTFIfB_icTfy4XgceWe7rxDi3dNIh26n2EIB03XSBIwP6ZmCwbeFqhuZl4E4aO76LvcxPgraKoeYZ61oR2-So', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJlNDFiODZlYy1hMDQwLTQ2ODUtODllNi1jMDcyNWU0NmVmMGEiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE2Mzc0LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiOTQxMTY3OTUtYjVkYy00ZGQ0LWExMGMtNTdhYjg4NzNiM2RhIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.MjlAV2kwhyZNKt86TzqwkvQT_SOJlZnWHAOdyAJ_3a5w_0b1puDpz9WGMZQZ0K8j6nDdj5v3W-rm_JjVNbDdPCX0HlK4cLdgFhKTtX4iG4WPdO5Pz5OoIQUNv_IC15AujYszPHYopoHzWyluKABRxl0C9bawiIYbDEYnL-ETGTw', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 16:46:14,701][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 16:46:14,702][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:46:14,702][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 16:46:14,702][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 37, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:50:58,573][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:50:59,373][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:50:59,373][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk4MjU5LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZjVkYzhmNjEtZDQyYS00NWFiLTkzODEtMzc5YmY0MTM2OTRiIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.lnLe4Ry6FkhIJOAmEyog9219dvhBt4cUfLRbgqfBsVt8AD7z_WDOeAovWnRA15KM7v55qondu-5E_0Ab58m7OIE1SfuwJthv9Os3Q9kBOMhdGcsq4yJp4eaI47SPMqXSvfku8KR93ZWGsq08eg6_ZjpAfWTa-EwrrSzIcc7EjxY', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJmNWRjOGY2MS1kNDJhLTQ1YWItOTM4MS0zNzliZjQxMzY5NGIiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE2NjU5LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZWRjODdiYWItMDc2Yi00NWRjLWIzNzItYjEzMjMwMDhmNGQwIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.cyuVaZTIw99GhtUAMdv-hPaZPaVfgxYu2mn2YZbjxl-zRhO76ZgDcODxf5XF-IodoJjkEd3DS6Oh3MAt9QI-0YSioGfnQ7Jfu__dUzs4RBfB4qe9VN3CMEAwe7iENXA8laheXx8jlhgNj5Ay_eJe-8RJTMMMlDN7vFaHaH4fA-4', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 16:50:59,373][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 16:50:59,373][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 16:50:59,377][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:50:59,866][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:50:59,867][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk4MjYwLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZmU3ZjcyMjYtM2U3Zi00MmJlLTg2M2ItNjNjNjdiOTAyMTBkIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.SJHMk9U2AJjZK6vg4bvHNcKGFXyt_HuwaK0cfVrZj74TCiTMtXJUCwnYuypWp6GC0LSpgmovyUUj4tTIw5PEE1JOmxACsjKpZ6mXGzIxbLvo_Y7NG_zqXpSxA3BrXjw5RY7EZEWb8GKzUkZ2U0RYUgsO0BJDGcldtMNHM--BGxw', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJmZTdmNzIyNi0zZTdmLTQyYmUtODYzYi02M2M2N2I5MDIxMGQiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE2NjYwLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNjEwMjNkZjgtMmY3My00NDdkLWE3NjUtYmZiODg4ZjYxYTI3IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.l69wn4YhP-1BHHoPIpJ4_OL_wEEXTa_hBbWGr6nN1J6egG4Wp1og1IV8Jb0TGDy1psi8PN__uQNnGBdgGrdKfS-E9r_yqAm2B-R_EJZ8xnG0i7Dc46dO9ZkM1nBVlyazuk9O0Ns6PZDvmoiwMsePWmD5lBCTl9mVo0shyHNaaL0', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 16:50:59,867][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 16:50:59,867][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:50:59,868][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 16:50:59,868][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 38, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:50:59,940][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 16:51:00,425][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 16:51:00,425][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk4MjYwLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZjBjZjY3NTAtOTI4Yy00NWQ0LTg5ZTAtNTU5ZmE1MTljNWUxIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.YxIa-r-0Ea1cabVksaz3VqDQ0HQ1hGq0Alq_AFL_YwOsC7p_fyOm54OzslKAQ24lsDzLWtFRP7Ht_K__OQzTaCxwVZJumZRbp9MZLUxI_csSHkuWp1Q3O5QxuZY3oN_avgI7UzaE9nSxh3-AOS6XuZO4QhhCeM3a2wEQUdff_lU', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJmMGNmNjc1MC05MjhjLTQ1ZDQtODllMC01NTlmYTUxOWM1ZTEiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE2NjYwLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNjNiZjFlNDMtYjA1Zi00ZjM2LTg2NjYtYzkyNzcyYjE4OGYwIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.gczacXYUWSvzlb0bMhOhyJptG3KrO_VMq7f1ZbaF_v8obLMpXAVYnGSRrq-ed3LqsPjSGmNbGJE02e9_ZcKMfLI87_2IXJcfwCfcySS7V8AR8R5GEChlACQhIjnnf4kRBM2VgjpxNAl_HBFLXnJUyxI-4181-4nSW0HKTfOXeIo', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 16:51:00,425][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 16:51:00,426][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 16:51:00,426][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 16:51:00,427][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 38, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 17:00:18,841][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 17:00:19,500][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 17:00:19,500][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 500, 'message': 'Bad credentials', 'data': None}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 17:00:19,501][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 17:00:19,501][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 17:00:19,506][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 17:00:20,196][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 17:00:20,196][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 500, 'message': 'Bad credentials', 'data': None}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 17:00:20,196][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 17:00:20,196][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 17:00:20,200][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 17:00:20,857][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 17:00:20,857][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 500, 'message': 'Bad credentials', 'data': None}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 17:00:20,857][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 17:00:20,858][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 17:00:20,858][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 17:00:20,859][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 38, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 17:05:50,599][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 17:05:51,239][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 17:05:51,239][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 500, 'message': 'Bad credentials', 'data': None}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 17:05:51,239][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 17:05:51,239][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 17:05:51,255][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 17:05:51,909][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 17:05:51,909][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 500, 'message': 'Bad credentials', 'data': None}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 17:05:51,909][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 17:05:51,909][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 17:05:51,914][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 17:05:52,573][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 17:05:52,573][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 500, 'message': 'Bad credentials', 'data': None}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 17:05:52,573][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 17:05:52,574][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 17:05:52,575][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 17:05:52,575][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 38, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 17:15:01,850][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 17:15:02,273][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 17:15:02,273][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk5NzAyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZTZmZmRmYzMtOTI0ZS00OGQ1LTk1YWEtODEwYTMwMDM2M2ExIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.kJ_0MGOqlzsDZFuYQTHWnpVCDuFyr5zHrbWSUQTAJW-SNvoJgaSBUZ0qpRmnVgmxZfYZdxnAEH0WHkivPyTk0c_Yoo1lx9EipSEh7_36Dief7IaE3bAi62KNnHOzDSA7XA24U4S39nIC-gpccxzw32TpZ2yktL7E-xOwPR3j48w', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJlNmZmZGZjMy05MjRlLTQ4ZDUtOTVhYS04MTBhMzAwMzYzYTEiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE4MTAyLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYzFiYjAzNjEtMzIyNS00YTdiLWFjMWUtZGE3ZjdjMTA1Mjk0IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.A0wGUz-feHoGlPkq4vNi0W9_DtycxfVMoKiXTCdqldlrlWSC9zBekbwV0qFXDsWVUbbSdsfd-pQtaLuC0f0U8ppkqYCJLu6BCsK0JH3zDVMx7bBIOpeyKaxtujNAjCVytZ1Y97yFiechlwJ8eMz3kG5iVqssKzP_0i6zkBZbxW4', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 17:15:02,273][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 17:15:02,273][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 17:15:02,278][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 17:15:02,663][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 17:15:02,663][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk5NzAzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYTg5NDFkMTAtNmI4Yy00YjdiLTkyM2EtMDZiZjUzNThiMzRjIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.a9Z-qQ3E5A1tlU-gjrGOoe7G97tHHzzl-YDe3yN7pD4s_hmAIKJc-8KH5ZOz56OP6m4-8HwcTpFCKkD0fs1Y_bqfPpy5TWfaWWUxT2CIGPVHcvVFlCM9LrEr0jLgV5tHf0oH1RVXxOUFqhPvXyjgTG9I1c3G84WYrmgLKtIKpA8', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJhODk0MWQxMC02YjhjLTRiN2ItOTIzYS0wNmJmNTM1OGIzNGMiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE4MTAzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNjBiYmE5YzEtY2RjZi00YzEwLWI1YzUtMWY2ZTc2MTI1Y2MzIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.FfsFtDHHpZmLZtEvQP_OjvuDg60gHxPg8wdjQcGHKRZM3e0sZUsbEsdqzjzEHIWBw0hkT_RbjAbwlq7Ef7LVNNqL-4kD-VU1hwnChVeDRsZgnU6-_eR4HSVpIdE0WPGHVWNlEmhIOUaquAcbelnqQSQCMFwi3MMvTthihLNH0y8', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 17:15:02,663][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 17:15:02,664][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 17:15:02,665][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 17:15:02,665][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 38, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 17:15:02,728][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 17:15:03,153][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 17:15:03,154][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk5NzAzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMTQzMGNmNzgtMTFjNy00MmVjLWFmMmQtOTA3MGVjOWMwNjVkIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.WEimR9Vhe-qiEgAKciRA1cOCdS3ynSQ-qOZZrXVGoOExlL4xv2H6uNMmv7kHsik2033PYeIcUBH6niWLiJY5hcZydxyMMvsGhJQQg-5BZjL0BBNefOn24PQyI6UQnrfICyGA2_z4PD8yBU-0bqGgrkgPGzYrSTKWVQsNQhQ0T3w', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIxNDMwY2Y3OC0xMWM3LTQyZWMtYWYyZC05MDcwZWM5YzA2NWQiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE4MTAzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZGUzYWMyMmMtYmYxMC00MTNhLTkxMDMtMTdjZDNmZjk3MWQ3IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.kUuE_Ruv4yiTxSCVx4kcmeNZBd6Jj_62P0wFnL9Ytc8crTyujSzmtNf_mEXhJjDGkZEN5j5oE1OSanjtReUn0v53PuQ1mQL4L5m08nGXsx7EY3Y7PRz0hHu31U6F8tLQq7twKhJMQeM05qka1EIOks2_GjkPcUxesYkPVPFfr1E', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 17:15:03,154][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 17:15:03,154][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 17:15:03,155][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 17:15:03,155][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 38, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 17:20:56,646][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 17:21:09,826][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 17:21:09,826][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MjAwMDU3LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMWVmZGExYzAtYTg5MC00MTBiLTkzY2UtNDQ3YjAyNjdmY2U2IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.NswhRUZUYbcBXNHhMBnsrGyn3OUo8ObJiITQfeT7tfWPVRM5-ybwHI4shVRqHJtvu97lEwTbCmAezSPsHgtl5voJMZKLcaYABwc2P6NkGqkNiOdapCJglnLYWOIjDR3yZax2DfL3kYL60Tr6zgE49oDg0Eq9U0dYvMNrlf9LvGo', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIxZWZkYTFjMC1hODkwLTQxMGItOTNjZS00NDdiMDI2N2ZjZTYiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE4NDU3LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYjA1YzNiNDgtODZiZi00NjVmLTg4ZGItMzc2MTFmZTQ5YjlkIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.JJvV7WspMr1UWkfBuh1kGjuh_PlDiuK3jl_eE88fNapDr5KrkwdpNrm3LCO623xNbXmbNYSrlB4NMlWRQ7lkhXmy-45Y8sFjgO3CnoDbiA0LGMDsaVLbpNV1q-QPNIiCeR_p5l5va5gzXHgeWKKhSrWMzh2IoZ7a7V2i7bHxo6E', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 17:21:09,827][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 17:21:09,827][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 17:21:09,836][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 17:21:10,811][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 17:21:10,811][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MjAwMDcwLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNDYyM2NkMGMtNDM5NS00NTI2LTg3ZjktMzE5ZDg2NTUxMDQ0IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.NZ2BPtsN1gZFKnOZ50nx4Ks9L_Yoi-3RC8_D5WlmgPx2QQMD2JenPPft7ImkeOI4fqoFwFasBozNTuTa_T2ZV7LCmvYDcvRgdxQTlVnVBAfxGMQdfZemCnCRwOIkukzzQGot0_E0Gptl00LxUtpLSgYJUDkaV41dqaBYhPJudRE', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI0NjIzY2QwYy00Mzk1LTQ1MjYtODdmOS0zMTlkODY1NTEwNDQiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE4NDcwLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiOTg1YTI0MTYtZjU4YS00YTY0LWI2ZTgtY2I0MmM3YmYwZmIzIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.KDLV0TLnXO_XJVki16iWN_2fQrc1YhVltUk6wxP0Z0nlKkWOR_toN5iYFY2DNF0gvadG-dAGnD5noGwAbXK7_bW7SgX57rP3_XR1__YJTbIWuMa_W1AFw9sI8K3G6K3WLU3WPWIsB5QOQF80wjYQiz8RW2BI_Fxn4-MIEBUJixQ', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 17:21:10,812][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 17:21:10,813][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 17:21:10,813][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 17:21:10,814][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 38, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 17:21:10,968][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 17:21:11,455][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 17:21:11,455][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MjAwMDcxLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiOTcxMDNjZGEtZjIyNy00ZDU0LWEzNDgtZGM3MjdjN2Q4MDJmIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.ZxPxa7qAIwSAFmOEjtLHAUe8E3DTPV2bHFGqtp8FPzPxHMMpLxfUYSEnl2GhhVWZPCjXCQs0nDQFeDVoqvXmocLOj9M1OxcMs61UBWkp4CW2FXNlv6qoBE2KiJpPfuNf39M4gTCcw59X-D2EC9pw34GD37AygShenYDLqThXkv8', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI5NzEwM2NkYS1mMjI3LTRkNTQtYTM0OC1kYzcyN2M3ZDgwMmYiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE4NDcxLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMDMwMTE4NDItNjE3MC00Y2Y1LWI2NTctY2Q2MWU1ZWI3NTg0IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.cVPRq8eAdVF5Pn2MtnqhOZJMlUX5vi030vyjDu-6P0sTvLPyaa01ihoiot_bW777XoWrjFJLm4GpJVRQDsP5loy0NOcd5aCYkeWbzTOdatgjO1zJI4IsFhPNnzVMxmAfgcNd7baW1FrcP3NZ0RRuLfhGE385TwjZ6F0w5-U3tSY', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 17:21:11,456][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 17:21:11,456][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 17:21:11,457][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 17:21:11,457][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 38, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 17:22:13,565][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 17:22:14,857][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 17:22:14,859][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MjAwMTM0LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNmE3MTYzZGEtMDM1OS00NWQ3LTg1ZWMtYjJjZDVhOTFkY2IxIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.bgAdmqsVgtDIPXldNoopJt2PYswecKLXkE_xAT5HuO-YB-ys0B7NBvFoDoZfB0Rer0R6vrjouyjx-9pg0ZYLfhempmoxXX2Oh4u0BCzjwY6DK78JkM46m2PDKmJDwSJxFPIA8HL628vI846Ykb_O6f8V_5w8MvOT4vP-mVero3w', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI2YTcxNjNkYS0wMzU5LTQ1ZDctODVlYy1iMmNkNWE5MWRjYjEiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE4NTM0LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZDE3MGNjMTUtNmExYS00YmUxLWFkZDQtNTZlM2QyZDdhY2I3IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.gINuVkZrZKpMWGcnK0DWIfdfgrdsQ1tg-GxYdCNv3GxeQA7Z66J4ho3D8l3TO_ktxIoTLk6KfqVZ99QTvkcys-PenKsqx9MnGpDvFF73ruRNPzUOFRWNe_TTbWeeaiI0GpL64yG6IH0ku2YGYyR4yaWfZCDWbXjM5HAe6YrHcOI', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 17:22:14,860][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 17:22:14,861][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 17:22:14,901][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 17:22:15,567][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 17:22:15,568][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MjAwMTM1LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiZmFiNjQwODEtZDk1NC00YjRmLWI0YjAtYjYwNGUzMTliZjY4IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.o4Di0wqnIyPoESGs4mev5CiBvOYKcvjUpbr1AJorFxvG8arrWd86QKuQRL05d2YRQsJ3ACjIKYEvEER4xK6CiMuX3wHDVa8Uu2WYdUc7Vi9az-EnUJE-YtrSfUfpskNcW8-D_gY3dNKM7mUUNPplWZ43TKxjbrM-Y9e3Vi4b0Pg', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJmYWI2NDA4MS1kOTU0LTRiNGYtYjRiMC1iNjA0ZTMxOWJmNjgiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE4NTM1LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMTA4ZDNiMjEtZjZjNy00ZmQ3LWJhMjctZGUyMzk1ZmNhZWIxIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.FjEfl29YxJS5jkkEkXYmXDGfVNtB_9L8lI6u6P75JnEPhJp0jCd6ZibTfFNb5RYPTiyPpLE2qxoIrwf0dtaqEXrQXy-KMx5o7rPwroxQEbl6EyugGK-LxpA6O38Tbeqh0EMNThpquVAVXZEaDpnIcXXlmw8eXPJXQ3ujw0Rr7Yg', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 17:22:15,569][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 17:22:15,571][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 17:22:15,574][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 17:22:15,575][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 38, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 17:22:16,176][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 17:22:16,731][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 17:22:16,732][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MjAwMTM2LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMDJkM2I1NGMtMGJlZS00NjkxLTg4OWMtMDY0M2MxMTgxYThiIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.d66APdBcEcJS6vSn8MW7i8ZVvINy0iNbMkKEBV9sPOWP4QjKkUq9_wZPadlC1zNhehhpECAXtRgNsIxyer3PfmLjbREFM1ABYt1LKgln5eEMHXKyz1XYw6ATmh8M5PdlZ25IC1iBGfKoon50qLFfpXczzZWQePzOQKZfzrnR5Ys', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIwMmQzYjU0Yy0wYmVlLTQ2OTEtODg5Yy0wNjQzYzExODFhOGIiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE4NTM2LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiN2UwNzI0NzctOThhYS00ZjYxLWE2N2ItZDBiNzA0MmY3ZmM4IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.iesv_rNwsf6hytV1SJN-3dnLZbnPSlFvKrBGSjaX4_VqYdSCaVFctT_laa9eRUlhSwfynHLVzEA18xPk53m5g7uiEYV7IiyPhvDcox-fD8J4fm86KKqAooF06ipcZ_7jK0I5IYm01WbTi9JsVw8HBllIJH2S6F7kbPlqEJt8v2Y', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': 'Bad credentials', 'code': 500}
+[2022-03-24 17:22:16,733][logger.py 66][ERROR]: ------assert_api用例执行失败，失败原因：------
+[2022-03-24 17:22:16,735][logger.py 67][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 17:22:16,737][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：------
+[2022-03-24 17:22:16,739][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 38, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 68, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 36, in assert_api
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\assert_api.py", line 27, in assert_api
+    assert j == b[i]
+AssertionError
+
+[2022-03-24 17:22:29,592][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 17:22:32,666][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 17:22:32,666][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MjAwMTUwLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNzZjNDdiNjMtM2FlNS00YTFlLTg2ZjItYmYwMjdlN2UxNTVhIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.g_cwBdih6sLDqCsBBoDLdRpiTZsrdTkM6AIEwxZi-vlKiCd5UTBiJqZq1pOpW-5l-8ppi0C3WQDm0f4mw-S72tt7RDWAPOY5XE-yPn-SKie5MXFhfKKDGHGAK7Jo0_U2yjcvKfgboN-tzf2BQbY3l1LHr1VcGtU5RhZq5X8k2hI', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI3NmM0N2I2My0zYWU1LTRhMWUtODZmMi1iZjAyN2U3ZTE1NWEiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzE4NTUwLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiOGZkYzVkNDEtYTAyMy00OGRjLTg2ZWItNTk3ODE0Yjg1M2UxIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.EjiEdZFLt5GKrjbNKBRL47oiF6ncoizWPIF0wVulkHIk8NSOFp0rIvLV0Kg4CDnmYfC10lJfFPIFD_qIOxhs7Vk7eQS7AJaGyvc2M7oTIsnWPpnSpeiXHvYEyziaY9Y5-Q7J5ZPlmdlp1gdpVNT6eo7l5a9xszHmsBf4rn16xt0', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-24 17:22:32,667][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 17:22:32,667][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-24 17:22:32,677][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-24 17:32:59,389][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-03-24 17:32:59,437][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 17:32:59,437][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '获取验证码成功', 'data': '487183'}，
+期望结果{'message': '获取验证码成功', 'code': 200}
+[2022-03-24 17:32:59,437][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 17:32:59,437][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-03-24 17:32:59,442][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-03-24 17:32:59,476][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-24 17:32:59,476][assert_api.py 21][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '获取验证码成功', 'data': '112277'}，
+期望结果{'message': '获取验证码成功', 'code': 200}
+[2022-03-24 17:32:59,476][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-24 17:32:59,476][logger.py 70][INFO]: ------test_get_auth_code执行成功------

@@ -1,0 +1,15 @@
+[2021-12-01 08:16:19,908][logger.py 62][INFO]: ------开始执行dao_zhang用例------
+[2021-12-01 08:16:19,908][logger.py 66][ERROR]: ------dao_zhang用例执行失败，失败原因：------
+[2021-12-01 08:16:19,909][logger.py 67][ERROR]: dao_zhang 用例 is error,here are details:Traceback (most recent call last):
+  File "D:/daima/xin-daima/two-pytest-api-automation/common/logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:/daima/xin-daima/two-pytest-api-automation/common/logger.py", line 76, in dao_zhang
+    assert 1==2
+AssertionError
+
+[2021-12-01 08:16:26,169][logger.py 62][INFO]: ------开始执行dao_zhang用例------
+[2021-12-01 08:16:26,170][logger.py 70][INFO]: ------dao_zhang执行成功------
+[2021-12-01 14:47:12,890][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2021-12-01 14:47:12,951][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2021-12-01 14:47:12,951][logger.py 70][INFO]: ------assert_api执行成功------
+[2021-12-01 14:47:12,951][logger.py 70][INFO]: ------test_admin_login执行成功------

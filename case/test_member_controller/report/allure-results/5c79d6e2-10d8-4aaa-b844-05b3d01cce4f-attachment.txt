@@ -1,0 +1,5 @@
+WARNING  urllib3.response:response.py:266 Received response with both Content-Length and Transfer-Encoding set. This is expressly forbidden by RFC 7230 sec 3.3.2. Ignoring Content-Length and attempting to process response as Transfer-Encoding: chunked.
+INFO     log:logger.py:61 ------开始执行test_admin_login用例------
+INFO     log:logger.py:61 ------开始执行assert_api用例------
+INFO     log:logger.py:69 ------assert_api执行成功------
+INFO     log:logger.py:69 ------test_admin_login执行成功------

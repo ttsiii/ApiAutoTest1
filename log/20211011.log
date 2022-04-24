@@ -1,0 +1,282 @@
+[2021-10-11 10:27:38,319][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 10:27:38,549][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-11 10:27:38,550][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-11 10:27:38,550][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-11 10:27:38,565][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 10:27:38,944][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-11 10:27:38,944][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-11 10:27:38,944][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-11 10:27:38,959][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 10:27:39,137][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-11 10:27:39,138][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-11 10:27:39,138][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-11 14:45:37,489][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:45:37,532][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-11 14:45:37,532][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-11 14:45:37,532][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-11 14:45:37,537][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:45:37,573][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-11 14:45:37,573][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-11 14:45:37,573][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-11 14:45:37,578][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:45:37,606][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-11 14:45:37,606][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-11 14:45:37,606][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-11 14:46:02,919][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:46:02,920][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：'MemberControllerApi' object has no attribute 'host'------
+[2021-10-11 14:46:02,932][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 30, in test_admin_login
+    ,username=data0['username'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\admin\member_controller_api.py", line 68, in login
+    url = self.get_full_url(url,etc=etc)
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\client.py", line 49, in get_full_url
+    host = self.host.rstrip('/')
+AttributeError: 'MemberControllerApi' object has no attribute 'host'
+
+[2021-10-11 14:46:03,990][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:46:03,990][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：'MemberControllerApi' object has no attribute 'host'------
+[2021-10-11 14:46:03,991][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 30, in test_admin_login
+    ,username=data0['username'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\admin\member_controller_api.py", line 68, in login
+    url = self.get_full_url(url,etc=etc)
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\client.py", line 49, in get_full_url
+    host = self.host.rstrip('/')
+AttributeError: 'MemberControllerApi' object has no attribute 'host'
+
+[2021-10-11 14:46:05,004][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:46:05,004][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：'MemberControllerApi' object has no attribute 'host'------
+[2021-10-11 14:46:05,005][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 30, in test_admin_login
+    ,username=data0['username'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\admin\member_controller_api.py", line 68, in login
+    url = self.get_full_url(url,etc=etc)
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\client.py", line 49, in get_full_url
+    host = self.host.rstrip('/')
+AttributeError: 'MemberControllerApi' object has no attribute 'host'
+
+[2021-10-11 14:46:06,025][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:46:06,026][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：'MemberControllerApi' object has no attribute 'host'------
+[2021-10-11 14:46:06,026][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 30, in test_admin_login
+    ,username=data0['username'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\admin\member_controller_api.py", line 68, in login
+    url = self.get_full_url(url,etc=etc)
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\client.py", line 49, in get_full_url
+    host = self.host.rstrip('/')
+AttributeError: 'MemberControllerApi' object has no attribute 'host'
+
+[2021-10-11 14:46:06,037][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:46:06,037][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：'MemberControllerApi' object has no attribute 'host'------
+[2021-10-11 14:46:06,038][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 30, in test_admin_login
+    ,username=data0['username'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\admin\member_controller_api.py", line 68, in login
+    url = self.get_full_url(url,etc=etc)
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\client.py", line 49, in get_full_url
+    host = self.host.rstrip('/')
+AttributeError: 'MemberControllerApi' object has no attribute 'host'
+
+[2021-10-11 14:46:07,049][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:46:07,049][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：'MemberControllerApi' object has no attribute 'host'------
+[2021-10-11 14:46:07,050][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 30, in test_admin_login
+    ,username=data0['username'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\admin\member_controller_api.py", line 68, in login
+    url = self.get_full_url(url,etc=etc)
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\client.py", line 49, in get_full_url
+    host = self.host.rstrip('/')
+AttributeError: 'MemberControllerApi' object has no attribute 'host'
+
+[2021-10-11 14:48:06,889][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:48:06,889][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：'MemberControllerApi' object has no attribute 'host'------
+[2021-10-11 14:48:06,890][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 30, in test_admin_login
+    ,username=data0['username'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\admin\member_controller_api.py", line 68, in login
+    url = self.get_full_url(url,etc=etc)
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\client.py", line 49, in get_full_url
+    host = self.host.rstrip('/')
+AttributeError: 'MemberControllerApi' object has no attribute 'host'
+
+[2021-10-11 14:48:07,945][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:48:07,945][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：'MemberControllerApi' object has no attribute 'host'------
+[2021-10-11 14:48:07,946][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 30, in test_admin_login
+    ,username=data0['username'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\admin\member_controller_api.py", line 68, in login
+    url = self.get_full_url(url,etc=etc)
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\client.py", line 49, in get_full_url
+    host = self.host.rstrip('/')
+AttributeError: 'MemberControllerApi' object has no attribute 'host'
+
+[2021-10-11 14:48:08,962][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:48:08,962][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：'MemberControllerApi' object has no attribute 'host'------
+[2021-10-11 14:48:08,963][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 30, in test_admin_login
+    ,username=data0['username'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\admin\member_controller_api.py", line 68, in login
+    url = self.get_full_url(url,etc=etc)
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\client.py", line 49, in get_full_url
+    host = self.host.rstrip('/')
+AttributeError: 'MemberControllerApi' object has no attribute 'host'
+
+[2021-10-11 14:48:09,974][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:48:09,974][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：'MemberControllerApi' object has no attribute 'host'------
+[2021-10-11 14:48:09,975][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 30, in test_admin_login
+    ,username=data0['username'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\admin\member_controller_api.py", line 68, in login
+    url = self.get_full_url(url,etc=etc)
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\client.py", line 49, in get_full_url
+    host = self.host.rstrip('/')
+AttributeError: 'MemberControllerApi' object has no attribute 'host'
+
+[2021-10-11 14:48:09,986][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:48:09,986][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：'MemberControllerApi' object has no attribute 'host'------
+[2021-10-11 14:48:09,987][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 30, in test_admin_login
+    ,username=data0['username'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\admin\member_controller_api.py", line 68, in login
+    url = self.get_full_url(url,etc=etc)
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\client.py", line 49, in get_full_url
+    host = self.host.rstrip('/')
+AttributeError: 'MemberControllerApi' object has no attribute 'host'
+
+[2021-10-11 14:48:11,011][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:48:11,011][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：'MemberControllerApi' object has no attribute 'host'------
+[2021-10-11 14:48:11,012][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 30, in test_admin_login
+    ,username=data0['username'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\admin\member_controller_api.py", line 68, in login
+    url = self.get_full_url(url,etc=etc)
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\client.py", line 49, in get_full_url
+    host = self.host.rstrip('/')
+AttributeError: 'MemberControllerApi' object has no attribute 'host'
+
+[2021-10-11 14:48:12,025][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:48:12,025][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：'MemberControllerApi' object has no attribute 'host'------
+[2021-10-11 14:48:12,026][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 30, in test_admin_login
+    ,username=data0['username'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\admin\member_controller_api.py", line 68, in login
+    url = self.get_full_url(url,etc=etc)
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\client.py", line 49, in get_full_url
+    host = self.host.rstrip('/')
+AttributeError: 'MemberControllerApi' object has no attribute 'host'
+
+[2021-10-11 14:48:13,047][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:48:13,047][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：'MemberControllerApi' object has no attribute 'host'------
+[2021-10-11 14:48:13,048][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 30, in test_admin_login
+    ,username=data0['username'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\admin\member_controller_api.py", line 68, in login
+    url = self.get_full_url(url,etc=etc)
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\client.py", line 49, in get_full_url
+    host = self.host.rstrip('/')
+AttributeError: 'MemberControllerApi' object has no attribute 'host'
+
+[2021-10-11 14:48:13,059][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:48:13,059][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：'MemberControllerApi' object has no attribute 'host'------
+[2021-10-11 14:48:13,059][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 30, in test_admin_login
+    ,username=data0['username'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\admin\member_controller_api.py", line 68, in login
+    url = self.get_full_url(url,etc=etc)
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\client.py", line 49, in get_full_url
+    host = self.host.rstrip('/')
+AttributeError: 'MemberControllerApi' object has no attribute 'host'
+
+[2021-10-11 14:48:14,234][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:48:14,234][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：'MemberControllerApi' object has no attribute 'host'------
+[2021-10-11 14:48:14,234][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 30, in test_admin_login
+    ,username=data0['username'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\admin\member_controller_api.py", line 68, in login
+    url = self.get_full_url(url,etc=etc)
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\client.py", line 49, in get_full_url
+    host = self.host.rstrip('/')
+AttributeError: 'MemberControllerApi' object has no attribute 'host'
+
+[2021-10-11 14:48:15,408][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:48:15,408][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：'MemberControllerApi' object has no attribute 'host'------
+[2021-10-11 14:48:15,409][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 30, in test_admin_login
+    ,username=data0['username'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\admin\member_controller_api.py", line 68, in login
+    url = self.get_full_url(url,etc=etc)
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\client.py", line 49, in get_full_url
+    host = self.host.rstrip('/')
+AttributeError: 'MemberControllerApi' object has no attribute 'host'
+
+[2021-10-11 14:48:16,575][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:48:16,575][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：'MemberControllerApi' object has no attribute 'host'------
+[2021-10-11 14:48:16,576][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 30, in test_admin_login
+    ,username=data0['username'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\admin\member_controller_api.py", line 68, in login
+    url = self.get_full_url(url,etc=etc)
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\client.py", line 49, in get_full_url
+    host = self.host.rstrip('/')
+AttributeError: 'MemberControllerApi' object has no attribute 'host'
+
+[2021-10-11 14:50:02,309][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:50:02,358][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-11 14:50:02,358][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-11 14:50:02,358][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-11 14:50:02,363][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:50:02,400][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-11 14:50:02,400][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-11 14:50:02,400][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-11 14:50:02,405][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 14:50:02,450][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-11 14:50:02,450][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-11 14:50:02,450][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-11 15:05:13,771][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 15:05:13,886][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-11 15:05:13,886][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-11 15:05:13,886][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-11 15:05:13,891][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 15:05:13,927][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-11 15:05:13,927][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-11 15:05:13,927][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-11 15:05:13,932][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-11 15:05:13,968][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-11 15:05:13,968][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-11 15:05:13,968][logger.py 69][INFO]: ------test_admin_login执行成功------

@@ -1,0 +1,22 @@
+[2021-10-01 11:07:40,455][logger.py 51][INFO]: ------开始执行test_admin_login------
+[2021-10-01 11:07:40,509][logger.py 59][INFO]: ------test_admin_login执行成功------
+[2021-10-01 11:16:23,730][logger.py 51][INFO]: ------开始执行hbq------
+[2021-10-01 11:16:23,731][logger.py 55][ERROR]: ------hbq执行失败，失败原因：------
+[2021-10-01 11:16:23,731][logger.py 56][ERROR]: hbq is error,here are details:Traceback (most recent call last):
+  File "D:/daima/xin-daima/jiekou/common/logger.py", line 53, in log
+    func(*args, **kwargs)
+  File "D:/daima/xin-daima/jiekou/common/logger.py", line 63, in hbq
+    assert 1==2
+AssertionError
+
+[2021-10-01 11:25:06,437][logger.py 54][INFO]: ------开始执行hbq------
+[2021-10-01 11:25:06,438][logger.py 58][ERROR]: ------hbq执行失败，失败原因：------
+[2021-10-01 11:25:06,438][logger.py 59][ERROR]: hbq is error,here are details:Traceback (most recent call last):
+  File "D:/daima/xin-daima/jiekou/common/logger.py", line 56, in log
+    func(*args, **kwargs)
+  File "D:/daima/xin-daima/jiekou/common/logger.py", line 66, in hbq
+    assert 1==2
+AssertionError
+
+[2021-10-01 11:41:43,417][logger.py 61][INFO]: ------开始执行test_admin_login------
+[2021-10-01 11:41:43,489][logger.py 69][INFO]: ------test_admin_login执行成功------

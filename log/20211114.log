@@ -1,0 +1,4 @@
+[2021-11-14 09:37:17,420][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-11-14 09:37:17,466][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-11-14 09:37:17,466][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-11-14 09:37:17,466][logger.py 69][INFO]: ------test_admin_login执行成功------

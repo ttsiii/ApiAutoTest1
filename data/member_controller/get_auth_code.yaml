@@ -1,0 +1,14 @@
+#作者：道长
+
+#获取注册验证码
+title: 注册获取验证码
+url: mall-member/sso/getAuthCode
+method: get
+info: 场景为：前台获取验证码
+case_data:
+#  - [{"telephone":"18821768019"},
+#     {'except_msg': '获取验证码成功','except_code': 200,'info': '正确的登录'}]
+
+-   case_name: case1_获取验证码成功
+    body: {"telephone":"18821768019"}
+    expect: {'message': '获取验证码成功','code': 200}

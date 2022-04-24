@@ -1,0 +1,8 @@
+INFO     log:logger.py:62 ------开始执行test_admin_login用例------
+INFO     log:logger.py:62 ------开始执行assert_api用例------
+INFO     log:assert_api.py:21 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4MTk0ODI1LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNDZjZjViZmYtNGM3ZC00YzI5LTkxZDctNzgzYTg5MTY0MzZkIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.LN5PWier9JOVMbUZClHaniZzIrPlUDZNAglbA2iOIm2L8zCaZJuiBYyfmOMqP0KVs6WMlkRQ5biw62nrXGXerOX5KBSex2ksDdxL4FoqnjTumQSTOhPVIAfbkMuYUyJAdKc6oQbzbaDJqnsAUDkdZG7a9AVZLqkaFCHhsibfqkg', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI0NmNmNWJmZi00YzdkLTRjMjktOTFkNy03ODNhODkxNjQzNmQiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ4NzEzMjI1LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiOWE4OGRlOWEtZGViYi00YjdjLTk2NDEtNjMyMzAyOWNmYTg2IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.BStiFvPIagenIaYlKdjzlYVgThrpAk_lfbtqhuQiuxF6CO02RvMkQ8tlxYRhZNNkTjCLAAsAnl9de6F9bipjA4nxH4ShZ310uiuAz1j143_oh-7dm9w-aZlOEbmYIlZSxS9sNKIqe5bSpFi8XpjBvKu45D2xJu7Iof58aAE5kqQ', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+INFO     log:logger.py:70 ------assert_api执行成功------
+INFO     log:logger.py:70 ------test_admin_login执行成功------

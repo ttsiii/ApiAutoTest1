@@ -1,0 +1,686 @@
+[2022-01-07 15:33:18,045][main.py 42][INFO]: 
+                                                          _ooOoo_
+                                                         o8888888o
+                                                         88" . "88
+                                                         (| -_- |)
+                                                          O\ = /O
+                                                      ____/`---'\____
+                                                    .   ' \\| |// `.
+                                                     / \\||| : |||// \
+                                                   / _||||| -:- |||||- \
+                                                     | | \\\ - /// | |
+                                                   | \_| ''\---/'' | |
+                                                    \ .-\__ `-` ___/-. /
+                                                 ___`. .' /--.--\ `. . __
+                                              ."" '< `.___\_<|>_/___.' >'"".
+                                             | | : `- \`.;`\ _ /`;.`/ - ` : | |
+                                               \ \ `-. \_ __\ /__ _/ .-` / /
+                                       ======`-.____`-.___\_____/___.-`____.-'======
+                                                          `=---='
+
+                                       .............................................
+                                              佛祖保佑             永无BUG
+                                       .............................................
+                                           佛曰:
+                                           写字楼里写字间          写字间里程序员；
+                                           程序人员写程序          又拿程序换酒钱。
+                                           酒醒只在网上坐          酒醉还来网下眠； 
+                                           酒醉酒醒日复日          网上网下年复年。
+                                           但愿老死电脑间          不愿鞠躬老板前；
+                                           奔驰宝马贵者趣          公交自行程序员。
+                                           别人笑我忒疯癫          我笑自己命太贱；
+                                           不见满街漂亮妹          哪个归得程序员？
+
+[2022-01-07 15:33:24,183][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-01-07 15:33:24,223][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 15:33:24,223][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 15:33:24,223][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-01-07 15:33:24,228][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 15:33:24,587][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 15:33:24,587][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 15:33:24,588][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-01-07 15:33:25,054][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 15:33:25,054][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 15:33:25,059][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 15:33:25,433][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 15:33:25,434][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 15:33:25,434][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-01-07 15:33:37,163][main.py 42][INFO]: 
+                                                          _ooOoo_
+                                                         o8888888o
+                                                         88" . "88
+                                                         (| -_- |)
+                                                          O\ = /O
+                                                      ____/`---'\____
+                                                    .   ' \\| |// `.
+                                                     / \\||| : |||// \
+                                                   / _||||| -:- |||||- \
+                                                     | | \\\ - /// | |
+                                                   | \_| ''\---/'' | |
+                                                    \ .-\__ `-` ___/-. /
+                                                 ___`. .' /--.--\ `. . __
+                                              ."" '< `.___\_<|>_/___.' >'"".
+                                             | | : `- \`.;`\ _ /`;.`/ - ` : | |
+                                               \ \ `-. \_ __\ /__ _/ .-` / /
+                                       ======`-.____`-.___\_____/___.-`____.-'======
+                                                          `=---='
+
+                                       .............................................
+                                              佛祖保佑             永无BUG
+                                       .............................................
+                                           佛曰:
+                                           写字楼里写字间          写字间里程序员；
+                                           程序人员写程序          又拿程序换酒钱。
+                                           酒醒只在网上坐          酒醉还来网下眠； 
+                                           酒醉酒醒日复日          网上网下年复年。
+                                           但愿老死电脑间          不愿鞠躬老板前；
+                                           奔驰宝马贵者趣          公交自行程序员。
+                                           别人笑我忒疯癫          我笑自己命太贱；
+                                           不见满街漂亮妹          哪个归得程序员？
+
+[2022-01-07 15:33:42,729][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-01-07 15:33:42,763][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 15:33:42,763][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 15:33:42,763][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-01-07 15:33:42,767][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 15:33:43,154][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 15:33:43,154][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 15:33:43,155][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-01-07 15:33:43,616][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 15:33:43,616][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 15:33:43,622][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 15:33:43,984][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 15:33:43,984][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 15:33:43,984][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-01-07 20:23:28,639][main.py 42][INFO]: 
+                                                          _ooOoo_
+                                                         o8888888o
+                                                         88" . "88
+                                                         (| -_- |)
+                                                          O\ = /O
+                                                      ____/`---'\____
+                                                    .   ' \\| |// `.
+                                                     / \\||| : |||// \
+                                                   / _||||| -:- |||||- \
+                                                     | | \\\ - /// | |
+                                                   | \_| ''\---/'' | |
+                                                    \ .-\__ `-` ___/-. /
+                                                 ___`. .' /--.--\ `. . __
+                                              ."" '< `.___\_<|>_/___.' >'"".
+                                             | | : `- \`.;`\ _ /`;.`/ - ` : | |
+                                               \ \ `-. \_ __\ /__ _/ .-` / /
+                                       ======`-.____`-.___\_____/___.-`____.-'======
+                                                          `=---='
+
+                                       .............................................
+                                              佛祖保佑             永无BUG
+                                       .............................................
+                                           佛曰:
+                                           写字楼里写字间          写字间里程序员；
+                                           程序人员写程序          又拿程序换酒钱。
+                                           酒醒只在网上坐          酒醉还来网下眠； 
+                                           酒醉酒醒日复日          网上网下年复年。
+                                           但愿老死电脑间          不愿鞠躬老板前；
+                                           奔驰宝马贵者趣          公交自行程序员。
+                                           别人笑我忒疯癫          我笑自己命太贱；
+                                           不见满街漂亮妹          哪个归得程序员？
+
+[2022-01-07 20:23:33,839][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-01-07 20:23:33,877][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:23:33,877][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:23:33,878][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-01-07 20:23:33,882][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 20:23:33,933][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:23:33,933][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:23:33,933][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-01-07 20:23:34,058][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:23:34,058][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:23:34,063][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 20:23:34,104][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:23:34,105][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:23:34,105][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-01-07 20:29:58,572][main.py 42][INFO]: 
+                                                          _ooOoo_
+                                                         o8888888o
+                                                         88" . "88
+                                                         (| -_- |)
+                                                          O\ = /O
+                                                      ____/`---'\____
+                                                    .   ' \\| |// `.
+                                                     / \\||| : |||// \
+                                                   / _||||| -:- |||||- \
+                                                     | | \\\ - /// | |
+                                                   | \_| ''\---/'' | |
+                                                    \ .-\__ `-` ___/-. /
+                                                 ___`. .' /--.--\ `. . __
+                                              ."" '< `.___\_<|>_/___.' >'"".
+                                             | | : `- \`.;`\ _ /`;.`/ - ` : | |
+                                               \ \ `-. \_ __\ /__ _/ .-` / /
+                                       ======`-.____`-.___\_____/___.-`____.-'======
+                                                          `=---='
+
+                                       .............................................
+                                              佛祖保佑             永无BUG
+                                       .............................................
+                                           佛曰:
+                                           写字楼里写字间          写字间里程序员；
+                                           程序人员写程序          又拿程序换酒钱。
+                                           酒醒只在网上坐          酒醉还来网下眠； 
+                                           酒醉酒醒日复日          网上网下年复年。
+                                           但愿老死电脑间          不愿鞠躬老板前；
+                                           奔驰宝马贵者趣          公交自行程序员。
+                                           别人笑我忒疯癫          我笑自己命太贱；
+                                           不见满街漂亮妹          哪个归得程序员？
+
+[2022-01-07 20:30:03,508][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-01-07 20:30:03,539][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:30:03,539][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:30:03,539][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-01-07 20:30:03,543][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 20:30:03,584][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:30:03,584][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:30:03,584][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:30:03,584][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:30:03,585][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：'Logger' object is not callable------
+[2022-01-07 20:30:03,585][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 38, in test_admin_login
+    Logger("9999999999999999",assert_api(actual_data,case_data['expect']))
+TypeError: 'Logger' object is not callable
+
+[2022-01-07 20:30:03,744][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:30:03,744][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:30:03,749][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 20:30:03,800][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:30:03,800][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:30:03,800][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-01-07 20:30:18,010][main.py 42][INFO]: 
+                                                          _ooOoo_
+                                                         o8888888o
+                                                         88" . "88
+                                                         (| -_- |)
+                                                          O\ = /O
+                                                      ____/`---'\____
+                                                    .   ' \\| |// `.
+                                                     / \\||| : |||// \
+                                                   / _||||| -:- |||||- \
+                                                     | | \\\ - /// | |
+                                                   | \_| ''\---/'' | |
+                                                    \ .-\__ `-` ___/-. /
+                                                 ___`. .' /--.--\ `. . __
+                                              ."" '< `.___\_<|>_/___.' >'"".
+                                             | | : `- \`.;`\ _ /`;.`/ - ` : | |
+                                               \ \ `-. \_ __\ /__ _/ .-` / /
+                                       ======`-.____`-.___\_____/___.-`____.-'======
+                                                          `=---='
+
+                                       .............................................
+                                              佛祖保佑             永无BUG
+                                       .............................................
+                                           佛曰:
+                                           写字楼里写字间          写字间里程序员；
+                                           程序人员写程序          又拿程序换酒钱。
+                                           酒醒只在网上坐          酒醉还来网下眠； 
+                                           酒醉酒醒日复日          网上网下年复年。
+                                           但愿老死电脑间          不愿鞠躬老板前；
+                                           奔驰宝马贵者趣          公交自行程序员。
+                                           别人笑我忒疯癫          我笑自己命太贱；
+                                           不见满街漂亮妹          哪个归得程序员？
+
+[2022-01-07 20:30:22,942][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-01-07 20:30:22,990][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:30:22,990][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:30:22,990][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-01-07 20:30:23,006][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 20:30:23,048][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:30:23,049][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:30:23,049][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:30:23,049][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:30:23,051][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：level must be an integer------
+[2022-01-07 20:30:23,052][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 38, in test_admin_login
+    Logger.log("9999999999999999",assert_api(actual_data,case_data['expect']))
+  File "D:\ruanjian\python\lib\logging\__init__.py", line 1394, in log
+    raise TypeError("level must be an integer")
+TypeError: level must be an integer
+
+[2022-01-07 20:30:23,244][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:30:23,244][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:30:23,249][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 20:30:23,280][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:30:23,281][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:30:23,281][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-01-07 20:31:15,705][main.py 42][INFO]: 
+                                                          _ooOoo_
+                                                         o8888888o
+                                                         88" . "88
+                                                         (| -_- |)
+                                                          O\ = /O
+                                                      ____/`---'\____
+                                                    .   ' \\| |// `.
+                                                     / \\||| : |||// \
+                                                   / _||||| -:- |||||- \
+                                                     | | \\\ - /// | |
+                                                   | \_| ''\---/'' | |
+                                                    \ .-\__ `-` ___/-. /
+                                                 ___`. .' /--.--\ `. . __
+                                              ."" '< `.___\_<|>_/___.' >'"".
+                                             | | : `- \`.;`\ _ /`;.`/ - ` : | |
+                                               \ \ `-. \_ __\ /__ _/ .-` / /
+                                       ======`-.____`-.___\_____/___.-`____.-'======
+                                                          `=---='
+
+                                       .............................................
+                                              佛祖保佑             永无BUG
+                                       .............................................
+                                           佛曰:
+                                           写字楼里写字间          写字间里程序员；
+                                           程序人员写程序          又拿程序换酒钱。
+                                           酒醒只在网上坐          酒醉还来网下眠； 
+                                           酒醉酒醒日复日          网上网下年复年。
+                                           但愿老死电脑间          不愿鞠躬老板前；
+                                           奔驰宝马贵者趣          公交自行程序员。
+                                           别人笑我忒疯癫          我笑自己命太贱；
+                                           不见满街漂亮妹          哪个归得程序员？
+
+[2022-01-07 20:31:20,736][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-01-07 20:31:20,774][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:31:20,774][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:31:20,774][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-01-07 20:31:20,780][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 20:31:20,833][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:31:20,833][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:31:20,833][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:31:20,833][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:31:20,872][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：not all arguments converted during string formatting------
+[2022-01-07 20:31:20,872][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 38, in test_admin_login
+    Logger.info("9999999999999999",assert_api(actual_data,case_data['expect']))
+  File "D:\ruanjian\python\lib\logging\__init__.py", line 1332, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\ruanjian\python\lib\logging\__init__.py", line 1468, in _log
+    self.handle(record)
+  File "D:\ruanjian\python\lib\logging\__init__.py", line 1478, in handle
+    self.callHandlers(record)
+  File "D:\ruanjian\python\lib\logging\__init__.py", line 1540, in callHandlers
+    hdlr.handle(record)
+  File "D:\ruanjian\python\lib\logging\__init__.py", line 854, in handle
+    self.emit(record)
+  File "D:\ruanjian\python\lib\site-packages\_pytest\logging.py", line 331, in emit
+    super().emit(record)
+  File "D:\ruanjian\python\lib\logging\__init__.py", line 989, in emit
+    self.handleError(record)
+  File "D:\ruanjian\python\lib\logging\__init__.py", line 983, in emit
+    msg = self.format(record)
+  File "D:\ruanjian\python\lib\logging\__init__.py", line 829, in format
+    return fmt.format(record)
+  File "D:\ruanjian\python\lib\site-packages\_pytest\logging.py", line 92, in format
+    return super().format(record)
+  File "D:\ruanjian\python\lib\logging\__init__.py", line 569, in format
+    record.message = record.getMessage()
+  File "D:\ruanjian\python\lib\logging\__init__.py", line 331, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+
+[2022-01-07 20:31:21,116][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:31:21,117][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:31:21,122][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 20:31:21,158][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:31:21,158][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:31:21,158][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-01-07 20:33:35,504][main.py 42][INFO]: 
+                                                          _ooOoo_
+                                                         o8888888o
+                                                         88" . "88
+                                                         (| -_- |)
+                                                          O\ = /O
+                                                      ____/`---'\____
+                                                    .   ' \\| |// `.
+                                                     / \\||| : |||// \
+                                                   / _||||| -:- |||||- \
+                                                     | | \\\ - /// | |
+                                                   | \_| ''\---/'' | |
+                                                    \ .-\__ `-` ___/-. /
+                                                 ___`. .' /--.--\ `. . __
+                                              ."" '< `.___\_<|>_/___.' >'"".
+                                             | | : `- \`.;`\ _ /`;.`/ - ` : | |
+                                               \ \ `-. \_ __\ /__ _/ .-` / /
+                                       ======`-.____`-.___\_____/___.-`____.-'======
+                                                          `=---='
+
+                                       .............................................
+                                              佛祖保佑             永无BUG
+                                       .............................................
+                                           佛曰:
+                                           写字楼里写字间          写字间里程序员；
+                                           程序人员写程序          又拿程序换酒钱。
+                                           酒醒只在网上坐          酒醉还来网下眠； 
+                                           酒醉酒醒日复日          网上网下年复年。
+                                           但愿老死电脑间          不愿鞠躬老板前；
+                                           奔驰宝马贵者趣          公交自行程序员。
+                                           别人笑我忒疯癫          我笑自己命太贱；
+                                           不见满街漂亮妹          哪个归得程序员？
+
+[2022-01-07 20:33:40,569][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-01-07 20:33:40,596][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:33:40,596][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:33:40,597][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-01-07 20:33:40,601][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 20:33:40,640][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:33:40,640][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:33:40,640][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:33:40,640][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:33:40,673][logger.py 66][ERROR]: ------test_admin_login用例执行失败，失败原因：not all arguments converted during string formatting------
+[2022-01-07 20:33:40,673][logger.py 67][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation2\common\logger.py", line 64, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation2\case\test_member_controller\test_login.py", line 38, in test_admin_login
+    Logger.info("9999999999999999",assert_api(actual_data,case_data['expect']))
+  File "D:\ruanjian\python\lib\logging\__init__.py", line 1332, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\ruanjian\python\lib\logging\__init__.py", line 1468, in _log
+    self.handle(record)
+  File "D:\ruanjian\python\lib\logging\__init__.py", line 1478, in handle
+    self.callHandlers(record)
+  File "D:\ruanjian\python\lib\logging\__init__.py", line 1540, in callHandlers
+    hdlr.handle(record)
+  File "D:\ruanjian\python\lib\logging\__init__.py", line 854, in handle
+    self.emit(record)
+  File "D:\ruanjian\python\lib\site-packages\_pytest\logging.py", line 331, in emit
+    super().emit(record)
+  File "D:\ruanjian\python\lib\logging\__init__.py", line 989, in emit
+    self.handleError(record)
+  File "D:\ruanjian\python\lib\logging\__init__.py", line 983, in emit
+    msg = self.format(record)
+  File "D:\ruanjian\python\lib\logging\__init__.py", line 829, in format
+    return fmt.format(record)
+  File "D:\ruanjian\python\lib\site-packages\_pytest\logging.py", line 92, in format
+    return super().format(record)
+  File "D:\ruanjian\python\lib\logging\__init__.py", line 569, in format
+    record.message = record.getMessage()
+  File "D:\ruanjian\python\lib\logging\__init__.py", line 331, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+
+[2022-01-07 20:33:40,941][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:33:40,941][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:33:40,946][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 20:33:40,985][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:33:40,986][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:33:40,986][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-01-07 20:33:49,484][main.py 42][INFO]: 
+                                                          _ooOoo_
+                                                         o8888888o
+                                                         88" . "88
+                                                         (| -_- |)
+                                                          O\ = /O
+                                                      ____/`---'\____
+                                                    .   ' \\| |// `.
+                                                     / \\||| : |||// \
+                                                   / _||||| -:- |||||- \
+                                                     | | \\\ - /// | |
+                                                   | \_| ''\---/'' | |
+                                                    \ .-\__ `-` ___/-. /
+                                                 ___`. .' /--.--\ `. . __
+                                              ."" '< `.___\_<|>_/___.' >'"".
+                                             | | : `- \`.;`\ _ /`;.`/ - ` : | |
+                                               \ \ `-. \_ __\ /__ _/ .-` / /
+                                       ======`-.____`-.___\_____/___.-`____.-'======
+                                                          `=---='
+
+                                       .............................................
+                                              佛祖保佑             永无BUG
+                                       .............................................
+                                           佛曰:
+                                           写字楼里写字间          写字间里程序员；
+                                           程序人员写程序          又拿程序换酒钱。
+                                           酒醒只在网上坐          酒醉还来网下眠； 
+                                           酒醉酒醒日复日          网上网下年复年。
+                                           但愿老死电脑间          不愿鞠躬老板前；
+                                           奔驰宝马贵者趣          公交自行程序员。
+                                           别人笑我忒疯癫          我笑自己命太贱；
+                                           不见满街漂亮妹          哪个归得程序员？
+
+[2022-01-07 20:33:54,703][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-01-07 20:33:54,740][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:33:54,740][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:33:54,740][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-01-07 20:33:54,744][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 20:33:54,796][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:33:54,796][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:33:54,796][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-01-07 20:33:54,912][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:33:54,912][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:33:54,917][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 20:33:54,950][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:33:54,951][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:33:54,951][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-01-07 20:34:50,162][main.py 42][INFO]: 
+                                                          _ooOoo_
+                                                         o8888888o
+                                                         88" . "88
+                                                         (| -_- |)
+                                                          O\ = /O
+                                                      ____/`---'\____
+                                                    .   ' \\| |// `.
+                                                     / \\||| : |||// \
+                                                   / _||||| -:- |||||- \
+                                                     | | \\\ - /// | |
+                                                   | \_| ''\---/'' | |
+                                                    \ .-\__ `-` ___/-. /
+                                                 ___`. .' /--.--\ `. . __
+                                              ."" '< `.___\_<|>_/___.' >'"".
+                                             | | : `- \`.;`\ _ /`;.`/ - ` : | |
+                                               \ \ `-. \_ __\ /__ _/ .-` / /
+                                       ======`-.____`-.___\_____/___.-`____.-'======
+                                                          `=---='
+
+                                       .............................................
+                                              佛祖保佑             永无BUG
+                                       .............................................
+                                           佛曰:
+                                           写字楼里写字间          写字间里程序员；
+                                           程序人员写程序          又拿程序换酒钱。
+                                           酒醒只在网上坐          酒醉还来网下眠； 
+                                           酒醉酒醒日复日          网上网下年复年。
+                                           但愿老死电脑间          不愿鞠躬老板前；
+                                           奔驰宝马贵者趣          公交自行程序员。
+                                           别人笑我忒疯癫          我笑自己命太贱；
+                                           不见满街漂亮妹          哪个归得程序员？
+
+[2022-01-07 20:34:55,142][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-01-07 20:34:55,168][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:34:55,168][assert_api.py 20][INFO]: 9999999999999999assert 实际结果：{'code': 200, 'message': '获取验证码成功', 'data': '893267'}，期望结果{'message': '获取验证码成功', 'code': 200}
+[2022-01-07 20:34:55,169][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:34:55,169][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-01-07 20:34:55,173][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 20:34:55,217][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:34:55,217][assert_api.py 20][INFO]: 9999999999999999assert 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQxNjQ1Mjk1LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYWU4Njk0NDQtOGVkZi00MDJjLTllN2QtYjIyNTFlNWY4ZDE1IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.lUyg1Y1AufuicoXsUnSGuPpRfDEXa7JMbz6Cx1-XLCEdCy5nUs_Hmk8VhJiSWqv3AZsRW7drpPGH1nZmveDLPfHGhCApaKYuvy2vcR0HRLWX3q8XReJCttYpJVCokppGcY_ECaZnJPogdW2QyWsBTbcqrswTTLujUDisYeAYv_Q', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJhZTg2OTQ0NC04ZWRmLTQwMmMtOWU3ZC1iMjI1MWU1ZjhkMTUiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQyMTYzNjk1LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYzAxNDBjYTctYmM5Yy00NDc2LTk3NDEtNDE3MjRkNzYzMDZlIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.lcq2gv0h6Jzn98_4JSPOumG0fiT_DdRQwWYKcVAUREb39wZpRip4NgvdSzAiIh3T3iIrRqR4GCoQmn1tfYIZfT5WvszTI3yt3LPFn7NB1H3d7P9qVYMu29lpPCdtkSPIw4GXIqHzkGoo8UbK5tligbvzntD-YJwjpva49dRr7C4', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，期望结果{'message': '操作成功', 'code': 200}
+[2022-01-07 20:34:55,218][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:34:55,218][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-01-07 20:34:55,323][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:34:55,323][assert_api.py 20][INFO]: 9999999999999999assert 实际结果：{'code': 200, 'message': '注册成功', 'data': None}，期望结果{'message': '注册成功', 'code': 200}
+[2022-01-07 20:34:55,323][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:34:55,327][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 20:34:55,372][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:34:55,372][assert_api.py 20][INFO]: 9999999999999999assert 实际结果：{'code': 200, 'message': '操作成功', 'data': 1}，期望结果{'except': '操作成功', 'code': 200}
+[2022-01-07 20:34:55,372][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:34:55,372][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-01-07 20:35:28,745][main.py 42][INFO]: 
+                                                          _ooOoo_
+                                                         o8888888o
+                                                         88" . "88
+                                                         (| -_- |)
+                                                          O\ = /O
+                                                      ____/`---'\____
+                                                    .   ' \\| |// `.
+                                                     / \\||| : |||// \
+                                                   / _||||| -:- |||||- \
+                                                     | | \\\ - /// | |
+                                                   | \_| ''\---/'' | |
+                                                    \ .-\__ `-` ___/-. /
+                                                 ___`. .' /--.--\ `. . __
+                                              ."" '< `.___\_<|>_/___.' >'"".
+                                             | | : `- \`.;`\ _ /`;.`/ - ` : | |
+                                               \ \ `-. \_ __\ /__ _/ .-` / /
+                                       ======`-.____`-.___\_____/___.-`____.-'======
+                                                          `=---='
+
+                                       .............................................
+                                              佛祖保佑             永无BUG
+                                       .............................................
+                                           佛曰:
+                                           写字楼里写字间          写字间里程序员；
+                                           程序人员写程序          又拿程序换酒钱。
+                                           酒醒只在网上坐          酒醉还来网下眠； 
+                                           酒醉酒醒日复日          网上网下年复年。
+                                           但愿老死电脑间          不愿鞠躬老板前；
+                                           奔驰宝马贵者趣          公交自行程序员。
+                                           别人笑我忒疯癫          我笑自己命太贱；
+                                           不见满街漂亮妹          哪个归得程序员？
+
+[2022-01-07 20:35:33,779][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-01-07 20:35:33,821][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:35:33,821][assert_api.py 20][INFO]: assert 实际结果：{'code': 200, 'message': '获取验证码成功', 'data': '012087'}，期望结果{'message': '获取验证码成功', 'code': 200}
+[2022-01-07 20:35:33,821][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:35:33,821][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-01-07 20:35:33,827][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 20:35:33,872][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:35:33,872][assert_api.py 20][INFO]: assert 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQxNjQ1MzM0LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYzIyNzYxYjctMTFmNy00M2MyLTlhZjEtN2M1YTE3MDcxMDI3IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.Cm8fHseNeUotru3EfhA6Z6tAK9o3Fs8fM5d1QeNc9UYaH2OUqwVom7QfYY1Sx9Vx8IuBIUzDoPwtdp7YiTd01AyKr5Eme4UCmiZUogxF2cSS1ONebIbdPe8fYnACsmbPxSWjBMMS_rxTxEFW6VjXymR-BhFiNE8X_0kAu9u_s90', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJjMjI3NjFiNy0xMWY3LTQzYzItOWFmMS03YzVhMTcwNzEwMjciLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQyMTYzNzM0LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYmQ3ZjcwZWYtOTJlOS00NDA2LTg4MGUtMjY2ZTVkMTc3NGVkIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.HRt1Rt2JZeJAzLty5Q4b6_Do6dsSoEvfsE-ipqulZlV3w77prPt1qIUp-zPjuoxOOJka0OiCDHco2Tmw7hqOzE-9kALlQh_ENsDhK_MYilhynS8ZXBLlTsSawUrD_xtS3jXa02bP8iFyEYmAtyQ5PU8ly85cajWICrDPydQXz3w', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，期望结果{'message': '操作成功', 'code': 200}
+[2022-01-07 20:35:33,872][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:35:33,872][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-01-07 20:35:33,978][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:35:33,978][assert_api.py 20][INFO]: assert 实际结果：{'code': 200, 'message': '注册成功', 'data': None}，期望结果{'message': '注册成功', 'code': 200}
+[2022-01-07 20:35:33,978][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:35:33,983][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 20:35:34,020][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:35:34,020][assert_api.py 20][INFO]: assert 实际结果：{'code': 200, 'message': '操作成功', 'data': 1}，期望结果{'except': '操作成功', 'code': 200}
+[2022-01-07 20:35:34,020][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:35:34,020][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-01-07 20:40:02,163][main.py 42][INFO]: 
+                                                          _ooOoo_
+                                                         o8888888o
+                                                         88" . "88
+                                                         (| -_- |)
+                                                          O\ = /O
+                                                      ____/`---'\____
+                                                    .   ' \\| |// `.
+                                                     / \\||| : |||// \
+                                                   / _||||| -:- |||||- \
+                                                     | | \\\ - /// | |
+                                                   | \_| ''\---/'' | |
+                                                    \ .-\__ `-` ___/-. /
+                                                 ___`. .' /--.--\ `. . __
+                                              ."" '< `.___\_<|>_/___.' >'"".
+                                             | | : `- \`.;`\ _ /`;.`/ - ` : | |
+                                               \ \ `-. \_ __\ /__ _/ .-` / /
+                                       ======`-.____`-.___\_____/___.-`____.-'======
+                                                          `=---='
+
+                                       .............................................
+                                              佛祖保佑             永无BUG
+                                       .............................................
+                                           佛曰:
+                                           写字楼里写字间          写字间里程序员；
+                                           程序人员写程序          又拿程序换酒钱。
+                                           酒醒只在网上坐          酒醉还来网下眠； 
+                                           酒醉酒醒日复日          网上网下年复年。
+                                           但愿老死电脑间          不愿鞠躬老板前；
+                                           奔驰宝马贵者趣          公交自行程序员。
+                                           别人笑我忒疯癫          我笑自己命太贱；
+                                           不见满街漂亮妹          哪个归得程序员？
+
+[2022-01-07 20:40:07,268][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-01-07 20:40:07,299][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:40:07,299][assert_api.py 20][INFO]: assert:
+ 实际结果：{'code': 200, 'message': '获取验证码成功', 'data': '657360'}，
+期望结果{'message': '获取验证码成功', 'code': 200}
+[2022-01-07 20:40:07,299][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:40:07,299][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-01-07 20:40:07,303][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 20:40:07,357][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:40:07,357][assert_api.py 20][INFO]: assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQxNjQ1NjA3LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMGMzNzIzYmYtZGNmZi00YTBjLTgwYmYtNDRhMGNhNTA3YjMyIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.niw4nxK6pQGYqZoNkHatSzejbyhpAWs3O76fOhByyuYkETLxO8y9HrQBQWefREhyvWZq9gWqN-TbKLR75NFbb73CMMmA5WbS1soKRr1eD4CuEt05n5oe6tfQLDVZbHrqqlEnQRDJI0yaeVg9MfuSjTRCIbumbRIdoIpDXXaVXgo', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiIwYzM3MjNiZi1kY2ZmLTRhMGMtODBiZi00NGEwY2E1MDdiMzIiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQyMTY0MDA3LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMTA2NDAzODgtMTM0Ny00YzkxLWEwYTItNWFjYWRjZWIwODUwIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.eO0EIXAciAbyBrdxyA8MsaERojDtS6xoTndZCMjgA4nsV6Vf_dmK-mOaTKaT6HnIo4MOfMRmOU3QAVuIu-W4G1rBumyCkTDOSzjs_Lgkl5imrDF-KjNQqwTYMNsEgo87vPGZ-Q-oZPgEsg_mdoUj9dkIJhwwznHSzLiGFrQDMLQ', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-01-07 20:40:07,357][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:40:07,357][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-01-07 20:40:07,462][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:40:07,463][assert_api.py 20][INFO]: assert:
+ 实际结果：{'code': 200, 'message': '注册成功', 'data': None}，
+期望结果{'message': '注册成功', 'code': 200}
+[2022-01-07 20:40:07,463][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:40:07,467][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 20:40:07,512][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:40:07,512][assert_api.py 20][INFO]: assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': 1}，
+期望结果{'except': '操作成功', 'code': 200}
+[2022-01-07 20:40:07,512][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:40:07,513][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-01-07 20:40:37,513][main.py 42][INFO]: 
+                                                          _ooOoo_
+                                                         o8888888o
+                                                         88" . "88
+                                                         (| -_- |)
+                                                          O\ = /O
+                                                      ____/`---'\____
+                                                    .   ' \\| |// `.
+                                                     / \\||| : |||// \
+                                                   / _||||| -:- |||||- \
+                                                     | | \\\ - /// | |
+                                                   | \_| ''\---/'' | |
+                                                    \ .-\__ `-` ___/-. /
+                                                 ___`. .' /--.--\ `. . __
+                                              ."" '< `.___\_<|>_/___.' >'"".
+                                             | | : `- \`.;`\ _ /`;.`/ - ` : | |
+                                               \ \ `-. \_ __\ /__ _/ .-` / /
+                                       ======`-.____`-.___\_____/___.-`____.-'======
+                                                          `=---='
+
+                                       .............................................
+                                              佛祖保佑             永无BUG
+                                       .............................................
+                                           佛曰:
+                                           写字楼里写字间          写字间里程序员；
+                                           程序人员写程序          又拿程序换酒钱。
+                                           酒醒只在网上坐          酒醉还来网下眠； 
+                                           酒醉酒醒日复日          网上网下年复年。
+                                           但愿老死电脑间          不愿鞠躬老板前；
+                                           奔驰宝马贵者趣          公交自行程序员。
+                                           别人笑我忒疯癫          我笑自己命太贱；
+                                           不见满街漂亮妹          哪个归得程序员？
+
+[2022-01-07 20:40:42,568][logger.py 62][INFO]: ------开始执行test_get_auth_code用例------
+[2022-01-07 20:40:42,596][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:40:42,596][assert_api.py 20][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '获取验证码成功', 'data': '257236'}，
+期望结果{'message': '获取验证码成功', 'code': 200}
+[2022-01-07 20:40:42,596][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:40:42,596][logger.py 70][INFO]: ------test_get_auth_code执行成功------
+[2022-01-07 20:40:42,601][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 20:40:42,650][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:40:42,650][assert_api.py 20][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQxNjQ1NjQzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNWFiNDA5YzYtYzY1Yi00ZTJhLWFlOWEtNjk4MGE3ZTIyY2Q5IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.MvA-j279scVkJzSQ5GZIi54wunhyvGC7uKUzQaO2tljOtp-3j-aZBC3dbpcUCosR1pXk2b4aojqcvg2zlpRs98-v_4fON_brHGF6Px-wjMJLyNCliTL7YeivXsOwH76oYTv6eM-5MqlAHiLgH6dtXaQSaNlddgFXVGf0NPI-RuE', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI1YWI0MDljNi1jNjViLTRlMmEtYWU5YS02OTgwYTdlMjJjZDkiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQyMTY0MDQzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiN2U1MDQyYTItZWU2YS00NTUyLWI2NzUtM2Q0ZDQ0ZGYxOGNlIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.c3r0BdydmZtAIWn8wjuUSObkj_WMEqlBxkC9XSlv60Cr4WwQ6vZo0basTR9-v1nT6Vsru75RwcGMIIqV46hD-GYkbHu_-mhKqTotbB1gbyIm8q1SIXd7ztoXMnfWrRSriz30UVgyWCRpUaOHh1n0EjHTnbUi6kAUirS3bOM3XNE', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-01-07 20:40:42,650][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:40:42,650][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-01-07 20:40:42,757][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:40:42,757][assert_api.py 20][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '注册成功', 'data': None}，
+期望结果{'message': '注册成功', 'code': 200}
+[2022-01-07 20:40:42,758][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:40:42,762][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-01-07 20:40:42,807][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-01-07 20:40:42,807][assert_api.py 20][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': 1}，
+期望结果{'except': '操作成功', 'code': 200}
+[2022-01-07 20:40:42,807][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-01-07 20:40:42,807][logger.py 70][INFO]: ------test_admin_login执行成功------

@@ -1,0 +1,348 @@
+[2021-10-19 13:37:33,403][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-19 13:37:33,549][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-19 13:37:33,549][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-19 13:37:33,549][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-19 13:37:33,553][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-19 13:37:33,691][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-19 13:37:33,691][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-19 13:37:33,691][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-19 13:37:33,696][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-19 13:37:33,840][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-19 13:37:33,840][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-19 13:37:33,840][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-19 13:56:07,104][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-19 13:56:07,391][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-19 13:56:07,391][logger.py 65][ERROR]: ------assert_api用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-19 13:56:07,393][logger.py 66][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 26, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-19 13:56:07,393][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-19 13:56:07,393][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 32, in test_admin_login
+    assert_api(actual_data,expect)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 26, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-19 13:56:08,461][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-19 13:56:08,707][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-19 13:56:08,707][logger.py 65][ERROR]: ------assert_api用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-19 13:56:08,707][logger.py 66][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 26, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-19 13:56:08,707][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-19 13:56:08,708][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 32, in test_admin_login
+    assert_api(actual_data,expect)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 26, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-19 13:56:09,731][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-19 13:56:10,004][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-19 13:56:10,005][logger.py 65][ERROR]: ------assert_api用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-19 13:56:10,005][logger.py 66][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 26, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-19 13:56:10,005][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-19 13:56:10,005][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 32, in test_admin_login
+    assert_api(actual_data,expect)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 26, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-19 13:56:11,019][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-19 13:56:11,307][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-19 13:56:11,307][logger.py 65][ERROR]: ------assert_api用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-19 13:56:11,308][logger.py 66][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 26, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-19 13:56:11,308][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-19 13:56:11,308][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 32, in test_admin_login
+    assert_api(actual_data,expect)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 26, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-19 13:56:11,320][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-19 13:56:11,592][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-19 13:56:11,592][logger.py 65][ERROR]: ------assert_api用例执行失败，失败原因：name 'b' is not defined------
+[2021-10-19 13:56:11,593][logger.py 66][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    print(aa.issubset(b.items()))  ## true
+NameError: name 'b' is not defined
+
+[2021-10-19 13:56:11,593][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：name 'b' is not defined------
+[2021-10-19 13:56:11,593][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 32, in test_admin_login
+    assert_api(actual_data,expect)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    print(aa.issubset(b.items()))  ## true
+NameError: name 'b' is not defined
+
+[2021-10-19 13:56:12,620][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-19 13:56:12,880][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-19 13:56:12,880][logger.py 65][ERROR]: ------assert_api用例执行失败，失败原因：name 'b' is not defined------
+[2021-10-19 13:56:12,881][logger.py 66][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    print(aa.issubset(b.items()))  ## true
+NameError: name 'b' is not defined
+
+[2021-10-19 13:56:12,881][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：name 'b' is not defined------
+[2021-10-19 13:56:12,881][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 32, in test_admin_login
+    assert_api(actual_data,expect)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    print(aa.issubset(b.items()))  ## true
+NameError: name 'b' is not defined
+
+[2021-10-19 13:56:13,897][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-19 13:56:14,170][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-19 13:56:14,170][logger.py 65][ERROR]: ------assert_api用例执行失败，失败原因：name 'b' is not defined------
+[2021-10-19 13:56:14,170][logger.py 66][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    print(aa.issubset(b.items()))  ## true
+NameError: name 'b' is not defined
+
+[2021-10-19 13:56:14,170][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：name 'b' is not defined------
+[2021-10-19 13:56:14,171][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 32, in test_admin_login
+    assert_api(actual_data,expect)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    print(aa.issubset(b.items()))  ## true
+NameError: name 'b' is not defined
+
+[2021-10-19 13:56:15,187][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-19 13:56:15,435][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-19 13:56:15,435][logger.py 65][ERROR]: ------assert_api用例执行失败，失败原因：name 'b' is not defined------
+[2021-10-19 13:56:15,435][logger.py 66][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    print(aa.issubset(b.items()))  ## true
+NameError: name 'b' is not defined
+
+[2021-10-19 13:56:15,435][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：name 'b' is not defined------
+[2021-10-19 13:56:15,436][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 32, in test_admin_login
+    assert_api(actual_data,expect)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    print(aa.issubset(b.items()))  ## true
+NameError: name 'b' is not defined
+
+[2021-10-19 13:56:15,447][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-19 13:56:16,073][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-19 13:56:16,073][logger.py 65][ERROR]: ------assert_api用例执行失败，失败原因：name 'b' is not defined------
+[2021-10-19 13:56:16,073][logger.py 66][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    print(aa.issubset(b.items()))  ## true
+NameError: name 'b' is not defined
+
+[2021-10-19 13:56:16,073][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：name 'b' is not defined------
+[2021-10-19 13:56:16,074][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 32, in test_admin_login
+    assert_api(actual_data,expect)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    print(aa.issubset(b.items()))  ## true
+NameError: name 'b' is not defined
+
+[2021-10-19 13:59:26,672][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-19 13:59:26,716][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-19 13:59:26,716][logger.py 65][ERROR]: ------assert_api用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-19 13:59:26,717][logger.py 66][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 26, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-19 13:59:26,717][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-19 13:59:26,718][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 32, in test_admin_login
+    assert_api(actual_data,expect)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 26, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-19 13:59:27,778][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-19 13:59:27,837][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-19 13:59:27,838][logger.py 65][ERROR]: ------assert_api用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-19 13:59:27,838][logger.py 66][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 26, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-19 13:59:27,838][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-19 13:59:27,838][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 32, in test_admin_login
+    assert_api(actual_data,expect)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 26, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-19 13:59:28,858][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-19 13:59:28,921][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-19 13:59:28,921][logger.py 65][ERROR]: ------assert_api用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-19 13:59:28,922][logger.py 66][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 26, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-19 13:59:28,922][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-19 13:59:28,922][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 32, in test_admin_login
+    assert_api(actual_data,expect)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 26, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-19 14:01:22,191][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-19 14:01:22,319][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-19 14:01:22,319][logger.py 65][ERROR]: ------assert_api用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-19 14:01:22,320][logger.py 66][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-19 14:01:22,320][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-19 14:01:22,320][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 32, in test_admin_login
+    assert_api(actual_data,expect)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-19 14:01:23,387][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-19 14:01:23,564][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-19 14:01:23,564][logger.py 65][ERROR]: ------assert_api用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-19 14:01:23,564][logger.py 66][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-19 14:01:23,564][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-19 14:01:23,565][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 32, in test_admin_login
+    assert_api(actual_data,expect)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+

@@ -1,0 +1,232 @@
+[2021-10-21 13:47:06,523][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 13:47:06,811][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 13:47:06,811][logger.py 65][ERROR]: ------assert_api用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-21 13:47:06,813][logger.py 66][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-21 13:47:06,813][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-21 13:47:06,814][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 35, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-21 13:47:08,492][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 13:47:08,701][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 13:47:08,701][logger.py 65][ERROR]: ------assert_api用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-21 13:47:08,702][logger.py 66][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-21 13:47:08,702][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-21 13:47:08,702][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 35, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-21 13:47:26,368][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 13:47:26,573][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 13:47:26,573][logger.py 65][ERROR]: ------assert_api用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-21 13:47:26,574][logger.py 66][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-21 13:47:26,574][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-21 13:47:26,574][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 35, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-21 13:47:51,231][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 13:47:51,506][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-21 13:48:12,080][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 13:48:12,320][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-21 13:50:33,397][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 13:50:33,663][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-21 13:52:41,458][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 13:52:41,746][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 13:52:41,747][logger.py 65][ERROR]: ------assert_api用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-21 13:52:41,747][logger.py 66][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-21 13:52:41,748][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-21 13:52:41,748][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 35, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 28, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-21 13:53:51,457][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 13:53:51,598][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 13:53:51,598][logger.py 65][ERROR]: ------assert_api用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-21 13:53:51,599][logger.py 66][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 30, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-21 13:53:51,600][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-21 13:53:51,600][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 35, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 30, in assert_api
+    bb = set(actual_data.items())  # {('a', 1), ('c', 3), ('b', 2)}
+TypeError: unhashable type: 'dict'
+
+[2021-10-21 13:55:09,475][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 13:55:09,516][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 13:55:09,516][logger.py 65][ERROR]: ------assert_api用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-21 13:55:09,517][logger.py 66][ERROR]: assert_api 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 30, in assert_api
+    bb = set(actual_data.items())
+TypeError: unhashable type: 'dict'
+
+[2021-10-21 13:55:09,517][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：unhashable type: 'dict'------
+[2021-10-21 13:55:09,518][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 35, in test_admin_login
+    assert_api(actual_data,case_data['expect'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 67, in log
+    raise e
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\assert_api.py", line 30, in assert_api
+    bb = set(actual_data.items())
+TypeError: unhashable type: 'dict'
+
+[2021-10-21 14:07:56,837][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 14:07:56,920][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 14:07:56,920][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-21 14:07:56,920][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-21 14:15:30,567][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 14:15:30,605][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 14:15:30,605][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-21 14:15:30,605][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-21 14:18:05,987][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 14:18:06,052][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 14:18:06,053][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-21 14:18:06,053][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-21 14:19:38,195][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 14:19:38,259][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 14:19:38,259][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-21 14:19:38,259][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-21 14:23:59,597][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 14:23:59,814][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 14:23:59,815][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-21 14:23:59,815][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-21 14:24:06,436][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 14:24:06,598][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 14:24:06,598][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-21 14:24:06,598][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-21 14:24:33,559][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 14:24:33,663][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 14:24:33,663][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-21 14:24:33,663][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-21 14:33:12,037][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 14:33:12,081][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 14:33:12,082][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-21 14:33:12,082][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-21 15:37:58,288][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 15:37:58,589][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 15:37:58,590][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-21 15:37:58,590][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-21 15:51:53,945][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 15:51:54,229][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 15:51:54,229][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-21 15:51:54,229][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-21 15:51:54,233][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 15:51:54,565][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 15:51:54,565][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-21 15:51:54,566][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-21 15:57:43,698][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 15:57:43,756][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 15:57:43,756][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-21 15:57:43,756][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-21 15:57:43,761][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 15:57:43,798][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 15:57:43,798][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-21 15:57:43,798][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-21 15:57:43,803][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 15:57:43,845][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 15:57:43,845][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-21 15:57:43,845][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-21 16:09:21,083][logger.py 61][INFO]: ------开始执行test_get_auth_code用例------
+[2021-10-21 16:09:21,261][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 16:09:21,261][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-21 16:09:21,261][logger.py 69][INFO]: ------test_get_auth_code执行成功------
+[2021-10-21 16:12:17,272][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 16:12:17,273][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-21 16:20:42,159][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 16:20:43,481][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 16:20:43,481][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-21 16:20:43,481][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-21 16:30:43,314][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 16:30:43,662][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 16:30:43,662][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-21 16:30:43,662][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-21 16:48:46,951][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 16:48:47,175][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 16:48:47,176][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-21 16:48:47,176][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-21 16:48:47,181][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 16:48:47,457][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 16:48:47,457][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-21 16:48:47,458][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-21 16:48:47,462][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-21 16:48:47,759][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-21 16:48:47,759][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-21 16:48:47,760][logger.py 69][INFO]: ------test_admin_login执行成功------

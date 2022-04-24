@@ -1,0 +1,14 @@
+#添加收货地址
+title: 添加收货地址
+url: /mall-member/member/address/add
+method: post
+info: 场景为：前台添加收货地址
+case_data:
+#-  [{"city":"杭州","defaultStatus":0,"detailAddress":"道长成仙之道","id":0,"memberId":0,"name":"道长",
+#     "phoneNumber":18821768017,"postCode":"713500","province":"中江省","region":"长藤市"},
+#    {'except_msg': '操作成功','except_code': 200,'info': '正确前台添加收货地址'}]
+
+-   case_name: case1_正确前台添加收货地址
+    body: {"city":"杭州","defaultStatus":0,"detailAddress":"道长成仙之道","id":0,"memberId":0,"name":"道长",
+           "phoneNumber":18821768017,"postCode":"713500","province":"中江省","region":"长藤市"}
+    expect: {'except': '操作成功','code': 200}

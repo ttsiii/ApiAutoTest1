@@ -1,0 +1,41 @@
+[2021-10-10 13:44:25,892][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-10 13:45:43,746][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-10 13:45:43,747][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-10 13:45:43,747][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-10 13:45:46,818][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-10 13:46:30,590][logger.py 65][ERROR]: ------test_admin_login用例执行失败，失败原因：Expecting value: line 1 column 1 (char 0)------
+[2021-10-10 13:46:30,607][logger.py 66][ERROR]: test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_receiving\test_add_address.py", line 34, in test_admin_login
+    ,region=data0['region'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\admin\receiving_api.py", line 54, in add_shipping_address
+    return self.send(url,body,method=method,x_token=self.token)
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\client.py", line 35, in send
+    self.create_response_log(result.status_code,result.json())
+  File "D:\ruanjian\python\lib\site-packages\requests\models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\ruanjian\python\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\ruanjian\python\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\ruanjian\python\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+[2021-10-10 13:46:31,838][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-10 13:46:46,143][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-10 13:46:46,143][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-10 13:46:46,143][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-10 13:51:30,302][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-10 13:51:30,351][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-10 13:51:30,351][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-10 13:51:30,351][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-10 13:51:30,356][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-10 13:51:30,391][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-10 13:51:30,391][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-10 13:51:30,391][logger.py 69][INFO]: ------test_admin_login执行成功------
+[2021-10-10 13:51:30,396][logger.py 61][INFO]: ------开始执行test_admin_login用例------
+[2021-10-10 13:51:30,436][logger.py 61][INFO]: ------开始执行assert_api用例------
+[2021-10-10 13:51:30,436][logger.py 69][INFO]: ------assert_api执行成功------
+[2021-10-10 13:51:30,436][logger.py 69][INFO]: ------test_admin_login执行成功------

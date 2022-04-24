@@ -1,0 +1,2 @@
+INFO     log:logger.py:61 ------开始执行test_admin_login用例------
+INFO     log:logger.py:69 ------test_admin_login执行成功------

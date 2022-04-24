@@ -1,0 +1,12 @@
+INFO     log:logger.py:61 ------开始执行test_admin_login用例------
+ERROR    log:logger.py:65 ------test_admin_login用例执行失败，失败原因：'MemberControllerApi' object has no attribute 'host'------
+ERROR    log:logger.py:66 test_admin_login 用例 is error,here are details:Traceback (most recent call last):
+  File "D:\daima\xin-daima\two-pytest-api-automation\common\logger.py", line 63, in log
+    func(*args, **kwargs)
+  File "D:\daima\xin-daima\two-pytest-api-automation\case\test_member_controller\test_login.py", line 30, in test_admin_login
+    ,username=data0['username'])
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\admin\member_controller_api.py", line 68, in login
+    url = self.get_full_url(url,etc=etc)
+  File "D:\daima\xin-daima\two-pytest-api-automation\api\client.py", line 49, in get_full_url
+    host = self.host.rstrip('/')
+AttributeError: 'MemberControllerApi' object has no attribute 'host'

@@ -1,0 +1,10 @@
+#获取会员信息
+getmember_info:
+  title: 获取会员信息
+  url: mall-member/sso/info
+  method: get
+  info: 场景为：前台获取会员信息
+case_data:
+-   case_name: case1_前台获取会员信息
+    body: {}
+    expect: {'message': '操作成功','code': 200}

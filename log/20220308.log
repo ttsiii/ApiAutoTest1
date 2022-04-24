@@ -1,0 +1,16 @@
+[2022-03-08 15:52:48,758][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-08 15:52:49,095][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-08 15:52:49,096][assert_api.py 20][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ2ODEyMzY5LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNWI0ZmZjYjctOWM5OS00YTM2LWJmMTgtMmU2MDY0N2RiNWVhIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.XjrfQBtlX3fCXuZLioeifcJe9xTnlHPUyCl1ReOAXHPv34c5iF3Wi8e7Bmg6O-sjxtC0A1MpMpqwVvgcHXkctE5VPCLMtPqBnlSOWxQt5dmX2vHQAMvyPcSRqoh10tUKgrRRTrAAyVPSWcSGs5rNFOLn42-VqTJne3w9Y9PgYXM', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI1YjRmZmNiNy05Yzk5LTRhMzYtYmYxOC0yZTYwNjQ3ZGI1ZWEiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ3MzMwNzY5LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNDU5ZWUyODYtMTUyYy00OWQ2LTgxOTUtMWJiNjZiZWM3OTIxIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.fUi_gm8Zc0MEMpRcBujhkbc4SU-ub12RwgTIHwHBsHGE5duvw2h1Mf-rhkdzYsubMAIbNdvCW9HxHB32A8MPpZbsyuzTE_GPB4o4U9NmCu7r2GmKUwnetcvRjwdvqFd5crrWbB5DshzHweh6xJHRNJfqFibXDJnxfTYeAa2tMV4', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-08 15:52:49,106][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-08 15:52:49,106][logger.py 70][INFO]: ------test_admin_login执行成功------
+[2022-03-08 15:53:32,882][logger.py 62][INFO]: ------开始执行test_admin_login用例------
+[2022-03-08 15:53:33,242][logger.py 62][INFO]: ------开始执行assert_api用例------
+[2022-03-08 15:53:33,243][assert_api.py 20][INFO]: 
+assert:
+ 实际结果：{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ2ODEyNDEzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiYWY0NjdmNDYtZWIyMy00NzdhLThiYTktZmIwOGUwOWM0ZjFiIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.AKHhTXVyvv1sD147_cgxjfZgZmsUTkP8n7f9p00Z5fD_mjRu1p55MGkaYDAcZnVBm0VQw1oe5abD8oe1EwuHXD459Ox3iHoo4wdPtGEwD4VGYVEVIc_2ZRifShSrMGXIrS7_Po_UuttxQvizYIK6p_CYVN1nRp9-ooSWSQ6uoN8', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiJhZjQ2N2Y0Ni1lYjIzLTQ3N2EtOGJhOS1mYjA4ZTA5YzRmMWIiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjQ3MzMwODEzLCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiMmRiZWFiNzEtNjI4OC00MWJjLTlhYjgtZDhhMzIxMTE1ZWU3IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.HSvlZikwoLTdHOhXGIFXjtm9Hyoe4Kf7yAgZY1u6qahavPuNJnIW8scm6ZGI34ilkrwLFuBLT9Rd7NEFW7HjH1pMwZM9IpoFEpLDdct899ZZb9ShuHoQz9tIxCIcYf13fEpMaXK-PceRDOjtklj_k1BP8BWaPpzY5C7phOfwn4Y', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}，
+期望结果{'message': '操作成功', 'code': 200}
+[2022-03-08 15:53:33,243][logger.py 70][INFO]: ------assert_api执行成功------
+[2022-03-08 15:53:33,243][logger.py 70][INFO]: ------test_admin_login执行成功------

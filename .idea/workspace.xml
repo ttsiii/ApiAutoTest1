@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="276b4edc-66e8-48c4-80d2-02df51426086" name="Default Changelist" comment="" />
+    <list default="true" id="276b4edc-66e8-48c4-80d2-02df51426086" name="Default Changelist" comment="加我微信：hz223336，可免费领取最新单元测试框架pytest和allure测试报告的详细资料。">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/two-pytest-api-automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ApiAutoTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +36,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../kejian2" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -46,7 +57,7 @@
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="two-pytest-api-automation" />
+      <module name="ApiAutoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -68,7 +79,7 @@
       <method v="2" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="two-pytest-api-automation" />
+      <module name="ApiAutoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -90,7 +101,7 @@
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_add_address.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="two-pytest-api-automation" />
+      <module name="ApiAutoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -107,7 +118,7 @@
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_auth_code.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="two-pytest-api-automation" />
+      <module name="ApiAutoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -124,7 +135,7 @@
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="two-pytest-api-automation" />
+      <module name="ApiAutoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -194,7 +205,7 @@
       <workItem from="1647775186351" duration="7085000" />
       <workItem from="1647825955394" duration="46390000" />
       <workItem from="1650772043176" duration="604000" />
-      <workItem from="1650772796277" duration="1534000" />
+      <workItem from="1650772796277" duration="2915000" />
     </task>
     <task id="LOCAL-00001" summary="12.23">
       <created>1640223755847</created>
@@ -315,30 +326,38 @@
     <state x="-1976" y="-331" key="FileChooserDialogImpl/-2560.-529.1707.1040/0.0.1920.1040@-2560.-529.1707.1040" timestamp="1646998911445" />
     <state x="584" y="196" key="FileChooserDialogImpl/0.0.1707.1027@0.0.1707.1027" timestamp="1646725611667" />
     <state x="853" y="302" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1650774176516" />
-    <state width="1367" height="203" key="GridCell.Tab.0.bottom" timestamp="1650772650824">
+    <state x="1383" y="835" key="Github.ShareDialog" timestamp="1650775175748">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1383" y="835" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1650775175748" />
+    <state x="932" y="391" key="Github.UntrackedFilesDialog" timestamp="1650774612667">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="932" y="391" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1650774612667" />
+    <state width="1367" height="203" key="GridCell.Tab.0.bottom" timestamp="1650775718092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1867" height="621" key="GridCell.Tab.0.bottom/-2560.-529.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1647170756590" />
     <state width="1653" height="652" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1648178383322" />
-    <state width="1367" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1650772650824" />
-    <state width="1367" height="203" key="GridCell.Tab.0.center" timestamp="1650772650819">
+    <state width="1367" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1650775718092" />
+    <state width="1367" height="203" key="GridCell.Tab.0.center" timestamp="1650775718092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1867" height="621" key="GridCell.Tab.0.center/-2560.-529.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1647170756590" />
     <state width="1653" height="652" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1648178383322" />
-    <state width="1367" height="203" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1650772650819" />
-    <state width="1367" height="203" key="GridCell.Tab.0.left" timestamp="1650772650819">
+    <state width="1367" height="203" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1650775718092" />
+    <state width="1367" height="203" key="GridCell.Tab.0.left" timestamp="1650775718092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1867" height="621" key="GridCell.Tab.0.left/-2560.-529.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1647170756590" />
     <state width="1653" height="652" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1648178383322" />
-    <state width="1367" height="203" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1650772650819" />
-    <state width="1367" height="203" key="GridCell.Tab.0.right" timestamp="1650772650819">
+    <state width="1367" height="203" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1650775718092" />
+    <state width="1367" height="203" key="GridCell.Tab.0.right" timestamp="1650775718092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1867" height="621" key="GridCell.Tab.0.right/-2560.-529.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1647170756590" />
     <state width="1653" height="652" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1648178383322" />
-    <state width="1367" height="203" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1650772650819" />
+    <state width="1367" height="203" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1650775718092" />
     <state width="1653" height="328" key="GridCell.Tab.1.bottom" timestamp="1648177890555">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
